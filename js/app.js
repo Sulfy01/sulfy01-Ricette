@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const recipesList = document.getElementById('recipes-list');
+  const antipastiList = document.getElementById('antipasti-list');
+  const primiList = document.getElementById('primi-list');
+  const secondiList = document.getElementById('secondi-list');
+  const contorniList = document.getElementById('contorni-list');
+  const dolciList = document.getElementById('dolci-list');
 
   fetch('recipes/recipes.json')
     .then(response => response.json())
@@ -7,10 +11,26 @@ document.addEventListener('DOMContentLoaded', function() {
       recipes.forEach(recipe => {
         const li = document.createElement('li');
         const link = document.createElement('a');
-        link.href = `recipes/recipe.html?title=${encodeURIComponent(recipe.title)}`;
         link.textContent = recipe.title;
+        link.href = `recipes/recipe.html?title=${encodeURIComponent(recipe.title)}`;
         li.appendChild(link);
-        recipesList.appendChild(li);
+        switch (recipe.type) {
+          case "Antipasto":
+            antipastiList.appendChild(li);
+            break;
+          case "Primo":
+            primiList.appendChild(li);
+            break;
+          case "Secondo":
+            secondiList.appendChild(li);
+            break;
+          case "Contorni":
+            contorniList.appendChild(li);
+            break;
+          case "Dolce":
+            dolciList.appendChild(li);
+            break;
+        }
       });
     })
     .catch(error => {
