@@ -16,17 +16,17 @@ h1, h2, h3 {
 }
 .multiplier-container {
   margin-bottom: 20px;
-  text-align: right;
+  text-align: left;
 }
-.ingredients ul, .tools ul, .procedure ol {
+.ingredients ul, .collapsible ul, .procedure ol {
   list-style: none;
   padding: 0;
 }
-.ingredients ul li, .tools ul li, .procedure ol li {
+.ingredients ul li, .collapsible ul li, .procedure ol li {
   padding: 10px 0;
   border-bottom: 1px solid #e0e0e0;
 }
-.ingredients ul li span, .tools ul li span, .procedure ol li span {
+.ingredients ul li span, .collapsible ul li span, .procedure ol li span {
   display: inline-block;
   margin-right: 10px;
 }
@@ -39,4 +39,27 @@ h1, h2, h3 {
 .wprm-decoration-line {
   border-top: 2px solid #e0e0e0;
   margin-top: 5px;
+}
+
+.collapsible {
+  margin-top: 20px;
+}
+.collapsible h3 {
+  cursor: pointer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.collapsible-content {
+  display: none;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.collapsible-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+.collapsible-content ul li {
+  margin-bottom: 5px;
 }

@@ -5,13 +5,11 @@
     "ingredients": [
       {"amount": "280", "unit": "g", "name": "Spaghettoni"},
       {"amount": "200", "unit": "g", "name": "Guanciale"},
-      {"amount": "q.b.", "unit": "", "name": "Sale grosso"},
+      {"amount": "", "unit": "q.b.", "name": "Sale grosso"},
       {"amount": "4", "unit": "", "name": "Tuorli d'uovo"},
-      {"amount": "30", "unit": "g", "name": "Grana Padano grattugiato"},
-      {"amount": "20", "unit": "g", "name": "Pecorino Romano grattugiato"},
-      {"amount": "30", "unit": "g c.a.", "name": "Acqua di cottura"},
-      {"amount": "20", "unit": "g", "name": "Pepe nero macinato"},
-      {"amount": "q.b.", "unit": "", "name": "Grasso di guanciale"}
+      {"amount": "30", "unit": "g", "name": "Grana Padano"},
+      {"amount": "20", "unit": "g", "name": "Pecorino Romano"},
+      {"amount": "20", "unit": "g", "name": "Pepe nero macinato"}
     ],
     "procedure": [
       {"step": "Taglia il guanciale a cubetti.", "image": "../images/example1.jpg"},
@@ -20,6 +18,7 @@
       {"step": "Aggiungi il guanciale croccante e un po' di acqua di cottura.", "image": "../images/example4.jpg"},
       {"step": "Servi con una spolverata di pepe nero e Pecorino Romano grattugiato.", "image": "../images/example5.jpg"}
     ],
+    "source": "web",
     "link": "https://blog.academia.tv/2024/02/14/come-fare-la-carbonara/",
     "video": "JUxf9g9fq0I"
   }

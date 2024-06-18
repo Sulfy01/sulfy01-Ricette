@@ -20,11 +20,25 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('recipe-title').textContent = recipe.title;
     document.title = recipe.title;
 
+    if (recipe.source === "web") {
+      const externalLink = document.getElementById('external-link');
+      externalLink.href = recipe.link;
+
+      const youtubeVideo = document.getElementById('youtube-video');
+      youtubeVideo.src = `https://www.youtube.com/embed/${recipe.video}`;
+    } else {
+      document.getElementById('external-link').style.display = "none"
+      document.getElementById('youtube-video').style.display = "none"
+      document.getElementById('alternative-source').textContent = recipe.source
+    }
+
     const toolsList = document.getElementById('tools-list');
+    const checkedToolsList = document.getElementById('checked-tools-list');
+
     toolsList.innerHTML = '';
     recipe.tools.forEach(tool => {
       const li = document.createElement('li');
-      li.textContent = tool;
+      li.innerHTML = `<input type="checkbox" id="${tool}" onchange="moveToCheckedTools(this)"> <label for="${tool}">${tool}</label>`;
       toolsList.appendChild(li);
     });
 
@@ -51,11 +65,36 @@ document.addEventListener('DOMContentLoaded', function() {
       procedureList.appendChild(li);
     });
 
-    const externalLink = document.getElementById('external-link');
-    externalLink.href = recipe.link;
+    window.moveToCheckedTools = function(checkbox) {
+      const toolLi = checkbox.parentElement;
 
-    const youtubeVideo = document.getElementById('youtube-video');
-    youtubeVideo.src = `https://www.youtube.com/embed/${recipe.video}`;
+      if (checkbox.checked) {
+        checkedToolsList.appendChild(toolLi);
+      } else {
+        toolsList.appendChild(toolLi);
+      }
+    }
+    window.toggleCheckedTools = function() {
+      if (checkedToolsList.hasChildNodes()){
+        const checkedToolsContent = document.getElementById('checked-tools-content');
+        checkedToolsContent.style.display = checkedToolsContent.style.display === 'block' ? 'none' : 'block';
+      }
+
+    }
+    window.toggleTools = function() {
+      if (toolsList.hasChildNodes()) {
+        const toolsContent = document.getElementById('tools-content');
+        toolsContent.style.display = toolsContent.style.display === 'block' ? 'none' : 'block';
+      }
+    }
+    window.toggleIngredients = function() {
+      const ingredientsContent = document.getElementById('ingredients-content');
+      ingredientsContent.style.display = ingredientsContent.style.display === 'block' ? 'none' : 'block';
+    }
+    window.toggleSource = function() {
+      const sourceContent = document.getElementById('source-content');
+      sourceContent.style.display = sourceContent.style.display === 'block' ? 'none' : 'block';
+    }
   }
 
   window.updateQuantities = function() {
@@ -76,18 +115,4 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
-// function updateQuantities() {
-//   const baseQuantity = parseFloat(document.getElementById('base-ingredient').value);
-//   const newQuantity = parseFloat(document.getElementById('new-quantity').value);
-//   const ratio = newQuantity / baseQuantity;
-//
-//   const ingredientAmounts = document.querySelectorAll('.ingredient-amount');
-//
-//   ingredientAmounts.forEach(ingredient => {
-//     const baseAmount = parseFloat(ingredient.getAttribute('data-quantity'));
-//     if (!isNaN(baseAmount)) {
-//       const newAmount = baseAmount * ratio;
-//       ingredient.textContent = newAmount.toFixed(2);
-//     }
-//   });
-// }
+
