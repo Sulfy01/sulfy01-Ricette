@@ -63,3 +63,13 @@ h1, h2, h3 {
 .collapsible-content ul li {
   margin-bottom: 5px;
 }
+.recipe-header {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+}
+.recipe-header h1 {
+  margin: 0;
+}

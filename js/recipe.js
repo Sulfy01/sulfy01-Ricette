@@ -25,7 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
       externalLink.href = recipe.link;
 
       const youtubeVideo = document.getElementById('youtube-video');
-      youtubeVideo.src = `https://www.youtube.com/embed/${recipe.video}`;
+      if (!recipe.video)
+        youtubeVideo.style.display = "none"
+      else
+        youtubeVideo.src = `https://www.youtube.com/embed/${recipe.video}`;
     } else {
       document.getElementById('external-link').style.display = "none"
       document.getElementById('youtube-video').style.display = "none"
@@ -61,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
     procedureList.innerHTML = '';
     recipe.procedure.forEach(step => {
       const li = document.createElement('li');
-      li.innerHTML = `<img src="${step.image}" alt=""><span>${step.step}</span>`;
+      li.innerHTML = `<img src="../images/${recipe.title}/${step.image}" alt=""><div style="white-space: pre-wrap">${step.step}</div>`;
       procedureList.appendChild(li);
     });
 
@@ -70,20 +73,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
       if (checkbox.checked) {
         checkedToolsList.appendChild(toolLi);
+        if (!toolsList.hasChildNodes()) document.getElementById('tools-content').style.display = 'none'
       } else {
         toolsList.appendChild(toolLi);
+        if (!checkedToolsList.hasChildNodes()) document.getElementById('checked-tools-content').style.display = 'none'
       }
     }
     window.toggleCheckedTools = function() {
-      if (checkedToolsList.hasChildNodes()){
-        const checkedToolsContent = document.getElementById('checked-tools-content');
+      const checkedToolsContent = document.getElementById('checked-tools-content');
+      if (checkedToolsList.hasChildNodes() || checkedToolsContent.style.display === 'block') {
         checkedToolsContent.style.display = checkedToolsContent.style.display === 'block' ? 'none' : 'block';
       }
-
     }
     window.toggleTools = function() {
-      if (toolsList.hasChildNodes()) {
-        const toolsContent = document.getElementById('tools-content');
+      const toolsContent = document.getElementById('tools-content');
+      if (toolsList.hasChildNodes() || toolsContent.style.display === 'block') {
         toolsContent.style.display = toolsContent.style.display === 'block' ? 'none' : 'block';
       }
     }

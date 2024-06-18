@@ -1,6 +1,7 @@
 [
   {
     "title": "Carbonara",
+    "type": "Primo",
     "tools": ["Padella", "Pentola", "Bowl grande", "Tagliere", "Coltello", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Cucchiaio scolapasta", "2 ciotole"],
     "ingredients": [
       {"amount": "280", "unit": "g", "name": "Spaghettoni"},
@@ -12,11 +13,57 @@
       {"amount": "20", "unit": "g", "name": "Pepe nero macinato"}
     ],
     "procedure": [
-      {"step": "Taglia il guanciale a cubetti.", "image": "../images/example1.jpg"},
-      {"step": "Cuoci gli spaghettoni in abbondante acqua salata.", "image": "../images/example2.jpg"},
-      {"step": "Mescola i tuorli con il Grana Padano e il Pecorino Romano.", "image": "../images/example3.jpg"},
-      {"step": "Aggiungi il guanciale croccante e un po' di acqua di cottura.", "image": "../images/example4.jpg"},
-      {"step": "Servi con una spolverata di pepe nero e Pecorino Romano grattugiato.", "image": "../images/example5.jpg"}
+      {"step": "Pulire bene il guanciale dalla cotenna e dalla parte pepata utilizzando un coltello a sega,\ntagliare quindi a fette di circa mezzo cm e ricavare dei cubetti o listelli",
+        "image": "1.jpg"},
+      {"step": "Scaldare leggermente una padella antiaderente, quindi aggiungere il guanciale e farlo sudare dolcemente. \nMano a mano che il guanciale rilascia il grasso, scolarlo dalla padella in una ciotola",
+        "image": "2.jpg"},
+      {"step": "Versare i formaggi in una ciotola capiente, quindi aggiungere i tuorli d’uovo, il pepe macinato, un mestolino d’acqua di cottura ed amalgamare gli ingredienti con una frusta, fino ad avere un composto omogeneo. \nAggiungere circa metà del grasso del guanciale",
+        "image": "3.jpg"},
+      {"step": "Calare la pasta e scolare il guanciale su un foglio di carta assorbente",
+        "image": "4.jpg"},
+      {"step": "Cuocere il composto a bagnomaria, come se fosse uno zabaglione, frustando e sbattendo di continuo e con un’andatura lenta. \nIl composto sarà pronto, quando avrà raggiunto i 65°",
+        "image": "5.jpg"},
+      {"step": "Scolare la pasta senza buttare l'acqua di cottura all'interno del mix. \nAggiungere un po’ d’acqua di cottura all’interno della ciotola e mescolare bene a bagnomaria",
+        "image": "6.jpg"},
+      {"step": "Aggiungere il guanciale, acqua di cottura e mantecare ancora per 1 minuto",
+        "image": "7.jpg"},
+      {"step": "Servite a nido, e completate con una spolverata di pecorino, guanciale e pepe",
+        "image": "8.jpg"}
+    ],
+    "source": "web",
+    "link": "https://blog.academia.tv/2024/02/14/come-fare-la-carbonara/",
+    "video": "JUxf9g9fq0I"
+  },
+  {
+    "title": "Carbonara",
+    "type": "Primo",
+    "tools": ["Padella", "Pentola", "Bowl grande", "Tagliere", "Coltello", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Cucchiaio scolapasta", "2 ciotole"],
+    "ingredients": [
+      {"amount": "280", "unit": "g", "name": "Spaghettoni"},
+      {"amount": "200", "unit": "g", "name": "Guanciale"},
+      {"amount": "", "unit": "q.b.", "name": "Sale grosso"},
+      {"amount": "4", "unit": "", "name": "Tuorli d'uovo"},
+      {"amount": "30", "unit": "g", "name": "Grana Padano"},
+      {"amount": "20", "unit": "g", "name": "Pecorino Romano"},
+      {"amount": "20", "unit": "g", "name": "Pepe nero macinato"}
+    ],
+    "procedure": [
+      {"step": "Pulire bene il guanciale dalla cotenna e dalla parte pepata utilizzando un coltello a sega,\ntagliare quindi a fette di circa mezzo cm e ricavare dei cubetti o listelli",
+        "image": "1.jpg"},
+      {"step": "Scaldare leggermente una padella antiaderente, quindi aggiungere il guanciale e farlo sudare dolcemente. \nMano a mano che il guanciale rilascia il grasso, scolarlo dalla padella in una ciotola",
+        "image": "2.jpg"},
+      {"step": "Versare i formaggi in una ciotola capiente, quindi aggiungere i tuorli d’uovo, il pepe macinato, un mestolino d’acqua di cottura ed amalgamare gli ingredienti con una frusta, fino ad avere un composto omogeneo. \nAggiungere circa metà del grasso del guanciale",
+        "image": "3.jpg"},
+      {"step": "Calare la pasta e scolare il guanciale su un foglio di carta assorbente",
+        "image": "4.jpg"},
+      {"step": "Cuocere il composto a bagnomaria, come se fosse uno zabaglione, frustando e sbattendo di continuo e con un’andatura lenta. \nIl composto sarà pronto, quando avrà raggiunto i 65°",
+        "image": "5.jpg"},
+      {"step": "Scolare la pasta senza buttare l'acqua di cottura all'interno del mix. \nAggiungere un po’ d’acqua di cottura all’interno della ciotola e mescolare bene a bagnomaria",
+        "image": "6.jpg"},
+      {"step": "Aggiungere il guanciale, acqua di cottura e mantecare ancora per 1 minuto",
+        "image": "7.jpg"},
+      {"step": "Servite a nido, e completate con una spolverata di pecorino, guanciale e pepe",
+        "image": "8.jpg"}
     ],
     "source": "web",
     "link": "https://blog.academia.tv/2024/02/14/come-fare-la-carbonara/",
