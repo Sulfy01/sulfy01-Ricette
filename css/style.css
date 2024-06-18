@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+h1, h2, h3 {
+  color: #2c3e50;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.multiplier-container {
+  margin-bottom: 20px;
+  text-align: right;
+}
+.ingredients ul, .tools ul, .procedure ol {
+  list-style: none;
+  padding: 0;
+}
+.ingredients ul li, .tools ul li, .procedure ol li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.ingredients ul li span, .tools ul li span, .procedure ol li span {
+  display: inline-block;
+  margin-right: 10px;
+}
+.procedure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+.wprm-decoration-line {
+  border-top: 2px solid #e0e0e0;
+  margin-top: 5px;
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="it">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+  <script src="../js/recipe.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <h1 id="recipe-title"></h1>
+
+  <section class="external-links">
+    <a id="external-link" href="#" target="_blank">Ricetta originale</a>
+    <div class="youtube-video">
+      <iframe id="youtube-video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+  <section class="tools">
+    <h2>Strumenti da Utilizzare</h2>
+    <ul id="tools-list"></ul>
+  </section>
+
+  <section class="ingredients">
+    <h2>Ingredienti</h2>
+    <div class="multiplier-container">
+      <label for="base-ingredient">Ingrediente Base: </label>
+      <select id="base-ingredient"></select>
+      <label for="new-quantity">Nuova Quantità: </label>
+      <input type="number" id="new-quantity" value="" step="0.5">
+      <button onclick="updateQuantities()">Aggiorna Quantità</button>
+    </div>
+    <ul id="ingredients-list"></ul>
+  </section>
+
+  <section class="procedure">
+    <h2>Procedimento</h2>
+    <ol id="procedure-list"></ol>
+  </section>
+</div>
+</body>
+</html>
