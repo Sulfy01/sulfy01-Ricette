@@ -31,10 +31,10 @@ h1, h2, h3 {
   margin-right: 10px;
 }
 .procedure img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   display: block;
-  margin: 10px 0;
+  margin: 30px 10%;
 }
 .wprm-decoration-line {
   border-top: 2px solid #e0e0e0;
@@ -72,4 +72,36 @@ h1, h2, h3 {
 }
 .recipe-header h1 {
   margin: 0;
+}
+
+.ingredient-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.ingredient-list-item label.ingredient-name {
+  flex: 1;
+}
+
+.ingredient-amount-unit {
+  display: flex;
+  align-items: center;
+}
+
+.ingredient-amount-unit span {
+  margin-left: 5px;
+}
+
+.ingredient-list-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Crossed out style for checked items */
+.checked,
+.ingredient-list-item.checked .ingredient-name,
+.ingredient-list-item.checked .ingredient-amount,
+.ingredient-list-item.checked .ingredient-unit {
+  text-decoration: line-through;
 }
