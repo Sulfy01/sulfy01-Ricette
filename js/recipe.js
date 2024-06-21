@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     function checkAllChecked(checkbox) {
       const checkboxes = checkbox.parentElement.parentElement
-      const allChecked = Array.from(checkboxes.children).every(checkbox => checkbox.className === "checked");
+      const allChecked = Array.from(checkboxes.children).every(checkbox => checkbox.className.includes("checked"));
 
       if (allChecked) {
         checkboxes.parentElement.style.display = "none"

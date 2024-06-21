@@ -99,9 +99,6 @@ h1, h2, h3 {
 }
 
 /* Crossed out style for checked items */
-.checked,
-.ingredient-list-item.checked .ingredient-name,
-.ingredient-list-item.checked .ingredient-amount,
-.ingredient-list-item.checked .ingredient-unit {
+.checked{
   text-decoration: line-through;
 }
