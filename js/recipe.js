@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (recipe.source === "web") {
       const externalLink = document.getElementById('external-link');
       externalLink.href = recipe.link;
+      externalLink.textContent = externalLink.href.substring(externalLink.href.indexOf('//') + 2, externalLink.href.indexOf('/', 10))
 
       const youtubeVideo = document.getElementById('youtube-video');
       if (!recipe.video)
