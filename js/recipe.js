@@ -66,7 +66,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const option = document.createElement('option');
       option.value = ingredient.amount;
-      option.textContent = ingredient.name;
+      option.textContent = ingredient.name.includes("</a>") ?
+          ingredient.name.substring(ingredient.name.lastIndexOf("=")+1, ingredient.name.lastIndexOf("\'")) :
+          ingredient.name;
       baseIngredientSelect.appendChild(option);
     });
 
