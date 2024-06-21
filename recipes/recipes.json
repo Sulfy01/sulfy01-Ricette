@@ -2,6 +2,8 @@
   {
     "title": "Template",
     "type": "",
+    "time": "",
+    "diners": "",
     "tools": ["", ""],
     "ingredients": [
       {"name": "", "amount": "", "unit": ""},
@@ -11,7 +13,9 @@
       {"step": "",
         "image": "1.jpg"},
       {"step": "",
-        "image": "2.jpg"}
+        "image": "2.jpg"},
+      {"step": "",
+        "image": "last.jpg"}
     ],
     "source": "web",
     "link": "",
@@ -20,11 +24,13 @@
   {
     "title": "Carbonara",
     "type": "Primo",
-    "tools": ["Padella", "Pentola", "Bowl grande", "Tagliere", "Coltello a lama", "Coltello a sega", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Cucchiaio scolapasta", "2 ciotole"],
+    "time": "",
+    "diners": "2",
+    "tools": ["Padella", "Pentola", "Bowl grande", "Termometro", "Tagliere", "Coltello a lama", "Coltello a sega", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Cucchiaio scolapasta", "2 ciotole"],
     "ingredients": [
       {"name": "Spaghettoni", "amount": "280", "unit": "g"},
       {"name": "Guanciale","amount": "200", "unit": "g"},
-      {"name": "Sale grosso","amount": "", "unit": "q.b."},
+      {"name": "Sale grosso","amount": "22", "unit": "g"},
       {"name": "Tuorli d'uovo","amount": "4", "unit": ""},
       {"name": "Grana Padano","amount": "30", "unit": "g"},
       {"name": "Pecorino Romano","amount": "20", "unit": "g"},
@@ -46,7 +52,7 @@
       {"step": "Aggiungere il guanciale, acqua di cottura e mantecare ancora per 1 minuto",
         "image": "7.jpg"},
       {"step": "Servite a nido, e completate con una spolverata di pecorino, guanciale e pepe",
-        "image": "8.jpg"}
+        "image": "last.jpg"}
     ],
     "source": "web",
     "link": "https://blog.academia.tv/2024/02/14/come-fare-la-carbonara/",
@@ -55,6 +61,8 @@
   {
     "title": "Sorbetto al limone",
     "type": "Dolce",
+    "time": "",
+    "diners": "",
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Spremiagrumi", "Frusta", "Gelatiera"],
     "ingredients": [
       {"name": "Succo di limone", "amount": "260", "unit": "g"},
@@ -74,7 +82,7 @@
       {"step": "Versare nella gelatiera e attendere che il composto sia cremoso, circa 40 minuti",
         "image": "4.jpg"},
       {"step": "Servire o conservare in bottigliette di plastica",
-        "image": "5.jpg"}
+        "image": "last.jpg"}
     ],
     "source": "web",
     "link": "https://ricette.giallozafferano.it/Sorbetto-al-limone.html",
@@ -83,14 +91,16 @@
   {
     "title": "Tiramisù",
     "type": "Dolce",
+    "time": "",
+    "diners": "",
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Teglia rettangolare"],
     "ingredients": [
       {"name": "Mascarpone", "amount": "750", "unit": "g"},
-      {"name": "Uova","amount": "5", "unit": ""},
-      {"name": "Zucchero","amount": "120", "unit": "g"},
-      {"name": "Savoiardi","amount": "250", "unit": "g"},
-      {"name": "Caffè","amount": "200", "unit": "g"},
-      {"name": "Cacao","amount": "q.b.", "unit": ""}
+      {"name": "Uova", "amount": "5", "unit": ""},
+      {"name": "Zucchero", "amount": "120", "unit": "g"},
+      {"name": "Savoiardi", "amount": "250", "unit": "g"},
+      {"name": "Caffè", "amount": "200", "unit": "g"},
+      {"name": "Cacao", "amount": "q.b.", "unit": ""}
     ],
     "procedure": [
       {"step": "Preparare il caffè e zuccherarlo leggermente, quindi metterlo a raffreddare.",
@@ -104,7 +114,7 @@
       {"step": "Procedere ora a stratificare il tiramisù usando prima i savoiardi inzuppati nel caffè e poi la crema al mascarpone",
         "image": "5.jpg"},
       {"step": "Spolverare con del cacao amaro e far riposare in frigo",
-        "image": "6.jpg"}
+        "image": "last.jpg"}
     ],
     "source": "web",
     "link": "https://ricette.giallozafferano.it/Tiramisu.html",
@@ -113,6 +123,8 @@
   {
     "title": "Sachertorte",
     "type": "Dolce",
+    "time": "",
+    "diners": "",
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Pentolino", "Stampo rotondo 20cm", "Piatto tondo", "Coltello a sega", "Coltello a lama", "Griglia rialzata"],
     "ingredients": [
       {"name": "Cioccolato fondente 60% per stampo", "amount": "75", "unit": "g"},
@@ -142,7 +154,7 @@
       {"step": "Per la ganasce: Portare la panna a ebollizione, spegnere il fuoco e sciogliere il cioccolato all'interno.\nOra versare la ganasce sulla torta e lisciare con il coltello",
         "image": "7.jpg"},
       {"step": "Raffreddare la torta in frigorifero, e servire con panna semi montata non zuccherata",
-        "image": "8.jpg"}
+        "image": "last.jpg"}
     ],
     "source": "web",
     "link": "https://ricette.giallozafferano.it/Sacher-torte.html",
@@ -151,16 +163,18 @@
   {
     "title": "Crepes",
     "type": "Dolce",
+    "time": "",
+    "diners": "",
     "tools": ["Frusta", "Bowl", "Padella antiaderente", "Mestolo", "Stendi pastella"],
     "ingredients": [
       {"name": "Uova", "amount": "1", "unit": ""},
       {"name": "Farina 00", "amount": "160", "unit": "g"},
-      {"name": "Sale", "amount": "0.25", "unit": "cucchiaino"},
-      {"name": "olio di semi", "amount": "2", "unit": "cucchiai"},
-      {"name": "latte", "amount": "250", "unit": "g"},
-      {"name": "acqua", "amount": "50", "unit": "g"},
-      {"name": "rum", "amount": "q.b.", "unit": ""},
-      {"name": "burro per la padella", "amount": "q.b.", "unit": ""}
+      {"name": "Sale", "amount": "0.25", "unit": "cucchiaini"},
+      {"name": "Olio di semi", "amount": "2", "unit": "cucchiai"},
+      {"name": "Latte", "amount": "250", "unit": "g"},
+      {"name": "Acqua", "amount": "50", "unit": "g"},
+      {"name": "Rum", "amount": "q.b.", "unit": ""},
+      {"name": "Burro per la padella", "amount": "q.b.", "unit": ""}
     ],
     "procedure": [
       {"step": "Mescolare tutti gli ingredienti e infine la farina setacciata, fino ad ottenere un composto omogeneo e privo di grumi",
@@ -170,16 +184,18 @@
       {"step": "Stendere il composto uniformemente e velocemente, e dopo 1 minuto girarla",
         "image": "3.jpg"},
       {"step": "Impilare tutte le crepes, poi farcire a piacere",
-        "image": "4.jpg"}
+        "image": "last.jpg"}
     ],
     "source": "zia Anna",
     "link": "",
     "video": ""
   },
   {
-    "title": "Brioche",
+    "title": "Brioche impasto",
     "type": "Dolce",
-    "tools": ["Bowl grange", "Planetaria", "Pellicola"],
+    "time": "",
+    "diners": "",
+    "tools": ["Bowl grande", "Planetaria", "Pellicola"],
     "ingredients": [
       {"name": "Farina 00", "amount": "300", "unit": "g"},
       {"name": "Farina manitoba", "amount": "200", "unit": "g"},
@@ -190,7 +206,7 @@
       {"name": "Zucchero", "amount": "80", "unit": "g"},
       {"name": "Miele d'acacia", "amount": "1.5", "unit": "cucchiai"},
       {"name": "Rum", "amount": "18", "unit": "g"},
-      {"name": "Essenza di vaniglia", "amount": "1", "unit": "bustina"},
+      {"name": "Essenza di vaniglia", "amount": "1", "unit": "bustine"},
       {"name": "Buccia di arancia", "amount": "2", "unit": ""},
       {"name": "Buccia di limone", "amount": "1", "unit": ""},
       {"name": "Sale", "amount": "8", "unit": "g"}
@@ -204,12 +220,12 @@
         "image": "3.jpg"},
       {"step": "Procediamo con ulteriori 10 - 15 min a velocità medio - alta. Sarà pronto quando perfettamente incordato, elastico, liscio, gonfio, lucido, staccato dalle pareti del cestello",
         "image": "4.jpg"},
-      {"step": "Comporre tra le mani una palla, portando verso il basso la pasta in eccesso e porla in una bowl asciutta.\nCoprirla con pellicola a contatto e far lievitare al caldo (forno con luce accesa) per 2h, fino a raddoppiare",
+      {"step": "Comporre tra le mani una palla, portando verso il basso la pasta in eccesso e porla in una bowl asciutta.\nCoprirla con pellicola a contatto e far lievitare al caldo (forno spento con luce accesa) per 2h, fino a raddoppiare",
         "image": "5.jpg"},
       {"step": "Rompere la lievitazione e impastare velocemente per qualche secondo su un piano di lavoro, senza aggiungere farina.\nRicomporre la palla, adagiarla nuovamente nella ciotola, coperta ancora con la pellicola a contatto.\nPorla in frigo per 8-9 h circa",
         "image": "6.jpg"},
       {"step": "Procedere con la ricetta voluta <a href='recipe.html?title=Brioche%20col%20tuppo'>Brioche col tuppo</a>",
-        "image": "7.jpg"}
+        "image": "last.jpg"}
     ],
     "source": "web",
     "link": "https://www.tavolartegusto.it/ricetta/pasta-brioche-ricetta-brioches-dolci-trecce-brioches/",
@@ -218,9 +234,11 @@
   {
     "title": "Brioche col tuppo",
     "type": "Dolce",
+    "time": "",
+    "diners": "",
     "tools": ["Teglia", "Carta forno", "Pennello"],
     "ingredients": [
-      {"name": "<a href='recipe.html?title=Brioche'>Impasto brioche</a>", "amount": "1", "unit": ""},
+      {"name": "<a href='recipe.html?title=Brioche%20impasto'>Impasto brioche</a>", "amount": "1", "unit": ""},
       {"name": "Tuorlo", "amount": "1", "unit": ""},
       {"name": "Latte", "amount": "20", "unit": "g"}
     ],
@@ -235,13 +253,167 @@
         "image": "4.jpg"},
       {"step": "Infine inserire il tuppo nel cratere ben allargato",
         "image": "5.jpg"},
-      {"step": "Far lievitare in teglia per circa 2h in un luogo caldo",
+      {"step": "Far lievitare in teglia per circa 2h in un luogo caldo (forno spento con luce accesa)",
         "image": "6.jpg"},
       {"step": "Spennallare con la miscela di tuorlo e latte.\nCuocere in forno statico a 180° per circa 25 minuti",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://www.tavolartegusto.it/ricetta/brioche-siciliana-brioche-col-tuppo/",
+    "video": ""
+  },
+  {
+    "title": "Cannoli",
+    "type": "Dolce",
+    "time": "",
+    "diners": "",
+    "tools": ["Stampi per cannoli", "Planetaria", "Bowl", "Colino", "Setaccio", "Marisa", "Macchina per la pasta", "Pellicola", "Coppapasta", "Pennello", "Pentola", "Schiumarola", "Termometro", "Carta assorbente", "Sac-a-poche"],
+    "ingredients": [
+      {"name": "Farina 00", "amount": "250", "unit": "g"},
+      {"name": "Zucchero", "amount": "30", "unit": "g"},
+      {"name": "Zucchero per ripieno", "amount": "450", "unit": "g"},
+      {"name": "Strutto", "amount": "30", "unit": "g"},
+      {"name": "Strutto per friggere", "amount": "1000", "unit": "g"},
+      {"name": "Marsala", "amount": "50", "unit": "g"},
+      {"name": "Uova", "amount": "1", "unit": "g"},
+      {"name": "Tuorlo per spennellare", "amount": "2", "unit": ""},
+      {"name": "Aceto di vino bianco", "amount": "10", "unit": "g"},
+      {"name": "Sale", "amount": "1", "unit": "pizzico"},
+      {"name": "Scorza d'arancia", "amount": "1", "unit": ""},
+      {"name": "Cannella in polvere", "amount": "2", "unit": "g"},
+      {"name": "Ricotta di pecora", "amount": "1500", "unit": "g"},
+      {"name": "Zucchero a velo", "amount": "q.b.", "unit": ""},
+      {"name": "Granella di pistacchi", "amount": "q.b.", "unit": ""},
+      {"name": "<a href='recipe.html?title=Scorze%20d%27arancia%20candite'>Arancia candita</a>", "amount": "q.b.", "unit": ""}
+
+    ],
+    "procedure": [
+      {"step": "Porre in frigorifero:\nla ricotta fresca a scolare in un colino.\nun composto di Marsala, cannella e scorza di arancia",
+        "image": "1.jpg"},
+      {"step": "Sciogliere il sale nell'aceto. \nNella planetaria setacciare la farina, e unire lo strutto.\nImpastando unire lo zucchero, le uova, il nostro composto e infine l'aceto.\nImpastare bene e lasciar riposare 2h",
+        "image": "2.jpg"},
+      {"step": "Unire lo zucchero alla ricotta e setacciare. \nLasciar riposare in frigorifero",
+        "image": "3.jpg"},
+      {"step": "Prelevare 1/3 dell'impasto e passare nei rulli fino allo spessore desiderato.\nCon il coppapasta da 10 cm ritagliare dei dischi",
+        "image": "4.jpg"},
+      {"step": "Avvolgere i dischi intorno alla stampo per cannoli e richiudere con una pennellata di tuorlo (facendo attenzione a non andare sullo stampo)",
+        "image": "5.jpg"},
+      {"step": "Friggere i cannoli a 175° fino a doratura, e scolarli sulla carta assorbente.\nUna volta raffreddati, sfilare i cilindri.",
+        "image": "6.jpg"},
+      {"step": "Farcire i cannoli con una sac-a-poche e servire guarniti di pistacchio, scorza d'arancia e zucchero a velo",
         "image": "7.jpg"}
     ],
     "source": "web",
+    "link": "https://ricette.giallozafferano.it/Cannoli-siciliani.html",
+    "video": "_7n7UvqcrP0"
+  },
+  {
+    "title": "Scorze d'arancia candite",
+    "type": "Dolce",
+    "time": "",
+    "diners": "",
+    "tools": ["Tagliere", "Coltello", "Pentola", "Bowl"],
+    "ingredients": [
+      {"name": "Buccia di arancia", "amount": "300", "unit": "g"},
+      {"name": "Zucchero", "amount": "800", "unit": "g"},
+      {"name": "Acqua", "amount": "800", "unit": "g"},
+      {"name": "Ghiaccio", "amount": "q.b.", "unit": ""}
+    ],
+    "procedure": [
+      {"step": "Tagliare le arance a spicchi, togliere la polpa e ricavare striscioline da 0.5cm",
+        "image": "1.jpg"},
+      {"step": "Mettere le scorze in un pentolino con acqua fredda e portare a bollore, poi scolare in acqua fredda con ghiaccio.\nRipete 4 volte",
+        "image": "2.jpg"},
+      {"step": "Togliere l'acqua dalle scorze.\nNel pentolino versare acqua e zucchero e portare a bollore.\nA sciroppo ottenuto, immergere le scorze",
+        "image": "3.jpg"},
+      {"step": "Far sbollire per almeno 30 minuti a fuoco dolce",
+        "image": "4.jpg"},
+      {"step": "Per conservare le scorze di arancia candite, versarle con lo sciroppo stesso in un barattolo",
+        "image": "5.jpg"}
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Scorze-di-arance-candite.html",
+    "video": ""
+  },
+  {
+    "title": "Cestini di Patate burrata e prosciutto",
+    "type": "Secondo",
+    "time": "",
+    "diners": "",
+    "tools": ["Pentola", "Teglia", "Carta forno", "Coppapasta", "Sac-a-poche"],
+    "ingredients": [
+      {"name": "Patate", "amount": "400", "unit": "g"},
+      {"name": "Uova", "amount": "1", "unit": ""},
+      {"name": "Burro", "amount": "50", "unit": "g"},
+      {"name": "Parmigiano", "amount": "50", "unit": "g"},
+      {"name": "Burrata", "amount": "200", "unit": "g"},
+      {"name": "Prosciutto crudo", "amount": "150", "unit": "g"},
+      {"name": "Sale", "amount": "q.b.", "unit": ""},
+      {"name": "Pepe", "amount": "q.b.", "unit": ""}
+
+    ],
+    "procedure": [
+      {"step": "Bollire le patate, spellarle e schiacciarle a purea.\nAmalgamare uova e burro, poi parmigiano, sale e pepe",
+        "image": "1.jpg"},
+      {"step": "Rivestire una teglia con carta forno e formare dei cilindri bucati utilizzando la sac-a-poche e dei coppapasta",
+        "image": "2.jpg"},
+      {"step": "Cuocere in forno a 200° per 25 minuti",
+        "image": "3.jpg"},
+      {"step": "Conclude farcendo con burrata e prosciutto sulla sommità",
+        "image": "last.jpg"}
+
+    ],
+    "source": "web",
     "link": "",
+    "video": ""
+  },
+  {
+    "title": "Lasagna",
+    "type": "Primo",
+    "time": "",
+    "diners": "",
+    "tools": ["Tagliere", "Coltello a lama", "Padella", "Mestolo", "2 pentolini", "Teglia"],
+    "ingredients": [
+      {"name": "Macinato di manzo", "amount": "300", "unit": "g"},
+      {"name": "Pancetta", "amount": "150", "unit": "g"},
+      {"name": "Carote", "amount": "50", "unit": "g"},
+      {"name": "Sedano", "amount": "50", "unit": "g"},
+      {"name": "Cipolle dorate", "amount": "50", "unit": "g"},
+      {"name": "Vino rosso", "amount": "100", "unit": "g"},
+      {"name": "Passata di pomodoro", "amount": "300", "unit": "g"},
+      {"name": "Brodo vegetale", "amount": "q.b.", "unit": ""},
+      {"name": "Olio extravergine di oliva", "amount": "1", "unit": "cucchiai"},
+      {"name": "Sale", "amount": "q.b.", "unit": ""},
+      {"name": "Pepe", "amount": "q.b.", "unit": ""},
+      {"name": "Burro", "amount": "70", "unit": "g"},
+      {"name": "Farina 00", "amount": "70", "unit": "g"},
+      {"name": "Latte intero", "amount": "1000", "unit": "g"},
+      {"name": "Noce moscata", "amount": "q.b.", "unit": "g"},
+      {"name": "Parmigiano", "amount": "q.b.", "unit": ""},
+      {"name": "Pecorino", "amount": "q.b.", "unit": ""},
+      {"name": "Mozzarella", "amount": "q.b.", "unit": ""},
+      {"name": "Prosciutto cotto", "amount": "q.b.", "unit": ""},
+      {"name": "Uova", "amount": "q.b.", "unit": ""}
+
+    ],
+    "procedure": [
+      {"step": "Per il ragù: tagliate pancetta, carote, cipolle, sedano",
+        "image": "1.jpg"},
+      {"step": "In una padella versare l'olio e la pancetta e far rosolare per alcuni minuti.\nAggiungere il trito di verdure e far insaporire per 5 - 6 minuti.\nAggiungere la carne macinata e alzare la fiamma.\nAttendere che sia ben rosolata e abbia rilasciato i succhi",
+        "image": "2.jpg"},
+      {"step": "Sfumare con il vino, poi aspettare che sia evaporato e aggiungere la passata di pomodoro.\nMescolare, quando ha ripreso il bollore aggiungere poco brodo caldo.\nDeve cuocere almeno un paio d'ore con il coperchio semi chiuso",
+        "image": "3.jpg"},
+      {"step": "Per la besciamella: scaldare il latte senza farlo bollire, e a parte fondere il burro.\nMescolando, aggiungere la farina in una volta e cuocere fino ad ottenere un roux dorato.\nVersare quindi il latte caldo in 3 volte",
+        "image": "4.jpg"},
+      {"step": "Aggiungere sale e noce moscata e continuare a mescolare",
+        "image": "5.jpg"},
+      {"step": "Comporre la lasagna con una base di ragù nel seguente ordine:\nLasagna - Besciamella - Ragù - Formaggi - Salumi\nFare 5 strati",
+        "image": "6.jpg"},
+      {"step": "Cuocere in forno statico a 170° per 40 minuti",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Lasagne-alla-Bolognese.html",
     "video": ""
   }
 ]
