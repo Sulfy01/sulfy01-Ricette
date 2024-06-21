@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   fetch('recipes/recipes.json')
     .then(response => response.json())
     .then(recipes => {
+      recipes.sort((a, b) => a.title.localeCompare(b.title));
       recipes.forEach(recipe => {
         const li = document.createElement('li');
         const link = document.createElement('a');
