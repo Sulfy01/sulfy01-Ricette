@@ -27,8 +27,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const youtubeVideo = document.getElementById('youtube-video');
       if (!recipe.video)
         youtubeVideo.style.display = "none"
-      else
+      else {
         youtubeVideo.src = `https://www.youtube.com/embed/${recipe.video}`;
+        document.getElementById('source-content').style.display = 'block';
+      }
     } else {
       document.getElementById('external-link').style.display = "none"
       document.getElementById('youtube-video').style.display = "none"
@@ -36,12 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const toolsList = document.getElementById('tools-list');
-    const checkedToolsList = document.getElementById('checked-tools-list');
 
     toolsList.innerHTML = '';
     recipe.tools.forEach(tool => {
       const li = document.createElement('li');
-      li.innerHTML = `<input type="checkbox" id="${tool}" onchange="moveToCheckedTools(this)"> <label for="${tool}">${tool}</label>`;
+      li.innerHTML = `<input type="checkbox" id="${tool}" onchange="checkLi(this)"> <label for="${tool}">${tool}</label>`;
       toolsList.appendChild(li);
     });
 
@@ -51,7 +52,16 @@ document.addEventListener('DOMContentLoaded', function() {
     baseIngredientSelect.innerHTML = '';
     recipe.ingredients.forEach(ingredient => {
       const li = document.createElement('li');
-      li.innerHTML = `<span class="ingredient-amount" data-quantity="${ingredient.amount}">${ingredient.amount}</span> <span class="ingredient-unit">${ingredient.unit}</span> <span class="ingredient-name">${ingredient.name}</span>`;
+      li.className = 'ingredient-list-item';
+      li.innerHTML = `
+        <input type="checkbox" id="${ingredient.name}" onchange="checkLi(this)">
+        <label for="${ingredient.name}">${ingredient.name}</label>
+        <div class="ingredient-amount-unit">
+          <span class="ingredient-amount" data-quantity="${ingredient.amount}">${ingredient.amount}</span> 
+          <span class="ingredient-unit">${ingredient.unit}</span>
+        </div>
+        
+      `;
       ingredientsList.appendChild(li);
 
       const option = document.createElement('option');
@@ -68,21 +78,22 @@ document.addEventListener('DOMContentLoaded', function() {
       procedureList.appendChild(li);
     });
 
-    window.moveToCheckedTools = function(checkbox) {
-      const toolLi = checkbox.parentElement;
+    window.checkLi = function(checkbox) {
+      const checkboxLi = checkbox.parentElement;
 
       if (checkbox.checked) {
-        checkedToolsList.appendChild(toolLi);
-        if (!toolsList.hasChildNodes()) document.getElementById('tools-content').style.display = 'none'
+        checkboxLi.classList.add("checked")
       } else {
-        toolsList.appendChild(toolLi);
-        if (!checkedToolsList.hasChildNodes()) document.getElementById('checked-tools-content').style.display = 'none'
+        checkboxLi.classList.remove("checked")
       }
+      checkAllChecked(checkbox)
     }
-    window.toggleCheckedTools = function() {
-      const checkedToolsContent = document.getElementById('checked-tools-content');
-      if (checkedToolsList.hasChildNodes() || checkedToolsContent.style.display === 'block') {
-        checkedToolsContent.style.display = checkedToolsContent.style.display === 'block' ? 'none' : 'block';
+    function checkAllChecked(checkbox) {
+      const checkboxes = checkbox.parentElement.parentElement
+      const allChecked = Array.from(checkboxes.children).every(checkbox => checkbox.className === "checked");
+
+      if (allChecked) {
+        checkboxes.parentElement.style.display = "none"
       }
     }
     window.toggleTools = function() {
