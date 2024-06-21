@@ -19,6 +19,15 @@ document.addEventListener('DOMContentLoaded', function() {
   function displayRecipe(recipe) {
     document.getElementById('recipe-title').textContent = recipe.title;
     document.title = recipe.title;
+    document.getElementById('recipe-image').src = "../images/" + recipe.title + "/last.jpg"
+
+    const infoList = document.getElementById('recipe-info-list');
+
+    infoList.innerHTML = `
+      <li>Categoria: ${recipe.type}</li>
+      <li id="recipe-time">Tempo: ${recipe.time}</li>
+      <li id ="recipe-diners" data-diners="${recipe.diners}">Commensali: ${recipe.diners}</li>
+    `;
 
     if (recipe.source === "web") {
       const externalLink = document.getElementById('external-link');
@@ -61,17 +70,20 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="ingredient-amount" data-quantity="${ingredient.amount}">${ingredient.amount}</span> 
           <span class="ingredient-unit">${ingredient.unit}</span>
         </div>
-        
       `;
       ingredientsList.appendChild(li);
 
       const option = document.createElement('option');
       option.value = ingredient.amount;
       option.textContent = ingredient.name.includes("</a>") ?
-          ingredient.name.substring(ingredient.name.lastIndexOf("=")+1, ingredient.name.lastIndexOf("\'")) :
+          decodeURI(ingredient.name.substring(ingredient.name.lastIndexOf("=")+1, ingredient.name.lastIndexOf("\'"))) :
           ingredient.name;
       baseIngredientSelect.appendChild(option);
     });
+    const option = document.createElement('option');
+    option.value = recipe.diners;
+    option.textContent = "Commensali"
+    baseIngredientSelect.appendChild(option);
 
     const procedureList = document.getElementById('procedure-list');
     procedureList.innerHTML = '';
@@ -129,6 +141,13 @@ document.addEventListener('DOMContentLoaded', function() {
           span.textContent = (originalQuantity * multiplier).toFixed(2);
         }
       });
+      const dinersElement = document.getElementById('recipe-diners');
+      if (dinersElement) {
+        const originalDiners = parseInt(dinersElement.getAttribute('data-diners'), 10);
+        const newDiners = (originalDiners * multiplier).toFixed(1);
+        dinersElement.textContent = `Commensali: ${newDiners}`;
+        dinersElement.setAttribute('data-diners', newDiners.toString());
+      }
     }
   }
 });
