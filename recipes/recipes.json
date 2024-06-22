@@ -180,6 +180,8 @@
       {"step": "Mettere a poco a poco ma velocemente il latte caldo nei tuorli, mescolando.\nMetto il composto nel bagnomaria e giro, arrivo a 92° e tolgo subito,\nMetto velocemente nella bacinella congelata e giro veloce",
         "image": "4.jpg"},
       {"step": "Leggero spolvero di zucchero in superficie, pulisco i bordi della bacinella e pongo in frigorifero",
+        "image": "5.jpg"},
+      {"step": "Vedi anche: <a href='recipe.html?title=Tiramisù%20Iginio%20Massari'>Tiramisù di Iginio Massari</a>",
         "image": "last.jpg"}
     ],
     "source": "web",
@@ -191,7 +193,7 @@
     "type": "Dolce",
     "time": "",
     "diners": ["5", "persone"],
-    "tools": ["Planetaria", "Bowl grande", "Ciotola", "Pentolino", "Teglia piccola", "Frusta", "Sac-a-poche", "Anello", "Piatto", "Pellicola", "Marisa"],
+    "tools": ["Planetaria", "Bowl grande", "Ciotola", "Pentolino", "Teglia piccola", "Frusta", "Sac-a-poche", "Anello", "Piatto", "Pellicola", "Tarocco"],
     "ingredients": [
       {"name":  "<a href='recipe.html?title=Savoiardi'>Savoiardi</a>", "amount": "50", "unit": ""},
       {"name":  "<a href='recipe.html?title=Crema%20pasticcera'>Crema pasticcera</a>", "amount": "400", "unit": "g"},
