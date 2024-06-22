@@ -519,5 +519,81 @@
     "source": "web",
     "link": "https://ricette.giallozafferano.it/Lasagne-alla-Bolognese.html",
     "video": ""
+  },
+  {
+    "title": "Paccheri con gamberi e burrata",
+    "type": "Primo",
+    "time": "",
+    "diners": ["3", "persone"],
+    "tools": ["Pentola", "Padella", "Cucchiaio di legno", "Scolapasta", "Tagliere", "Coltello a lama", "Mixer"],
+    "ingredients": [
+      {"name": "Paccheri", "amount": "360", "unit": "g"},
+      {"name": "Burrata", "amount": "400", "unit": "g"},
+      {"name": "Pomodorini datterini", "amount": "300", "unit": "g"},
+      {"name": "Gamberoni", "amount": "12", "unit": ""},
+      {"name": "Aglio", "amount": "1", "unit": "spicchi"},
+      {"name": "Prezzemolo", "amount": "q.b.", "unit": ""},
+      {"name": "Scorza di limone", "amount": "q.b.", "unit": ""},
+      {"name": "Olio", "amount": "q.b.", "unit": ""},
+      {"name": "Sale", "amount": "q.b.", "unit": ""},
+      {"name": "Pepe", "amount": "q.b.", "unit": ""}
+    ],
+    "procedure": [
+      {"step": "Pulire i gamberoni e tenerne da parte 3 per decorare",
+        "image": "1.jpg"},
+      {"step": "Tritare finemente l'aglio assieme al prezzemolo e soffriggere con dell'olio",
+        "image": "2.jpg"},
+      {"step": "Aggiungere i datterini tagliati a metà e il sale, poi i gamberoni per cuocerli appena",
+        "image": "3.jpg"},
+      {"step": "Frullare metà burrata con pepe e olio.\nCuocere i paccheri",
+        "image": "4.jpg"},
+      {"step": "Scolare la pasta nella pentola del sugo e mantecare",
+        "image": "5.jpg"},
+      {"step": "Aggiungere la crema di burrata e mescolare fuori dal fuoco",
+        "image": "6.jpg"},
+      {"step": "Impiattare con la restante burrata, i gamberoni interi, scorza di limone, olio e prezzemolo",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://www.cookist.it/paccheri-con-gamberi-e-burrata/",
+    "video": ""
+  },
+  {
+    "title": "Ravioli ricotta e spinaci",
+    "type": "Primo",
+    "time": "",
+    "diners": ["2", "persone"],
+    "tools": ["Pentola", "Padella", "Pellicola", "Planetaria", "Mixer", "Sac-a-poche", "Macchina per la pasta", "Mattarello", "Tagliere"],
+    "ingredients": [
+      {"name": "Semola rimacinata", "amount": "180", "unit": "g"},
+      {"name": "Uova", "amount": "2", "unit": ""},
+      {"name": "Olio", "amount": "1", "unit": "filo"},
+      {"name": "Spinaci", "amount": "100", "unit": "g"},
+      {"name": "Ricotta", "amount": "125", "unit": "g"},
+      {"name": "Noce moscata", "amount": "q.b.", "unit": ""},
+      {"name": "Parmigiano", "amount": "70", "unit": "g"},
+      {"name": "Scorza di limone", "amount": "q.b.", "unit": ""},
+      {"name": "Sale", "amount": "q.b.", "unit": ""},
+      {"name": "Pepe bianco", "amount": "q.b.", "unit": ""},
+      {"name": "Salvia", "amount": "q.b.", "unit": ""},
+      {"name": "Gambero rosso in tartare", "amount": "100", "unit": "g"}
+    ],
+    "procedure": [
+      {"step": "Impastare la semola con uova e olio, e mettere a riposare in frigo coperto da pellicola",
+        "image": "1.jpg"},
+      {"step": "In un mixer inserire ricotta, noce moscata, scorza di limone, olio, sale e spinaci.\nFrullare, quindi aggiungere il parmigiano",
+        "image": "2.jpg"},
+      {"step": "Stendere la pasta molto sottile su un piano infarinato.\nCon la sac-a-poche fare una riga di crema e richiuderla capovolgendo la pasta",
+        "image": "3.jpg"},
+      {"step": "In una pentola tostare il pepe bianco, quindi aggiungere olio, mestolo d'acqua e salvia",
+        "image": "4.jpg"},
+      {"step": "Calare i ravioli e attendere vengano in superficie, quindi scolarli nella padella",
+        "image": "5.jpg"},
+      {"step": "Servire con qualche foglia di spinacio, tartare, olio e scorza di limone",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Ravioli-ricotta-e-spinaci.html",
+    "video": "QwtbAjssxbU"
   }
 ]
