@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     infoList.innerHTML = `
       <li>Categoria: ${recipe.type}</li>
       <li id="recipe-time">Tempo: ${recipe.time}</li>
-      <li id ="recipe-diners" data-diners="${recipe.diners}">Commensali: ${recipe.diners}</li>
+      <li id ="recipe-diners" data-diners="${recipe.diners[0]}">Dosi: ${recipe.diners[0]} ${recipe.diners[1]}</li>
     `;
 
     if (recipe.source === "web") {
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     const option = document.createElement('option');
     option.value = recipe.diners;
-    option.textContent = "Commensali"
+    option.textContent = "Dosi"
     baseIngredientSelect.appendChild(option);
 
     const procedureList = document.getElementById('procedure-list');
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (dinersElement) {
         const originalDiners = parseInt(dinersElement.getAttribute('data-diners'), 10);
         const newDiners = (originalDiners * multiplier).toFixed(1);
-        dinersElement.textContent = `Commensali: ${newDiners}`;
+        dinersElement.textContent = `Dosi: ${newDiners} ` + dinersElement.textContent.split(" ").slice(-1)[0];
         dinersElement.setAttribute('data-diners', newDiners.toString());
       }
     }

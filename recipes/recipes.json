@@ -3,7 +3,7 @@
     "title": "Template",
     "type": "",
     "time": "",
-    "diners": "",
+    "diners": ["", ""],
     "tools": ["", ""],
     "ingredients": [
       {"name": "", "amount": "", "unit": ""},
@@ -25,7 +25,7 @@
     "title": "Carbonara",
     "type": "Primo",
     "time": "",
-    "diners": "2",
+    "diners": ["2.5", "persone"],
     "tools": ["Padella", "Pentola", "Bowl grande", "Termometro", "Tagliere", "Coltello a lama", "Coltello a sega", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Cucchiaio scolapasta", "2 ciotole"],
     "ingredients": [
       {"name": "Spaghettoni", "amount": "280", "unit": "g"},
@@ -62,7 +62,7 @@
     "title": "Sorbetto al limone",
     "type": "Dolce",
     "time": "",
-    "diners": "",
+    "diners": ["1", "litro"],
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Spremiagrumi", "Frusta", "Gelatiera"],
     "ingredients": [
       {"name": "Succo di limone", "amount": "260", "unit": "g"},
@@ -92,7 +92,7 @@
     "title": "Tiramisù",
     "type": "Dolce",
     "time": "",
-    "diners": "",
+    "diners": ["6", "persone"],
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Teglia rettangolare"],
     "ingredients": [
       {"name": "Mascarpone", "amount": "750", "unit": "g"},
@@ -124,7 +124,7 @@
     "title": "Savoiardi",
     "type": "Dolce",
     "time": "",
-    "diners": "",
+    "diners": ["50", "pezzi"],
     "tools": ["Planetaria", "Bowl grande", "Ciotola", "Carta forno", "Sac-a-poche"],
     "ingredients": [
       {"name": "Tuorlo", "amount": "170", "unit": "g"},
@@ -160,7 +160,7 @@
     "title": "Crema pasticcera",
     "type": "Dolce",
     "time": "",
-    "diners": "",
+    "diners": ["400", "g"],
     "tools": ["Bowl grande", "Pentola", "Grattugia", "Pentolino", "Ciotola", "Frusta"],
     "ingredients": [
       {"name": "Tuorlo", "amount": "100", "unit": "g"},
@@ -190,7 +190,7 @@
     "title": "Tiramisù Iginio Massari",
     "type": "Dolce",
     "time": "",
-    "diners": "",
+    "diners": ["5", "persone"],
     "tools": ["Planetaria", "Bowl grande", "Ciotola", "Pentolino", "Teglia piccola", "Frusta", "Sac-a-poche", "Anello", "Piatto", "Pellicola", "Marisa"],
     "ingredients": [
       {"name":  "<a href='recipe.html?title=Savoiardi'>Savoiardi</a>", "amount": "50", "unit": ""},
@@ -226,7 +226,7 @@
     "title": "Sachertorte",
     "type": "Dolce",
     "time": "",
-    "diners": "",
+    "diners": ["6", "persone"],
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Pentolino", "Stampo rotondo 20cm", "Piatto tondo", "Coltello a sega", "Coltello a lama", "Griglia rialzata"],
     "ingredients": [
       {"name": "Cioccolato fondente 60% per stampo", "amount": "75", "unit": "g"},
@@ -266,7 +266,7 @@
     "title": "Crepes",
     "type": "Dolce",
     "time": "",
-    "diners": "",
+    "diners": ["5", "persone"],
     "tools": ["Frusta", "Bowl", "Padella antiaderente", "Mestolo", "Stendi pastella"],
     "ingredients": [
       {"name": "Uova", "amount": "1", "unit": ""},
@@ -296,7 +296,7 @@
     "title": "Brioche impasto",
     "type": "Dolce",
     "time": "",
-    "diners": "",
+    "diners": ["20", "pezzi"],
     "tools": ["Bowl grande", "Planetaria", "Pellicola"],
     "ingredients": [
       {"name": "Farina 00", "amount": "300", "unit": "g"},
@@ -337,7 +337,7 @@
     "title": "Brioche col tuppo",
     "type": "Dolce",
     "time": "",
-    "diners": "",
+    "diners": ["12", "pezzi"],
     "tools": ["Teglia", "Carta forno", "Pennello"],
     "ingredients": [
       {"name": "<a href='recipe.html?title=Brioche%20impasto'>Impasto brioche</a>", "amount": "1", "unit": ""},
@@ -368,7 +368,7 @@
     "title": "Cannoli",
     "type": "Dolce",
     "time": "",
-    "diners": "",
+    "diners": ["30", "pezzi"],
     "tools": ["Stampi per cannoli", "Planetaria", "Bowl", "Colino", "Setaccio", "Marisa", "Macchina per la pasta", "Pellicola", "Coppapasta", "Pennello", "Pentola", "Schiumarola", "Termometro", "Carta assorbente", "Sac-a-poche"],
     "ingredients": [
       {"name": "Farina 00", "amount": "250", "unit": "g"},
@@ -413,7 +413,7 @@
     "title": "Scorze d'arancia candite",
     "type": "Dolce",
     "time": "",
-    "diners": "",
+    "diners": ["500", "barattolo"],
     "tools": ["Tagliere", "Coltello", "Pentola", "Bowl"],
     "ingredients": [
       {"name": "Buccia di arancia", "amount": "300", "unit": "g"},
@@ -441,7 +441,7 @@
     "title": "Cestini di Patate burrata e prosciutto",
     "type": "Secondo",
     "time": "",
-    "diners": "",
+    "diners": ["4", "persone"],
     "tools": ["Pentola", "Teglia", "Carta forno", "Coppapasta", "Sac-a-poche"],
     "ingredients": [
       {"name": "Patate", "amount": "400", "unit": "g"},
@@ -473,7 +473,7 @@
     "title": "Lasagna",
     "type": "Primo",
     "time": "",
-    "diners": "",
+    "diners": ["6", "persone"],
     "tools": ["Tagliere", "Coltello a lama", "Padella", "Mestolo", "2 pentolini", "Teglia"],
     "ingredients": [
       {"name": "Macinato di manzo", "amount": "300", "unit": "g"},
