@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create Recipe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="">
+</head>
+
+<body>
+<div class="container">
+    <h1>Create a New Recipe</h1>
+    <form id="recipe-form">
+        <div>
+            <label for="title">Nome ricetta:</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+            <label for="type">Tipo:</label>
+            <select id="type" name="type" required>
+                <option value="Antipasto">Antipasto</option>
+                <option value="Primo">Primo</option>
+                <option value="Secondo">Secondo</option>
+                <option value="Contorno">Contorno</option>
+                <option value="Dolce">Dolce</option>
+            </select>
+        </div>
+        <div>
+            <label for="time">Tempo (minuti):</label>
+            <input type="number" id="time" name="time" required>
+        </div>
+        <div>
+            <label for="diners-quantity">Dosi:</label>
+            <input type="number" id="diners-quantity" name="diners-quantity" required>
+            <input type="text" id="diners-unit" name="diners-unit" required>
+        </div>
+        <div id="tools-list">
+            <h2>Strumenti</h2>
+            <input type="text" name="tools">
+            <button type="button" onclick="addTool()">Aggiungi strumenti</button>
+        </div>
+        <div id="ingredients-list">
+            <h2>Ingredienti</h2>
+            <div class="ingredient">
+                <input type="text" name="ingredient-name" placeholder="Name">
+                <input type="number" name="ingredient-amount" placeholder="Amount">
+                <input type="text" name="ingredient-unit" placeholder="Unit">
+            </div>
+            <button type="button" onclick="addIngredient()">Aggiungi ingredienti</button>
+        </div>
+        <div id="procedure-list">
+            <h2>Procedimenti</h2>
+            <div class="procedure-step">
+                <textarea name="step" placeholder="Step"></textarea>
+            </div>
+            <button type="button" onclick="addStep()">Aggiungi procedimento</button>
+        </div>
+        <div>
+            <label for="source">Tipo fonte:</label>
+            <input type="text" id="source" name="source" value="web" required>
+        </div>
+        <div>
+            <label for="link">Link sito:</label>
+            <input type="url" id="link" name="link">
+        </div>
+        <div>
+            <label for="video">Video youtube:</label>
+            <input type="url" id="video" name="video">
+        </div>
+        <button type="button" onclick="generateAndDownloadJSON()">Download JSON</button>
+    </form>
+</div>
+<script src="js/new_recipe.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 20px 20px 0;
   background-color: #f9f9f9;
   color: #333;
 }
@@ -180,4 +180,14 @@ ul#dolci-list li a:hover {
 
 .recipe-info li {
   margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  text-align: center; /* Center align text in footer */
+  padding: 10px 0; /* Padding top and bottom */
+  position: sticky; /* Absolute position at the bottom */
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
