@@ -121,6 +121,108 @@
     "video": ""
   },
   {
+    "title": "Savoiardi",
+    "type": "Dolce",
+    "time": "",
+    "diners": "",
+    "tools": ["Planetaria", "Bowl grande", "Ciotola", "Carta forno", "Sac-a-poche"],
+    "ingredients": [
+      {"name": "Tuorlo", "amount": "170", "unit": "g"},
+      {"name": "Vaniglia", "amount": "2", "unit": ""},
+      {"name": "Zucchero", "amount": "150", "unit": "g"},
+      {"name": "Albumi", "amount": "150", "unit": "g"},
+      {"name": "Fecola di patate", "amount": "30", "unit": "g"},
+      {"name": "Farina 00", "amount": "50", "unit": "g"},
+      {"name": "Zucchero a velo", "amount": "q.b.", "unit": ""}
+    ],
+    "procedure": [
+      {"step": "Versare 2/3 di zucchero nella planetaria, 1/2 di vaniglia e i tuorli.\nLavorare a massima velocità per 12 minuti",
+        "image": "1.jpg"},
+      {"step": "Montare gli albumi aggiungendo lo zucchero rimasto, lentamente.",
+        "image": "2.jpg"},
+      {"step": "Mescolare in una ciotola farina e fecola setacciate.\nRipetere: mescolare dall'alto al basso delicatamente 1/3 degli albumi ai tuorli, aggiungere 1/3 delle polveri",
+        "image": "3.jpg"},
+      {"step": "Stendere l'impasto usando la sac-a-poche sulla carta forno, lunghi 10 - 12 cm, ben distanziati",
+        "image": "4.jpg"},
+      {"step": "Spolverare i savoiardi con dello zucchero e vaniglia, e poi con zucchero a velo",
+        "image": "5.jpg"},
+      {"step": "Infornare in forno statico a 200° per 10 - 11 minuti. Cottura a valvola aperta (stagnola tiene aperto)",
+        "image": "6.jpg"},
+      {"step": "Vedi anche: <a href='recipe.html?title=Tiramisù%20Iginio%20Massari'>Tiramisù di Iginio Massari</a>",
+        "image": "last.jpg"}
+
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Tiramisu-goloso.html",
+    "video": "tpceWoxtbAo"
+  },
+  {
+    "title": "Crema pasticcera",
+    "type": "Dolce",
+    "time": "",
+    "diners": "",
+    "tools": ["Bowl grande", "Pentola", "Grattugia", "Pentolino", "Ciotola", "Frusta"],
+    "ingredients": [
+      {"name": "Tuorlo", "amount": "100", "unit": "g"},
+      {"name": "Zucchero", "amount": "100", "unit": "g"},
+      {"name": "Vaniglia", "amount": "1", "unit": ""},
+      {"name": "Scorza di limone", "amount": "0.5", "unit": ""},
+      {"name": "Amido di mais", "amount": "25", "unit": "g"},
+      {"name": "Latte intero", "amount": "250", "unit": "g"}
+    ],
+    "procedure": [
+      {"step": "Porre in freezer una bowl capiente.\nPrepariamo una pentola per il bagnomaria",
+        "image": "1.jpg"},
+      {"step": "In un pentolino versare latte, scorza di limone e vaniglia. Portare a ebollizione (90°)",
+        "image": "2.jpg"},
+      {"step": "Mescolare con una frusta in una ciotola zucchero e amido, poi i tuorli",
+        "image": "3.jpg"},
+      {"step": "Mettere a poco a poco ma velocemente il latte caldo nei tuorli, mescolando.\nMetto il composto nel bagnomaria e giro, arrivo a 92° e tolgo subito,\nMetto velocemente nella bacinella congelata e giro veloce",
+        "image": "4.jpg"},
+      {"step": "Leggero spolvero di zucchero in superficie, pulisco i bordi della bacinella e pongo in frigorifero",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Tiramisu-goloso.html",
+    "video": "tpceWoxtbAo"
+  },
+  {
+    "title": "Tiramisù Iginio Massari",
+    "type": "Dolce",
+    "time": "",
+    "diners": "",
+    "tools": ["Planetaria", "Bowl grande", "Ciotola", "Pentolino", "Teglia piccola", "Frusta", "Sac-a-poche", "Anello", "Piatto", "Pellicola", "Marisa"],
+    "ingredients": [
+      {"name":  "<a href='recipe.html?title=Savoiardi'>Savoiardi</a>", "amount": "50", "unit": ""},
+      {"name":  "<a href='recipe.html?title=Crema%20pasticcera'>Crema pasticcera</a>", "amount": "400", "unit": "g"},
+      {"name": "Acqua caffè", "amount": "100", "unit": "g"},
+      {"name": "Caffè", "amount": "100", "unit": "g"},
+      {"name": "Zucchero caffè", "amount": "100", "unit": "g"},
+      {"name": "Mascarpone", "amount": "400", "unit": "g"},
+      {"name": "Panna", "amount": "400", "unit": "g"},
+      {"name": "Gelatina in polvere", "amount": "6", "unit": "g"},
+      {"name": "Acqua bollente", "amount": "30", "unit": "g"},
+      {"name": "Burro", "amount": "q.b.", "unit": ""},
+      {"name": "Cacao", "amount": "q.b.", "unit": ""},
+      {"name": "Cioccolato fondente", "amount": "q.b.", "unit": ""}
+    ],
+    "procedure": [
+      {"step": "Preparare il caffè e lasciarlo intiepidire.\nIn un pentolino versare l'acqua, poi lo zucchero, e aspettare l'ebollizione.\nUnire in una teglia il caffè e lo sciroppo, mescolare e raffreddare",
+        "image": "1.jpg"},
+      {"step": "Mescolare la gelatina nell'acqua bollente.\nMettere il mascarpone nella planetaria e girare lentamente. Aggiungere con calma un po' di panna.\nA grumi scomparsi, aggiungere la crema pasticcera, poi l'acqua e poi la panna",
+        "image": "2.jpg"},
+      {"step": "Imburrare e zuccherare l'anello, e porno su un piatto di portata.\nCoprire l'esterno del piatto con la pellicola.",
+        "image": "3.jpg"},
+      {"step": "Usando la sac-a-poche stratifico con crema e savoiardi ben inzuppati.\nUltimo strato faccio una cupola e copro di crema.\nCon la bocchetta a stella decoro.\nRipongo in frigorifero",
+        "image": "4.jpg"},
+      {"step": "Spolverata di cacao, estraggo l'anello, e copro i bordi con il cioccolato fondente",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Tiramisu-goloso.html",
+    "video": "tpceWoxtbAo"
+  },
+  {
     "title": "Sachertorte",
     "type": "Dolce",
     "time": "",
