@@ -595,5 +595,83 @@
     "source": "web",
     "link": "https://ricette.giallozafferano.it/Ravioli-ricotta-e-spinaci.html",
     "video": "QwtbAjssxbU"
+  },
+  {
+    "title": "Crema al limone",
+    "type": "Dolce",
+    "time": "",
+    "diners": ["320", "g"],
+    "tools": ["Spremiagrumi", "Pentolino", "Grattugia", "Colino", "Frullatore a immersione", "Pellicola"],
+    "ingredients": [
+      {"name": "Tuorlo", "amount": "80", "unit": "g"},
+      {"name": "Zucchero", "amount": "80", "unit": "g"},
+      {"name": "Succo di limone", "amount": "80", "unit": "g"},
+      {"name": "Burro", "amount": "80", "unit": "g"},
+      {"name": "Limoncello", "amount": "30", "unit": "g"},
+      {"name": "Bacca di vaniglia", "amount": "0.3", "unit": ""},
+      {"name": "Buccia di limone", "amount": "1", "unit": ""}
+    ],
+    "procedure": [
+      {"step": "Versare il succo di limone in un pentolino e portare ad ebollizione;\nIncorporare lo zucchero ai tuorli d’uovo, aiutandosi con una frusta;\nGrattugiare la scorza di limone all’interno del succo, e unire la vaniglia",
+        "image": "1.jpg"},
+      {"step": "Versare il composto di tuorli direttamente all’interno del succo di limone bollente e mescolare di continuo con una frusta, portando ad 82°.\n Rimuovere dal fuoco ed incorporare il limoncello",
+        "image": "2.jpg"},
+      {"step": "Passare al colino a maglie strette per trattenere la buccia di limone;\nLasciare raffreddare la crema fino ad una temperatura di 35°",
+        "image": "3.jpg"},
+      {"step": "Incorporare quindi il burro ammorbidito, ma freddo, utilizzando un frullatore ad immersione",
+        "image": "4.jpg"},
+      {"step": "Coprire con pellicola a contatto e lasciare raffreddare in frigorifero fino ad una temperatura di 4°",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://drive.google.com/file/d/1JaQDg355MWpJbKjGp0iXZV0cNesp6-SG/view?usp=sharing",
+    "video": "LjDZkQz0YMg"
+  },
+  {
+    "title": "Tiramisù al limone",
+    "type": "Dolce",
+    "time": "preparazione 2 h",
+    "diners": ["10", "porzioni"],
+    "tools": ["Pentola", "Bowl", "Frusta", "Termometro", "Planetaria", "Colino", "Marisa", "Sac-a-poche"],
+    "ingredients": [
+      {"name":  "<a href='recipe.html?title=Savoiardi'>Savoiardi</a>", "amount": "100", "unit": ""},
+      {"name":  "<a href='recipe.html?title=Crema%20al%20limone'>Crema al limone</a>", "amount": "320", "unit": "g"},
+      {"name": "Acqua per bagna", "amount": "100", "unit": "g"},
+      {"name": "Limoncello", "amount": "200", "unit": "g"},
+      {"name": "Zucchero per bagna", "amount": "100", "unit": "g"},
+      {"name": "Buccia di limone per bagna", "amount": "1", "unit": ""},
+      {"name": "Tuorlo", "amount": "100", "unit": "g"},
+      {"name": "Zucchero per crema", "amount": "225", "unit": "g"},
+      {"name": "Acqua per crema", "amount": "50", "unit": "g"},
+      {"name": "Panna", "amount": "500", "unit": "g"},
+      {"name": "Buccia di limone per crema", "amount": "1", "unit": ""},
+      {"name": "Mascarpone", "amount": "500", "unit": "g"},
+      {"name": "Gelatina", "amount": "17.5", "unit": "g"},
+      {"name": "Cioccolato bianco", "amount": "q.b.", "unit": ""},
+      {"name": "Zucchero a velo", "amount": "q.b.", "unit": ""}
+    ],
+    "procedure": [
+      {"step": "Far macerare la buccia di limone nella panna almeno 6 ore prima",
+        "image": "1.jpg"},
+      {"step": "Per la bagna: Far bollire acqua zucchero e buccia limone tagliata con il coltello.\nA ebollizione spegnere e far raffreddare un po'",
+        "image": "2.jpg"},
+      {"step": "Filtrare lo sciroppo e aggiungere il limoncello",
+        "image": "3.jpg"},
+      {"step": "Per la crema: idratare la gelatina in un po' d'acqua.\nA bagnomaria mescolo con una frusta tuorli, acqua, 1/4 zucchero fino a 82°",
+        "image": "4.jpg"},
+      {"step": "Passare il composto in planetaria per montare bene fino a raffreddamento",
+        "image": "5.jpg"},
+      {"step": "Filtrare la panna e montarla con lo zucchero.\nQuando inizia a montare aggiungere il mascarpone",
+        "image": "6.jpg"},
+      {"step": "Sciogliere la gelatina in microonde o a bagnomaria.\nMescolo tutto: 46% di crema al limone, gelatina bollente e mescolo, panna e tuorli",
+        "image": "7.jpg"},
+      {"step": "Ripetere: inzuppare i savoiardi nella bagna, coprire con crema al limone e poi crema mascarpone",
+        "image": "8.jpg"},
+      {"step": "Decorare a spuntoni con foglia di cioccolato bianco e savoiardi",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://drive.google.com/file/d/1JaQDg355MWpJbKjGp0iXZV0cNesp6-SG/view?usp=sharing",
+    "video": "LjDZkQz0YMg"
   }
 ]
