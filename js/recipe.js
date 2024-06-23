@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
     procedureList.innerHTML = '';
     recipe.procedure.forEach(step => {
       const li = document.createElement('li');
-      li.innerHTML = `<img src="../images/${recipe.title}/${step.image}" alt=""><div style="white-space: pre-wrap">${step.step}</div>`;
+      li.innerHTML = `<img src="../images/${recipe.title}/${step.image}" alt=""><div style="white-space: pre-wrap">${step.step}</div><hr>`;
       procedureList.appendChild(li);
     });
 

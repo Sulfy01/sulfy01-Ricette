@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/recipe.css">
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -52,11 +53,12 @@
   <section class="collapsible ingredients">
     <h3 onclick="toggleIngredients()">Ingredienti</h3>
     <div class="collapsible-content multiplier-container" style="display: block" id="ingredients-content">
-      <label for="base-ingredient">Ingrediente Base: </label>
-      <select id="base-ingredient"></select>
-      <label for="new-quantity">Nuova Quantità: </label>
-      <input type="number" id="new-quantity" value="" step="0.5">
-      <button onclick="updateQuantities()">Aggiorna Quantità</button>
+      <div class="update-quantities">
+        <label for="base-ingredient">Ingrediente Base: </label>
+        <select id="base-ingredient"></select>
+        <input type="number" id="new-quantity" placeholder="Nuova Quantità" value="" step="0.5">
+        <button onclick="updateQuantities()">Aggiorna Quantità</button>
+      </div>
       <ul id="ingredients-list"></ul>
     </div>
   </section>
