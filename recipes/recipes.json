@@ -61,7 +61,7 @@
   {
     "title": "Sorbetto al limone",
     "type": "Dolce",
-    "time": "10 + 40 min",
+    "time": "preparazione 10 min + gelatiera 40 min",
     "diners": ["1", "litro"],
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Spremiagrumi", "Frusta", "Gelatiera"],
     "ingredients": [
@@ -91,7 +91,7 @@
   {
     "title": "Tiramisù",
     "type": "Dolce",
-    "time": "",
+    "time": "40 min",
     "diners": ["6", "persone"],
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Teglia rettangolare"],
     "ingredients": [
@@ -191,7 +191,7 @@
   {
     "title": "Tiramisù Iginio Massari",
     "type": "Dolce",
-    "time": "",
+    "time": "preparazione 2 h + cottura 70 min",
     "diners": ["5", "persone"],
     "tools": ["Planetaria", "Bowl grande", "Ciotola", "Pentolino", "Teglia piccola", "Frusta", "Sac-a-poche", "Anello", "Piatto", "Pellicola", "Tarocco"],
     "ingredients": [
@@ -227,7 +227,7 @@
   {
     "title": "Sachertorte",
     "type": "Dolce",
-    "time": "",
+    "time": "preparazione 60 min + cottura 50 min",
     "diners": ["6", "persone"],
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Pentolino", "Stampo rotondo 20cm", "Piatto tondo", "Coltello a sega", "Coltello a lama", "Griglia rialzata"],
     "ingredients": [
@@ -267,7 +267,7 @@
   {
     "title": "Crepes",
     "type": "Dolce",
-    "time": "",
+    "time": "10 min",
     "diners": ["5", "persone"],
     "tools": ["Frusta", "Bowl", "Padella antiaderente", "Mestolo", "Stendi pastella"],
     "ingredients": [
@@ -297,7 +297,7 @@
   {
     "title": "Brioche impasto",
     "type": "Dolce",
-    "time": "",
+    "time": "preparazione 90 min + lievitazioni 12 h",
     "diners": ["20", "pezzi"],
     "tools": ["Bowl grande", "Planetaria", "Pellicola"],
     "ingredients": [
@@ -338,7 +338,7 @@
   {
     "title": "Brioche col tuppo",
     "type": "Dolce",
-    "time": "",
+    "time": "preparazione 40 min + cottura 20 min",
     "diners": ["12", "pezzi"],
     "tools": ["Teglia", "Carta forno", "Pennello"],
     "ingredients": [
@@ -369,7 +369,7 @@
   {
     "title": "Cannoli",
     "type": "Dolce",
-    "time": "",
+    "time": "preparazione 60 min + cottura 15 min",
     "diners": ["30", "pezzi"],
     "tools": ["Stampi per cannoli", "Planetaria", "Bowl", "Colino", "Setaccio", "Marisa", "Macchina per la pasta", "Pellicola", "Coppapasta", "Pennello", "Pentola", "Schiumarola", "Termometro", "Carta assorbente", "Sac-a-poche"],
     "ingredients": [
@@ -414,7 +414,7 @@
   {
     "title": "Scorze d'arancia candite",
     "type": "Dolce",
-    "time": "",
+    "time": "preparazione 30 min + cottura 60 min",
     "diners": ["500", "barattolo"],
     "tools": ["Tagliere", "Coltello", "Pentola", "Bowl"],
     "ingredients": [
@@ -442,7 +442,7 @@
   {
     "title": "Cestini di Patate burrata e prosciutto",
     "type": "Secondo",
-    "time": "",
+    "time": "preparazione 15 min + cottura 25 min",
     "diners": ["4", "persone"],
     "tools": ["Pentola", "Teglia", "Carta forno", "Coppapasta", "Sac-a-poche"],
     "ingredients": [
@@ -474,7 +474,7 @@
   {
     "title": "Lasagna",
     "type": "Primo",
-    "time": "",
+    "time": "preparazione 2 h + cottura 3 h",
     "diners": ["6", "persone"],
     "tools": ["Tagliere", "Coltello a lama", "Padella", "Mestolo", "2 pentolini", "Teglia"],
     "ingredients": [
@@ -523,7 +523,7 @@
   {
     "title": "Paccheri con gamberi e burrata",
     "type": "Primo",
-    "time": "",
+    "time": "40 min",
     "diners": ["3", "persone"],
     "tools": ["Pentola", "Padella", "Cucchiaio di legno", "Scolapasta", "Tagliere", "Coltello a lama", "Mixer"],
     "ingredients": [
@@ -561,7 +561,7 @@
   {
     "title": "Ravioli ricotta e spinaci",
     "type": "Primo",
-    "time": "",
+    "time": "60 min",
     "diners": ["2", "persone"],
     "tools": ["Pentola", "Padella", "Pellicola", "Planetaria", "Mixer", "Sac-a-poche", "Macchina per la pasta", "Mattarello", "Tagliere"],
     "ingredients": [
