@@ -6,72 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Create Recipe</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
     <meta name="description" content="">
 </head>
 
 <body>
+<main>
 <div class="container">
-    <h1>Create a New Recipe</h1>
+    <h1>Crea una ricetta</h1>
     <form id="recipe-form">
         <div>
-            <label for="title">Nome ricetta:</label>
-            <input type="text" id="title" name="title" required>
+            <label for="title">Nome ricetta*:</label>
+            <input type="text" id="title" name="title" placeholder="ex. Lasagna" required>
         </div>
         <div>
-            <label for="type">Tipo:</label>
+            <label for="type">Tipo*:</label>
             <select id="type" name="type" required>
                 <option value="Antipasto">Antipasto</option>
-                <option value="Primo">Primo</option>
+                <option value="Primo" selected="selected">Primo</option>
                 <option value="Secondo">Secondo</option>
                 <option value="Contorno">Contorno</option>
                 <option value="Dolce">Dolce</option>
             </select>
         </div>
         <div>
-            <label for="time">Tempo (minuti):</label>
-            <input type="number" id="time" name="time" required>
+            <label for="time">Tempo*:</label>
+            <input type="text" id="time" name="time" placeholder="ex. 40m lavorazione + 4h riposo" required>
         </div>
-        <div>
-            <label for="diners-quantity">Dosi:</label>
-            <input type="number" id="diners-quantity" name="diners-quantity" required>
-            <input type="text" id="diners-unit" name="diners-unit" required>
+        <div class="diners-container">
+            <label for="diners-quantity">Dosi per*:</label>
+            <input type="number" id="diners-quantity" name="diners-quantity" min="0" placeholder="ex. 4" required>
+            <input type="text" id="diners-unit" name="diners-unit" placeholder="ex. persone, g, pezzi ..." required>
         </div>
         <div id="tools-list">
-            <h2>Strumenti</h2>
-            <input type="text" name="tools">
-            <button type="button" onclick="addTool()">Aggiungi strumenti</button>
+            <h2>Strumenti*</h2>
+            <input type="text" name="tools" placeholder="ex. Tagliere" required>
         </div>
+        <button type="button" onclick="addTool()">Aggiungi strumento</button>
         <div id="ingredients-list">
-            <h2>Ingredienti</h2>
+            <h2>Ingredienti*</h2>
             <div class="ingredient">
-                <input type="text" name="ingredient-name" placeholder="Name">
-                <input type="number" name="ingredient-amount" placeholder="Amount">
-                <input type="text" name="ingredient-unit" placeholder="Unit">
+                <input type="text" name="ingredient-name" placeholder="Nome" required>
+                <div class="ingredient-details">
+                    <input type="number" name="ingredient-amount" placeholder="Quantità (se indefinita lasciare vuoto)">
+                    <input type="text" name="ingredient-unit" placeholder="Unità di misura">
+                </div>
             </div>
-            <button type="button" onclick="addIngredient()">Aggiungi ingredienti</button>
         </div>
+        <button type="button" onclick="addIngredient()">Aggiungi ingrediente</button>
         <div id="procedure-list">
-            <h2>Procedimenti</h2>
+            <h2>Procedimenti*</h2>
             <div class="procedure-step">
-                <textarea name="step" placeholder="Step"></textarea>
+                <textarea name="step" placeholder="Step" rows="5" required></textarea>
             </div>
-            <button type="button" onclick="addStep()">Aggiungi procedimento</button>
         </div>
+        <button type="button" onclick="addStep()">Aggiungi procedimento</button>
         <div>
-            <label for="source">Tipo fonte:</label>
-            <input type="text" id="source" name="source" value="web" required>
+            <label for="source">Tipo fonte*:</label>
+            <input type="text" id="source" name="source" placeholder="web o altro a piacere" required>
         </div>
         <div>
             <label for="link">Link sito:</label>
-            <input type="url" id="link" name="link">
+            <input type="url" id="link" name="link" placeholder="se tipo fonte = web">
         </div>
         <div>
             <label for="video">Video youtube:</label>
             <input type="url" id="video" name="video">
         </div>
-        <button type="button" onclick="generateAndDownloadJSON()">Download JSON</button>
+        <button type="button" onclick="generateAndDownloadJSON()">Download</button>
     </form>
 </div>
+</main>
 <script src="js/new_recipe.js"></script>
 </body>
 

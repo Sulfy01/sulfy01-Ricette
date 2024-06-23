@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Apply flexbox only to single input fields */
+form > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+form label {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Exclude these sections from flexbox layout */
+#tools-list,
+#ingredients-list,
+#procedure-list {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#tools-list h2,
+#ingredients-list h2,
+#procedure-list h2 {
+    margin-bottom: 10px;
+}
+
+#tools-list input,
+#ingredients-list .ingredient input,
+#procedure-list .procedure-step textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.ingredient-details {
+    display: flex;
+    gap: 10px; /* Space between amount and unit inputs */
+}
+
+.ingredient-details input[type="number"],
+.ingredient-details input[type="text"] {
+    flex: 1;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+button[type="submit"],
+button[type="button"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 0 20px 0;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    background-color: #555;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 50px;
+}
+
+/* Style for the diners container */
+.diners-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Style for the label */
+.diners-container label {
+    margin-right: 10px;
+    white-space: nowrap; /* Prevent line break */
+}
+
+/* Style for the number input */
+.diners-container input[type="number"] {
+    max-width: 80px; /* Set maximum width for number input */
+    margin-right: 10px;
+}
+
+/* Style for the text input */
+.diners-container input[type="text"] {
+    flex: 1; /* Take the remaining space */
+    max-width: 200px; /* Set maximum width for text input */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+    }
+    form > div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    form label {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    form input,
+    form select {
+        flex: none;
+        width: 100%;
+    }
+    .diners-container {
+        flex-direction: column;
+    }
+    .diners-container input[type="number"],
+    .diners-container input[type="text"] {
+        max-width: none;
+        margin-right: 0;
+        width: 100%;
+    }
+}
