@@ -34,16 +34,15 @@ document.addEventListener('DOMContentLoaded', function() {
       externalLink.href = recipe.link;
       externalLink.textContent = externalLink.href.substring(externalLink.href.indexOf('//') + 2, externalLink.href.indexOf('/', 10))
 
-      const youtubeVideo = document.getElementById('youtube-video');
       if (!recipe.video)
-        youtubeVideo.style.display = "none"
+        document.getElementsByClassName("youtube-video")[0].style.display = "none";
       else {
-        youtubeVideo.src = `https://www.youtube.com/embed/${recipe.video}`;
+        document.getElementById('youtube-video').src = `https://www.youtube.com/embed/${recipe.video}`;
         document.getElementById('source-content').style.display = 'block';
       }
     } else {
       document.getElementById('external-link').style.display = "none"
-      document.getElementById('youtube-video').style.display = "none"
+      document.getElementsByClassName("youtube-video")[0].style.display = "none";
       document.getElementById('alternative-source').textContent = recipe.source
     }
 

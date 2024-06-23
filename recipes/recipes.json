@@ -24,7 +24,7 @@
   {
     "title": "Carbonara",
     "type": "Primo",
-    "time": "",
+    "time": "45 min",
     "diners": ["2.5", "persone"],
     "tools": ["Padella", "Pentola", "Bowl grande", "Termometro", "Tagliere", "Coltello a lama", "Coltello a sega", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Cucchiaio scolapasta", "2 ciotole"],
     "ingredients": [
@@ -61,7 +61,7 @@
   {
     "title": "Sorbetto al limone",
     "type": "Dolce",
-    "time": "",
+    "time": "10 + 40 min",
     "diners": ["1", "litro"],
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Spremiagrumi", "Frusta", "Gelatiera"],
     "ingredients": [
