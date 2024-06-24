@@ -60,12 +60,128 @@
     "video": "JUxf9g9fq0I"
   },
   {
+    "title": "Pizza pala romana",
+    "type": "Primo",
+    "time": "preparazione 30 min + 18 h lievitazioni",
+    "diners": [
+      "1000", "g"
+    ],
+    "tools": [
+      "Planetaria",
+      "Pellicola",
+      "Spianatoia in legno",
+      "Tarocco",
+      "Cassetta in plastica"
+    ],
+    "ingredients": [
+      {
+        "name": "Farina 0 forte per biga",
+        "amount": "800",
+        "unit": "g"
+      },
+      {
+        "name": "Acqua per biga (ambiente)",
+        "amount": "360",
+        "unit": "g"
+      },
+      {
+        "name": "Lievito di birra per biga",
+        "amount": "8",
+        "unit": "g"
+      },
+      {
+        "name": "Farina 0 forte",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Malto d'orzo in polvere (se sciroppo raddoppiare) ",
+        "amount": "5",
+        "unit": "g"
+      },
+      {
+        "name": "Lievito di birra",
+        "amount": "10",
+        "unit": "g"
+      },
+      {
+        "name": "Acqua (fredda)",
+        "amount": "440",
+        "unit": "g"
+      },
+      {
+        "name": "Sale",
+        "amount": "25",
+        "unit": "g"
+      },
+      {
+        "name": "Farina per spolvero",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Mettere la farina in una ciotola e spezzare il lievito. Mescolare.\nAggiungere l'acqua e impastare per 3 minuti al massimo.\nL'impasto deve rimanere grezzo ma assorbire tutta la farina",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Chiudere la ciotola ben capiente con la pellicola, e far lievitare a 16 - 18° per 13 h.\nDeve essere non appiccicoso.",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Spezzare la biga in planetaria, e aggiungere un composto di farina, malto, lievito e metà dell'acqua.\nGirare in planetaria fino ad ottenere la zucca",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Inserire il sale e aumentare la velocità.\nA sale assorbito, mettere l'acqua in 4 step, e aumentare la velocità dopo che l'impasto ha quasi assorbito",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Aiutandosi con una marisa, riporre l'impasto in una bowl oliata e chiusa con la pellicola.\nFar lievitare a 22° fino al raddoppio (2h circa)",
+        "image": "5.jpg"
+      },
+      {
+        "step": "Ribaltare l'impasto sulla spianatoia e spolvera con farina per spolvero.\nRiempire una ciotola con lo spolvero, fare una conca, e tarare la bilancia.\nSpezzare con molta delicatezza 600g d'impasto in una forma circolare utilizzando un tarocco.\nSe il peso è troppo basso, aggiungere pezzi al centro",
+        "image": "6.jpg"
+      },
+      {
+        "step": "Ribaltarlo nella ciotola e unire i lembi verticali",
+        "image": "7.jpg"
+      },
+      {
+        "step": "Piegare le orecchie verso l'interno, tenerle con i medi, e con i pollici alzare la pasta per chiuderla bene.\nCapovolgerla, e poi lasciarla sulla spianatoia",
+        "image": "8.jpg"
+      },
+      {
+        "step": "Porre i panetti in cassetta sfruttando gli angoli, schiacciandoci l'impasto.\nFar lievitare a temperatura ambiente fino al raddoppio",
+        "image": "9.jpg"
+      },
+      {
+        "step": "Ribaltare le pagnotte su abbondate farina per spolvero.\nStendere schiacciando dall'alto verso il basso a dita ben aperte.\nBucherellare la pasta e coprire con olio",
+        "image": "10.jpg"
+      },
+      {
+        "step": "Infornare a 250° fino a quasi doratura (8 min).",
+        "image": "11.jpg"
+      },
+      {
+        "step": "Condire e finire in forno (3 - 4 min)",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://www.youtube.com/watch?v=KrpYx_czjeQ&t=422s",
+    "video": "_vt0gnC9YvQ"
+  },
+  {
     "title": "Lasagna",
     "type": "Primo",
     "time": "preparazione 2 h + cottura 3 h",
     "diners": ["6", "persone"],
-    "tools": ["Tagliere", "Coltello a lama", "Padella", "Mestolo", "2 pentolini", "Teglia"],
+    "tools": ["Tagliere", "Coltello a lama", "Padella", "Frusta", "2 pentolini", "Teglia"],
     "ingredients": [
+      {"name":  "Fogli di lasagna", "amount": "q.b.", "unit": ""},
       {"name": "Macinato di manzo", "amount": "300", "unit": "g"},
       {"name": "Pancetta", "amount": "150", "unit": "g"},
       {"name": "Carote", "amount": "50", "unit": "g"},
