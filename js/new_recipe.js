@@ -40,7 +40,7 @@ function generateAndDownloadJSON() {
         type: formData.get('type'),
         time: formData.get('time'),
         diners: [
-            formData.get('diners-quantity') + ' ' + formData.get('diners-unit')
+            formData.get('diners-quantity'), formData.get('diners-unit')
         ],
         tools: [],
         ingredients: [],
