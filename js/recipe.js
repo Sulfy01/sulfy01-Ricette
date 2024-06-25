@@ -17,8 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
   function displayRecipe(recipe) {
-    document.getElementById('recipe-title').textContent = recipe.title;
-    document.title = recipe.title;
+    const title = (recipe.title.includes(" by ") ? '⭐ ' : '') + recipe.title;
+    document.getElementById('recipe-title').textContent = title
+    document.title = title
     document.getElementById('recipe-image').src = "../images/" + recipe.title + "/last.jpg"
 
     const infoList = document.getElementById('recipe-info-list');
@@ -62,7 +63,18 @@ document.addEventListener('DOMContentLoaded', function() {
     recipe.ingredients.forEach(ingredient => {
       const li = document.createElement('li');
       li.className = 'ingredient-list-item';
-      li.innerHTML = `
+
+      if(ingredient.isRecipe) {
+        li.innerHTML = `
+          <input type="checkbox" id="${ingredient.name}" onchange="checkLi(this)">
+          <label for="${ingredient.name}"><a href="recipe.html?title=${encodeURIComponent(ingredient.name)}">${ingredient.name}</a></label>
+          <div class="ingredient-amount-unit">
+            <span class="ingredient-amount" data-quantity="${ingredient.amount}">${ingredient.amount}</span> 
+            <span class="ingredient-unit">${ingredient.unit}</span>
+          </div>
+        `;
+      }else {
+        li.innerHTML = `
         <input type="checkbox" id="${ingredient.name}" onchange="checkLi(this)">
         <label for="${ingredient.name}">${ingredient.name}</label>
         <div class="ingredient-amount-unit">
@@ -70,6 +82,8 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="ingredient-unit">${ingredient.unit}</span>
         </div>
       `;
+      }
+
       ingredientsList.appendChild(li);
 
       const option = document.createElement('option');
