@@ -37,11 +37,15 @@
         <div class="diners-container">
             <label for="diners-quantity">Dosi per*:</label>
             <input type="number" id="diners-quantity" name="diners-quantity" min="0" placeholder="ex. 4" required>
-            <input type="text" id="diners-unit" name="diners-unit" placeholder="ex. persone, g, pezzi ..." required>
+            <label>
+                <input type="text" id="diners-unit" name="diners-unit" placeholder="ex. persone, g, pezzi ..." required>
+            </label>
         </div>
         <div id="tools-list">
             <h2>Strumenti*</h2>
-            <input type="text" name="tools" placeholder="ex. Tagliere" required>
+            <label>
+                <input type="text" name="tools" placeholder="ex. Tagliere" required>
+            </label>
         </div>
         <button type="button" onclick="addTool()">Aggiungi strumento</button>
         <div id="ingredients-list">
@@ -54,11 +58,17 @@
                             <option value="No">No</option>
                         </select>
                     </label>
-                    <input type="text" name="ingredient-name" placeholder="Nome" oninput="hideSelectIngredient(this)">
+                    <label>
+                        <input type="text" name="ingredient-name" placeholder="Nome" oninput="hideSelectIngredient(this)">
+                    </label>
                 </div>
                 <div class="ingredient-details">
-                    <input type="number" name="ingredient-amount" placeholder="Quantità (se indefinita lasciare vuoto)">
-                    <input type="text" name="ingredient-unit" placeholder="Unità di misura">
+                    <label>
+                        <input type="number" name="ingredient-amount" placeholder="Quantità (se indefinita lasciare vuoto)">
+                    </label>
+                    <label>
+                        <input type="text" name="ingredient-unit" placeholder="Unità di misura">
+                    </label>
                 </div>
             </div>
         </div>
@@ -66,7 +76,9 @@
         <div id="procedure-list">
             <h2>Procedimento*</h2>
             <div class="procedure-step">
-                <textarea name="step" placeholder="Step" rows="5" required></textarea>
+                <label>
+                    <textarea name="step" placeholder="Step" rows="5" required></textarea>
+                </label>
             </div>
         </div>
         <button type="button" onclick="addStep()">Aggiungi procedimento</button>
