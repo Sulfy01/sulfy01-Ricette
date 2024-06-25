@@ -23,7 +23,7 @@
   },
 
   {
-    "title": "Carbonara",
+    "title": "Carbonara by Luciano Monosilio",
     "type": "Primo",
     "time": "45 min",
     "diners": ["2.5", "persone"],
@@ -60,7 +60,7 @@
     "video": "JUxf9g9fq0I"
   },
   {
-    "title": "Pizza pala romana",
+    "title": "Pizza pala romana by Ian Spampatti",
     "type": "Primo",
     "time": "preparazione 30 min + 18 h lievitazioni",
     "diners": [
@@ -407,7 +407,7 @@
     "video": ""
   },
   {
-    "title": "Cannoli",
+    "title": "Cannoli by Edoardo Dolcimascolo",
     "type": "Dolce",
     "time": "preparazione 60 min + cottura 15 min",
     "diners": ["30", "pezzi"],
@@ -452,7 +452,7 @@
     "video": "_7n7UvqcrP0"
   },
   {
-    "title": "Crema al limone",
+    "title": "Crema al limone by Sal De Riso",
     "type": "Dolce",
     "time": "",
     "diners": ["320", "g"],
@@ -483,7 +483,7 @@
     "video": "LjDZkQz0YMg"
   },
   {
-    "title": "Crema pasticcera",
+    "title": "Crema pasticcera by Iginio Massari",
     "type": "Dolce",
     "time": "",
     "diners": ["400", "g"],
@@ -545,7 +545,7 @@
     "video": ""
   },
   {
-    "title": "Sachertorte",
+    "title": "Sachertorte by Ernst Knam",
     "type": "Dolce",
     "time": "preparazione 60 min + cottura 50 min",
     "diners": ["6", "persone"],
@@ -585,7 +585,7 @@
     "video": "5PTYjzpf01g"
   },
   {
-    "title": "Savoiardi",
+    "title": "Savoiardi by Iginio Massari",
     "type": "Dolce",
     "time": "",
     "diners": ["50", "pezzi"],
@@ -711,7 +711,7 @@
     "video": ""
   },
   {
-    "title": "Tiramisù al limone",
+    "title": "Tiramisù al limone by Sal De Riso",
     "type": "Dolce",
     "time": "preparazione 2 h",
     "diners": ["10", "porzioni"],
@@ -758,7 +758,7 @@
     "video": "LjDZkQz0YMg"
   },
   {
-    "title": "Tiramisù Iginio Massari",
+    "title": "Tiramisù by Iginio Massari",
     "type": "Dolce",
     "time": "preparazione 2 h + cottura 70 min",
     "diners": ["5", "persone"],
