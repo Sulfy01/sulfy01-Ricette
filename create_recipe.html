@@ -50,27 +50,6 @@
         <button type="button" onclick="addTool()">Aggiungi strumento</button>
         <div id="ingredients-list">
             <h2>Ingredienti*</h2>
-            <div class="ingredient">
-                <div class="ingredient-details">
-                    <label>
-                        É una ricetta
-                        <select name="ingredient-recipe" onchange="hideIngredientName(this)">
-                            <option value="No">No</option>
-                        </select>
-                    </label>
-                    <label>
-                        <input type="text" name="ingredient-name" placeholder="Nome" oninput="hideSelectIngredient(this)">
-                    </label>
-                </div>
-                <div class="ingredient-details">
-                    <label>
-                        <input type="number" name="ingredient-amount" placeholder="Quantità (se indefinita lasciare vuoto)">
-                    </label>
-                    <label>
-                        <input type="text" name="ingredient-unit" placeholder="Unità di misura">
-                    </label>
-                </div>
-            </div>
         </div>
         <button type="button" onclick="addIngredient()">Aggiungi ingrediente</button>
         <div id="procedure-list">

@@ -1,50 +1,47 @@
-let siteRecipes = [];
+let allIngredients = [];
+let allRecipes = [];
+let ingredientCont = 0;
 document.addEventListener('DOMContentLoaded', function() {
+    fetch('recipes/ingredients.txt')
+        .then(r => r.text())
+        .then(text => {
+            allIngredients = text.split("\r\n")
+            fillIngredients(document.getElementById("selectIngredient"))
+        })
+        .catch(error => {
+            console.error('Error fetching ingredients:', error);
+        });
     fetch('recipes/recipes.json')
         .then(response => response.json())
         .then(recipes => {
             recipes.sort((a, b) => a.title.localeCompare(b.title));
             recipes.forEach(recipe => {
-                siteRecipes.push(recipe.title)
+                allRecipes.push(recipe.title)
             })
-            fillIngredientRecipes(document.querySelector('select[name="ingredient-recipe"]'))
+            addIngredient();
         })
-
         .catch(error => {
             console.error('Error fetching recipes:', error);
         });
 });
-function fillIngredientRecipes(selectEl) {
-    siteRecipes.forEach(recipe => {
+function fillIngredients(dataList) {
+    allIngredients.forEach(ingredient => {
+        const option = document.createElement('option');
+        option.value = ingredient
+        option.textContent = ingredient
+        dataList.appendChild(option);
+    })
+    allRecipes.forEach(recipe => {
         const option = document.createElement('option');
         option.value = recipe
         option.textContent = recipe
-        selectEl.appendChild(option);
+        dataList.appendChild(option);
     })
-}
-
-function hideIngredientName(select) {
-    const ingredientNameInput = select.closest('.ingredient').querySelector('input[name="ingredient-name"]');
-    if (select.value !== 'No') {
-        ingredientNameInput.style.display = 'none';
-    } else {
-        ingredientNameInput.style.display = 'block';
-    }
-}
-
-function hideSelectIngredient(input) {
-    const ingredientNameSelect = input.closest('.ingredient').querySelector('label');
-    if (input.value.trim() !== ''){
-        ingredientNameSelect.style.display = 'none'
-    } else {
-        ingredientNameSelect.style.display = 'flex'
-    }
 }
 
 function showLinks(input) {
     document.getElementById('links').style.display = input.value.trim() === 'web' ? 'block' : 'none'
 }
-
 
 function addTool() {
     const toolInput = document.createElement('input');
@@ -54,26 +51,52 @@ function addTool() {
 }
 
 function addIngredient() {
-    const ingredientDiv = document.createElement('div');
-    ingredientDiv.className = 'ingredient';
-    ingredientDiv.innerHTML = `
-        <hr>
-        <div class="ingredient-details">
-            <label>
-                É una ricetta
-                <select name="ingredient-recipe" onchange="hideIngredientName(this)">
-                    <option value="No">No</option>
-                </select>
-            </label>
-            <input type="text" name="ingredient-name" placeholder="Nome" oninput="hideSelectIngredient(this)">
-        </div>
-        <div class="ingredient-details">
-            <input type="number" name="ingredient-amount" placeholder="Quantità (se indefinita lasciare vuoto)">
-            <input type="text" name="ingredient-unit" placeholder="Unità di misura">
-        </div>
-    `;
-    fillIngredientRecipes(ingredientDiv.querySelector('select'))
-    document.getElementById('ingredients-list').appendChild(ingredientDiv);
+    ingredientCont++;
+    const ingredientsListDiv = document.getElementById('ingredients-list');
+
+    const newIngredientDiv  = document.createElement('div');
+    newIngredientDiv.className = 'ingredient';
+
+    const ingredientDetailsNameDiv = document.createElement('div');
+    ingredientDetailsNameDiv.classList.add('ingredient-details');
+
+    const ingredientInput = document.createElement('input');
+    ingredientInput.type = 'text';
+    ingredientInput.name = `ingredient-name`;
+    ingredientInput.placeholder = 'Nome';
+    const datalistId = `selectIngredient-${ingredientCont}`;
+    ingredientInput.setAttribute('list', datalistId);
+
+    const ingredientDatalist = document.createElement('datalist');
+    ingredientDatalist.id = datalistId;
+
+    fillIngredients(ingredientDatalist)
+    ingredientDetailsNameDiv.appendChild(ingredientInput);
+    ingredientDetailsNameDiv.appendChild(ingredientDatalist);
+
+    const ingredientDetailsAmountDiv = document.createElement('div');
+    ingredientDetailsAmountDiv.classList.add('ingredient-details');
+
+    const amountInput = document.createElement('input');
+    amountInput.type = 'number';
+    amountInput.name = `ingredient-amount`;
+    amountInput.placeholder = 'Quantità (se indefinita lasciare vuoto)';
+
+    const unitInput = document.createElement('input');
+    unitInput.type = 'text';
+    unitInput.name = `ingredient-unit`;
+    unitInput.placeholder = 'Unità di misura';
+
+    ingredientDetailsAmountDiv.appendChild(amountInput);
+    ingredientDetailsAmountDiv.appendChild(unitInput);
+
+    // Append both ingredient-details divs to the new ingredient div
+    newIngredientDiv.appendChild(ingredientDetailsNameDiv);
+    newIngredientDiv.appendChild(ingredientDetailsAmountDiv);
+    newIngredientDiv.appendChild(document.createElement('hr'))
+
+    // Append the new ingredient div to the ingredients list
+    ingredientsListDiv.appendChild(newIngredientDiv);
 }
 
 function addStep() {
@@ -113,18 +136,15 @@ function generateAndDownloadJSON() {
 
     const ingredientsList = document.querySelectorAll('#ingredients-list .ingredient');
     ingredientsList.forEach((ingredient) => {
-        const ingredientRecipe = ingredient.querySelector('select[name="ingredient-recipe"]').value
         let amount = ingredient.querySelector('input[name="ingredient-amount"]').value;
         if (!amount) amount = "q.b."
         const unit = ingredient.querySelector('input[name="ingredient-unit"]').value;
 
-        let name;
-        if (ingredientRecipe !== 'No') {
-            name = ingredientRecipe;
+        let name = ingredient.querySelector('input[name="ingredient-name"]').value;
+        if (allRecipes.includes(name)) {
             let isRecipe = "true";
             recipe.ingredients.push({ name, amount, unit, isRecipe });
         }else {
-            name = ingredient.querySelector('input[name="ingredient-name"]').value;
             recipe.ingredients.push({name, amount, unit});
         }
     });

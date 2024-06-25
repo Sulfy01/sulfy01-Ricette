@@ -3,7 +3,7 @@
     "title": "Carbonara by Luciano Monosilio",
     "type": "Primo",
     "time": "45 min",
-    "diners": ["2.5", "persone"],
+    "diners": ["3", "persone"],
     "tools": ["Padella", "Pentola", "Bowl grande", "Termometro", "Tagliere", "Coltello a lama", "Coltello a sega", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Cucchiaio scolapasta", "2 ciotole"],
     "ingredients": [
       {"name": "Spaghettoni", "amount": "280", "unit": "g"},
@@ -35,6 +35,80 @@
     "source": "web",
     "link": "https://blog.academia.tv/2024/02/14/come-fare-la-carbonara/",
     "video": "JUxf9g9fq0I"
+  },
+  {
+    "title": "Pasta al pomodoro e arancia by Cracco",
+    "type": "Primo",
+    "time": "30 m",
+    "diners": [
+      "4",
+      "persone"
+    ],
+    "tools": [
+      "Padella",
+      "Grattugia",
+      "Pentola",
+      "Cucchiaio di legno",
+      "Mestolo"
+    ],
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "amount": "320",
+        "unit": "g"
+      },
+      {
+        "name": "Passata di pomodoro",
+        "amount": "280",
+        "unit": "g"
+      },
+      {
+        "name": "Maggiorana",
+        "amount": "10",
+        "unit": "g"
+      },
+      {
+        "name": "Aglio",
+        "amount": "2",
+        "unit": "spicchio"
+      },
+      {
+        "name": "Arancia",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Olio",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Soffriggere in una padella lo spicchio d'aglio in camicia in un paio di cucchiai d'olio a fuoco medio, unire scorza d'arancia, e dopo qualche istante versare la passata di pomodoro, maggiorana e sale",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Cuocere a fiamma bassa fino a far restringere il sugo a metà, mescolando con il cucchiaio di legno",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Cuocere e scolare gli spaghetti nella pentola unendo un mestolo di acqua di cottura, un cucchiaio d'olio e sale per aggiustare",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Servire a nido con un po' di sugo in superficie, scorza d'arancia e maggiorana",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://www.lacucinaitaliana.it/storie/piatti-tipici/spaghetti-al-pomodoro-cracco/",
+    "video": null
   },
   {
     "title": "Pizza pala romana by Ian Spampatti",
