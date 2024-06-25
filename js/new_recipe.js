@@ -1,4 +1,3 @@
-//TODO if fonte = web -> appear links
 let siteRecipes = [];
 document.addEventListener('DOMContentLoaded', function() {
     fetch('recipes/recipes.json')
@@ -40,6 +39,10 @@ function hideSelectIngredient(input) {
     } else {
         ingredientNameSelect.style.display = 'flex'
     }
+}
+
+function showLinks(input) {
+    document.getElementById('links').style.display = input.value.trim() === 'web' ? 'block' : 'none'
 }
 
 
@@ -100,8 +103,8 @@ function generateAndDownloadJSON() {
         ingredients: [],
         procedure: [],
         source: formData.get('source'),
-        link: formData.get('link'),
-        video: parseVideoId(formData.get('video'))
+        link: formData.get('source') === "web" ? formData.get('link') : '',
+        video: formData.get('source') === "web" ? parseVideoId(formData.get('video')) : ''
     };
 
     document.querySelectorAll('#tools-list input').forEach(input => {

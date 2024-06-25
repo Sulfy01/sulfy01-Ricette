@@ -1,28 +1,5 @@
 [
   {
-    "title": "Template",
-    "type": "",
-    "time": "",
-    "diners": ["", ""],
-    "tools": ["", ""],
-    "ingredients": [
-      {"name": "", "amount": "", "unit": ""},
-      {"name": "", "amount": "", "unit": ""}
-    ],
-    "procedure": [
-      {"step": "",
-        "image": "1.jpg"},
-      {"step": "",
-        "image": "2.jpg"},
-      {"step": "",
-        "image": "last.jpg"}
-    ],
-    "source": "web",
-    "link": "",
-    "video": ""
-  },
-
-  {
     "title": "Carbonara by Luciano Monosilio",
     "type": "Primo",
     "time": "45 min",
@@ -62,7 +39,7 @@
   {
     "title": "Pizza pala romana by Ian Spampatti",
     "type": "Primo",
-    "time": "preparazione 30 min + 18 h lievitazioni",
+    "time": "preparazione 30 min + lievitazioni 18 h",
     "diners": [
       "1000", "g"
     ],
@@ -341,7 +318,7 @@
     "diners": ["12", "pezzi"],
     "tools": ["Teglia", "Carta forno", "Pennello"],
     "ingredients": [
-      {"name": "<a href='recipe.html?title=Brioche%20impasto'>Impasto brioche</a>", "amount": "1", "unit": ""},
+      {"name": "Brioche impasto", "amount": "1", "unit": "", "isRecipe": "true"},
       {"name": "Tuorlo", "amount": "1", "unit": ""},
       {"name": "Latte", "amount": "20", "unit": "g"}
     ],
@@ -398,8 +375,6 @@
       {"step": "Comporre tra le mani una palla, portando verso il basso la pasta in eccesso e porla in una bowl asciutta.\nCoprirla con pellicola a contatto e far lievitare al caldo (forno spento con luce accesa) per 2h, fino a raddoppiare",
         "image": "5.jpg"},
       {"step": "Rompere la lievitazione e impastare velocemente per qualche secondo su un piano di lavoro, senza aggiungere farina.\nRicomporre la palla, adagiarla nuovamente nella ciotola, coperta ancora con la pellicola a contatto.\nPorla in frigo per 8-9 h circa",
-        "image": "6.jpg"},
-      {"step": "Procedere con la ricetta voluta <a href='recipe.html?title=Brioche%20col%20tuppo'>Brioche col tuppo</a>",
         "image": "last.jpg"}
     ],
     "source": "web",
@@ -428,7 +403,7 @@
       {"name": "Ricotta di pecora", "amount": "1500", "unit": "g"},
       {"name": "Zucchero a velo", "amount": "q.b.", "unit": ""},
       {"name": "Granella di pistacchi", "amount": "q.b.", "unit": ""},
-      {"name": "<a href='recipe.html?title=Scorze%20d%27arancia%20candite'>Arancia candita</a>", "amount": "q.b.", "unit": ""}
+      {"name": "Scorze d'arancia candite", "amount": "q.b.", "unit": "", "isRecipe":  "true"}
 
     ],
     "procedure": [
@@ -506,8 +481,6 @@
       {"step": "Mettere a poco a poco ma velocemente il latte caldo nei tuorli, mescolando.\nMettere il composto nel bagnomaria e girare; arrivare a 92° e togliere subito,\nMettere velocemente nella bacinella congelata e girare veloce",
         "image": "4.jpg"},
       {"step": "Leggero spolvero di zucchero in superficie, pulisco i bordi della bacinella e pongo in frigorifero",
-        "image": "5.jpg"},
-      {"step": "Vedi anche: <a href='recipe.html?title=Tiramisù%20Iginio%20Massari'>Tiramisù di Iginio Massari</a>",
         "image": "last.jpg"}
     ],
     "source": "web",
@@ -611,8 +584,6 @@
       {"step": "Spolverare i savoiardi con dello zucchero e vaniglia, e poi con zucchero a velo",
         "image": "5.jpg"},
       {"step": "Infornare in forno statico a 200° per 10 - 11 minuti. Cottura a valvola aperta (stagnola tiene aperto)",
-        "image": "6.jpg"},
-      {"step": "Vedi anche: <a href='recipe.html?title=Tiramisù%20Iginio%20Massari'>Tiramisù di Iginio Massari</a>",
         "image": "last.jpg"}
 
     ],
@@ -717,8 +688,8 @@
     "diners": ["10", "porzioni"],
     "tools": ["Pentola", "Bowl", "Frusta", "Termometro", "Planetaria", "Colino", "Marisa", "Sac-a-poche"],
     "ingredients": [
-      {"name":  "<a href='recipe.html?title=Savoiardi'>Savoiardi</a>", "amount": "100", "unit": ""},
-      {"name":  "<a href='recipe.html?title=Crema%20al%20limone'>Crema al limone</a>", "amount": "320", "unit": "g"},
+      {"name":  "Savoiardi by Iginio Massari", "amount": "100", "unit": "", "isRecipe": "true"},
+      {"name":  "Crema al limone by Sal De Riso", "amount": "320", "unit": "g", "isRecipe": "true"},
       {"name": "Acqua per bagna", "amount": "100", "unit": "g"},
       {"name": "Limoncello", "amount": "200", "unit": "g"},
       {"name": "Zucchero per bagna", "amount": "100", "unit": "g"},
@@ -764,8 +735,8 @@
     "diners": ["5", "persone"],
     "tools": ["Planetaria", "Bowl grande", "Ciotola", "Pentolino", "Teglia piccola", "Frusta", "Sac-a-poche", "Anello", "Piatto", "Pellicola", "Tarocco"],
     "ingredients": [
-      {"name":  "<a href='recipe.html?title=Savoiardi'>Savoiardi</a>", "amount": "50", "unit": ""},
-      {"name":  "<a href='recipe.html?title=Crema%20pasticcera'>Crema pasticcera</a>", "amount": "400", "unit": "g"},
+      {"name":  "Savoiardi by Iginio Massari", "amount": "50", "unit": "", "isRecipe": "true"},
+      {"name":  "Crema pasticcera by Iginio Massari", "amount": "400", "unit": "g", "isRecipe": "true"},
       {"name": "Acqua caffè", "amount": "100", "unit": "g"},
       {"name": "Caffè", "amount": "100", "unit": "g"},
       {"name": "Zucchero caffè", "amount": "100", "unit": "g"},
@@ -782,11 +753,11 @@
         "image": "1.jpg"},
       {"step": "Mescolare la gelatina nell'acqua bollente.\nMettere il mascarpone nella planetaria e girare lentamente. Aggiungere con calma un po' di panna.\nA grumi scomparsi, aggiungere la crema pasticcera, poi l'acqua e poi la panna",
         "image": "2.jpg"},
-      {"step": "Imburrare e zuccherare l'anello, e porno su un piatto di portata.\nCoprire l'esterno del piatto con la pellicola.",
+      {"step": "Imburrare e zuccherare l'anello e porre su un piatto di portata.\nCoprire l'esterno del piatto con la pellicola.",
         "image": "3.jpg"},
-      {"step": "Usando la sac-a-poche stratifico con crema e savoiardi ben inzuppati.\nUltimo strato faccio una cupola e copro di crema.\nCon la bocchetta a stella decoro.\nRipongo in frigorifero",
+      {"step": "Usando la sac-a-poche stratificare con crema e savoiardi ben inzuppati.\nPer l'ultimo strato fare una cupola e coprire di crema.\nCon la bocchetta a stella decorare.\nRiporre in frigorifero",
         "image": "4.jpg"},
-      {"step": "Spolverata di cacao, estraggo l'anello, e copro i bordi con il cioccolato fondente",
+      {"step": "Spolverata di cacao, estrarre l'anello, e coprire i bordi con il cioccolato fondente",
         "image": "last.jpg"}
     ],
     "source": "web",

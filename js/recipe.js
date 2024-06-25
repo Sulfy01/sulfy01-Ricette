@@ -44,7 +44,6 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       document.getElementById('external-link').style.display = "none"
       document.getElementsByClassName("youtube-video")[0].style.display = "none";
-      document.getElementById('alternative-source').textContent = recipe.source
     }
 
     const toolsList = document.getElementById('tools-list');

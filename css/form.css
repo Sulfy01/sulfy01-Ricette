@@ -30,7 +30,6 @@ form {
     margin: 0 auto;
 }
 
-/* Apply flexbox only to single input fields */
 form > div {
     display: flex;
     align-items: center;
@@ -155,21 +154,42 @@ textarea {
     max-width: 200px; /* Set maximum width for text input */
 }
 
+.link-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.link-container label {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.link-container input {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     form {
         padding: 20px;
     }
-    form > div {
+    form > div, .link-container {
         flex-direction: column;
         align-items: flex-start;
     }
-    form label {
+    form label, .link-container label {
         margin-right: 0;
         margin-bottom: 5px;
     }
     form input,
-    form select {
+    form select,
+    .link-container input {
         flex: none;
         width: 100%;
     }
