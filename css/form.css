@@ -78,6 +78,7 @@ form select {
 
 .ingredient-details {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px; /* Space between amount and unit inputs */
 }
 
@@ -85,10 +86,22 @@ form select {
     margin-bottom: 10px;
 }
 
+.ingredient-details label {
+    flex: 1 1 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .ingredient-details select,
 .ingredient-details input[type="number"],
 .ingredient-details input[type="text"] {
-    flex: 1;
+    flex: 1 1 48%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 fieldset {
@@ -201,5 +214,10 @@ textarea {
         max-width: none;
         margin-right: 0;
         width: 100%;
+    }
+    .ingredient-details input[type="text"],
+    .ingredient-details input[type="number"],
+    .ingredient-details select {
+        flex: 1 1 100%; /* Full width on small screens */
     }
 }

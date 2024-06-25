@@ -59,7 +59,7 @@ function addIngredient() {
     ingredientDiv.innerHTML = `
         <hr>
         <div class="ingredient-details">
-            <label class="ingredient-details">
+            <label>
                 É una ricetta
                 <select name="ingredient-recipe" onchange="hideIngredientName(this)">
                     <option value="No">No</option>
