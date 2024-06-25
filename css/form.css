@@ -82,6 +82,11 @@ form select {
     gap: 10px; /* Space between amount and unit inputs */
 }
 
+.ingredient-details select {
+    margin-bottom: 10px;
+}
+
+.ingredient-details select,
 .ingredient-details input[type="number"],
 .ingredient-details input[type="text"] {
     flex: 1;

@@ -1,3 +1,48 @@
+//TODO if fonte = web -> appear links
+let siteRecipes = [];
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('recipes/recipes.json')
+        .then(response => response.json())
+        .then(recipes => {
+            recipes.sort((a, b) => a.title.localeCompare(b.title));
+            recipes.forEach(recipe => {
+                siteRecipes.push(recipe.title)
+            })
+            fillIngredientRecipes(document.querySelector('select[name="ingredient-recipe"]'))
+        })
+
+        .catch(error => {
+            console.error('Error fetching recipes:', error);
+        });
+});
+function fillIngredientRecipes(selectEl) {
+    siteRecipes.forEach(recipe => {
+        const option = document.createElement('option');
+        option.value = recipe
+        option.textContent = recipe
+        selectEl.appendChild(option);
+    })
+}
+
+function hideIngredientName(select) {
+    const ingredientNameInput = select.closest('.ingredient').querySelector('input[name="ingredient-name"]');
+    if (select.value !== 'No') {
+        ingredientNameInput.style.display = 'none';
+    } else {
+        ingredientNameInput.style.display = 'block';
+    }
+}
+
+function hideSelectIngredient(input) {
+    const ingredientNameSelect = input.closest('.ingredient').querySelector('label');
+    if (input.value.trim() !== ''){
+        ingredientNameSelect.style.display = 'none'
+    } else {
+        ingredientNameSelect.style.display = 'flex'
+    }
+}
+
+
 function addTool() {
     const toolInput = document.createElement('input');
     toolInput.type = 'text';
@@ -10,12 +55,21 @@ function addIngredient() {
     ingredientDiv.className = 'ingredient';
     ingredientDiv.innerHTML = `
         <hr>
-        <input type="text" name="ingredient-name" placeholder="Nome">
+        <div class="ingredient-details">
+            <label class="ingredient-details">
+                É una ricetta
+                <select name="ingredient-recipe" onchange="hideIngredientName(this)">
+                    <option value="No">No</option>
+                </select>
+            </label>
+            <input type="text" name="ingredient-name" placeholder="Nome" oninput="hideSelectIngredient(this)">
+        </div>
         <div class="ingredient-details">
             <input type="number" name="ingredient-amount" placeholder="Quantità (se indefinita lasciare vuoto)">
             <input type="text" name="ingredient-unit" placeholder="Unità di misura">
         </div>
     `;
+    fillIngredientRecipes(ingredientDiv.querySelector('select'))
     document.getElementById('ingredients-list').appendChild(ingredientDiv);
 }
 
@@ -56,11 +110,20 @@ function generateAndDownloadJSON() {
 
     const ingredientsList = document.querySelectorAll('#ingredients-list .ingredient');
     ingredientsList.forEach((ingredient) => {
-        const name = ingredient.querySelector('input[name="ingredient-name"]').value;
+        const ingredientRecipe = ingredient.querySelector('select[name="ingredient-recipe"]').value
         let amount = ingredient.querySelector('input[name="ingredient-amount"]').value;
         if (!amount) amount = "q.b."
         const unit = ingredient.querySelector('input[name="ingredient-unit"]').value;
-        recipe.ingredients.push({ name, amount, unit });
+
+        let name;
+        if (ingredientRecipe !== 'No') {
+            name = ingredientRecipe;
+            let isRecipe = "true";
+            recipe.ingredients.push({ name, amount, unit, isRecipe });
+        }else {
+            name = ingredient.querySelector('input[name="ingredient-name"]').value;
+            recipe.ingredients.push({name, amount, unit});
+        }
     });
 
     const procedureList = document.querySelectorAll('#procedure-list .procedure-step');
