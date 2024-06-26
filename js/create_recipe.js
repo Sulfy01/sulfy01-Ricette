@@ -1,11 +1,23 @@
 let allIngredients = [];
 let allRecipes = [];
+let allTools = [];
 let ingredientCont = 0;
+let toolCont = 0;
+
 document.addEventListener('DOMContentLoaded', function() {
     fetch('utils/ingredients.txt')
         .then(r => r.text())
         .then(text => {
             allIngredients = text.split("\r\n")
+        })
+        .catch(error => {
+            console.error('Error fetching ingredients:', error);
+        });
+    fetch('utils/tools.txt')
+        .then(r => r.text())
+        .then(text => {
+            allTools = text.split("\r\n")
+            addTool();
         })
         .catch(error => {
             console.error('Error fetching ingredients:', error);
@@ -26,13 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function addIngredient() {
     ingredientCont++;
-    const ingredientsListDiv = document.getElementById('ingredients-list');
 
     const newIngredientDiv  = document.createElement('div');
     newIngredientDiv.className = 'ingredient';
 
     const ingredientDetailsNameDiv = document.createElement('div');
-    ingredientDetailsNameDiv.classList.add('ingredient-details');
 
     const ingredientInput = document.createElement('input');
     ingredientInput.type = 'text';
@@ -43,13 +53,11 @@ function addIngredient() {
 
     const ingredientDatalist = document.createElement('datalist');
     ingredientDatalist.id = datalistId;
+    fillOptions(allIngredients, ingredientDatalist);
+    fillOptions(allRecipes, ingredientDatalist);
 
-    fillIngredientOptions(ingredientDatalist)
     ingredientDetailsNameDiv.appendChild(ingredientInput);
     ingredientDetailsNameDiv.appendChild(ingredientDatalist);
-
-    const ingredientDetailsAmountDiv = document.createElement('div');
-    ingredientDetailsAmountDiv.classList.add('ingredient-details');
 
     const amountInput = document.createElement('input');
     amountInput.type = 'number';
@@ -61,6 +69,7 @@ function addIngredient() {
     unitInput.name = `ingredient-unit`;
     unitInput.placeholder = 'Unità di misura';
 
+    const ingredientDetailsAmountDiv = document.createElement('div');
     ingredientDetailsAmountDiv.appendChild(amountInput);
     ingredientDetailsAmountDiv.appendChild(unitInput);
 
@@ -70,28 +79,34 @@ function addIngredient() {
     newIngredientDiv.appendChild(document.createElement('hr'))
 
     // Append the new ingredient div to the ingredients list
-    ingredientsListDiv.appendChild(newIngredientDiv);
+    document.getElementById('ingredients-list').appendChild(newIngredientDiv);
 }
-function fillIngredientOptions(dataList) {
-    allIngredients.forEach(ingredient => {
-        const option = document.createElement('option');
-        option.value = ingredient
-        option.textContent = ingredient
-        dataList.appendChild(option);
-    })
-    allRecipes.forEach(recipe => {
-        const option = document.createElement('option');
-        option.value = recipe
-        option.textContent = recipe
-        dataList.appendChild(option);
-    })
-}
-
 function addTool() {
+    toolCont++;
+
     const toolInput = document.createElement('input');
     toolInput.type = 'text';
     toolInput.name = 'tools';
-    document.getElementById('tools-list').appendChild(toolInput);
+    const datalistId = `selectTool-${toolCont}`;
+    toolInput.setAttribute('list', datalistId);
+
+    const toolDatalist = document.createElement('datalist');
+    toolDatalist.id = datalistId;
+    fillOptions(allTools, toolDatalist)
+
+    const toolDiv = document.createElement('div');
+    toolDiv.appendChild(toolInput);
+    toolDiv.appendChild(toolDatalist);
+
+    document.getElementById('tools-list').appendChild(toolDiv);
+}
+function fillOptions(list, dataList) {
+    list.forEach(el => {
+        const option = document.createElement('option');
+        option.value = el
+        option.textContent = el
+        dataList.appendChild(option);
+    })
 }
 function addStep() {
     const stepDiv = document.createElement('div');
