@@ -13,11 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const li = document.createElement('li');
         const link = document.createElement('a');
 
-        link.textContent = recipe.title.includes(" by ") ? '⭐ ' :  ''
-
-        link.textContent = link.textContent + recipe.title;
+        link.textContent = (recipe.title.includes(" by ") ? '⭐ ' :  '') + recipe.title;
         link.href = `recipes/recipe.html?title=${encodeURIComponent(recipe.title)}`;
         li.appendChild(link);
+
         switch (recipe.type) {
           case "Antipasto":
             antipastiList.appendChild(li);

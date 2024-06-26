@@ -2,11 +2,10 @@ let allIngredients = [];
 let allRecipes = [];
 let ingredientCont = 0;
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('recipes/ingredients.txt')
+    fetch('utils/ingredients.txt')
         .then(r => r.text())
         .then(text => {
             allIngredients = text.split("\r\n")
-            fillIngredients(document.getElementById("selectIngredient"))
         })
         .catch(error => {
             console.error('Error fetching ingredients:', error);
@@ -24,31 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Error fetching recipes:', error);
         });
 });
-function fillIngredients(dataList) {
-    allIngredients.forEach(ingredient => {
-        const option = document.createElement('option');
-        option.value = ingredient
-        option.textContent = ingredient
-        dataList.appendChild(option);
-    })
-    allRecipes.forEach(recipe => {
-        const option = document.createElement('option');
-        option.value = recipe
-        option.textContent = recipe
-        dataList.appendChild(option);
-    })
-}
-
-function showLinks(input) {
-    document.getElementById('links').style.display = input.value.trim() === 'web' ? 'block' : 'none'
-}
-
-function addTool() {
-    const toolInput = document.createElement('input');
-    toolInput.type = 'text';
-    toolInput.name = 'tools';
-    document.getElementById('tools-list').appendChild(toolInput);
-}
 
 function addIngredient() {
     ingredientCont++;
@@ -70,7 +44,7 @@ function addIngredient() {
     const ingredientDatalist = document.createElement('datalist');
     ingredientDatalist.id = datalistId;
 
-    fillIngredients(ingredientDatalist)
+    fillIngredientOptions(ingredientDatalist)
     ingredientDetailsNameDiv.appendChild(ingredientInput);
     ingredientDetailsNameDiv.appendChild(ingredientDatalist);
 
@@ -98,7 +72,27 @@ function addIngredient() {
     // Append the new ingredient div to the ingredients list
     ingredientsListDiv.appendChild(newIngredientDiv);
 }
+function fillIngredientOptions(dataList) {
+    allIngredients.forEach(ingredient => {
+        const option = document.createElement('option');
+        option.value = ingredient
+        option.textContent = ingredient
+        dataList.appendChild(option);
+    })
+    allRecipes.forEach(recipe => {
+        const option = document.createElement('option');
+        option.value = recipe
+        option.textContent = recipe
+        dataList.appendChild(option);
+    })
+}
 
+function addTool() {
+    const toolInput = document.createElement('input');
+    toolInput.type = 'text';
+    toolInput.name = 'tools';
+    document.getElementById('tools-list').appendChild(toolInput);
+}
 function addStep() {
     const stepDiv = document.createElement('div');
     stepDiv.className = 'procedure-step';
@@ -108,15 +102,24 @@ function addStep() {
     document.getElementById('procedure-list').appendChild(stepDiv);
 }
 
+function showLinks(input) {
+    document.getElementById('links').style.display = input.value.trim() === 'web' ? 'block' : 'none'
+}
+
 function generateAndDownloadJSON() {
+    const formData = new FormData(document.getElementById('recipe-form'));
+
+    if (allRecipes.includes(formData.get('title'))) {
+        alert('Nome ricetta già presente!');
+        return;
+    }
     if (!checkRequiredFields()) {
         alert('Compila tutti i cambi richiesti!');
         return;
     }
 
-    const formData = new FormData(document.getElementById('recipe-form'));
     const recipe = {
-        title: formData.get('title'),
+        title: capitalizeFirstLetter(formData.get('title')),
         type: formData.get('type'),
         time: formData.get('time'),
         diners: {
@@ -126,21 +129,19 @@ function generateAndDownloadJSON() {
         ingredients: [],
         procedure: [],
         source: formData.get('source'),
-        link: formData.get('source') === "web" ? formData.get('link') : '',
-        video: formData.get('source') === "web" ? parseVideoId(formData.get('video')) : ''
+        link: formData.get('source') === "web" && formData.get('link') ? formData.get('link') : '',
+        video: formData.get('source') === "web" && formData.get('video') ? parseVideoId(formData.get('video')) : ''
     };
 
     document.querySelectorAll('#tools-list input').forEach(input => {
-        recipe.tools.push(input.value);
+        recipe.tools.push(capitalizeFirstLetter(input.value));
     });
-
-    const ingredientsList = document.querySelectorAll('#ingredients-list .ingredient');
-    ingredientsList.forEach((ingredient) => {
+    document.querySelectorAll('#ingredients-list .ingredient').forEach((ingredient) => {
         let amount = ingredient.querySelector('input[name="ingredient-amount"]').value;
         if (!amount) amount = "q.b."
         const unit = ingredient.querySelector('input[name="ingredient-unit"]').value;
 
-        let name = ingredient.querySelector('input[name="ingredient-name"]').value;
+        let name = capitalizeFirstLetter(ingredient.querySelector('input[name="ingredient-name"]').value);
         if (allRecipes.includes(name)) {
             let isRecipe = "true";
             recipe.ingredients.push({ name, amount, unit, isRecipe });
@@ -171,6 +172,7 @@ function generateAndDownloadJSON() {
     a.click();
     document.body.removeChild(a);
 }
+
 function parseVideoId(url) {
     const vIndex = url.indexOf('v=');
     if (vIndex === -1) {
@@ -183,7 +185,6 @@ function parseVideoId(url) {
     }
     return videoId;
 }
-
 function checkRequiredFields() {
     const requiredFields = document.querySelectorAll('#recipe-form [required]');
     for (const field of requiredFields) {
@@ -192,4 +193,7 @@ function checkRequiredFields() {
         }
     }
     return true;
+}
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
 }

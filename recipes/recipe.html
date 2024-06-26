@@ -30,6 +30,9 @@
     <img src="" alt="Recipe Image" id="recipe-image">
     <div class="recipe-info">
       <ul id="recipe-info-list">
+        <li>Categoria: <span id="recipe-type-value"></span></li>
+        <li>Tempo: <span id="recipe-time-value"></span></li>
+        <li>Dosi: <span id="recipe-diners-quantity"></span> <span id="recipe-diners-unit"></span></li>
       </ul>
     </div>
   </div>
@@ -37,21 +40,21 @@
     <h3 onclick="toggleSource()">Fonte</h3>
     <div class="collapsible-content" id="source-content">
       <a id="external-link" href="#" target="_blank">Sito web</a>
-      <div class="youtube-video">
+      <div id="yt-container" class="youtube-video">
         <iframe id="youtube-video" width="560" height="315" src="" style="border: 0" allowfullscreen></iframe>
       </div>
     </div>
   </section>
   <section class="collapsible">
     <h3 onclick="toggleTools()">Strumenti da Utilizzare</h3>
-    <div class="collapsible-content" style="display: block" id="tools-content">
+    <div id="tools-content" class="collapsible-content" style="display: block">
       <ul id="tools-list"></ul>
     </div>
   </section>
 
   <section class="collapsible ingredients">
     <h3 onclick="toggleIngredients()">Ingredienti</h3>
-    <div class="collapsible-content multiplier-container" style="display: block" id="ingredients-content">
+    <div id="ingredients-content" class="collapsible-content multiplier-container" style="display: block">
       <div class="update-quantities">
         <label for="base-ingredient">Ingrediente Base: </label>
         <select id="base-ingredient"></select>
