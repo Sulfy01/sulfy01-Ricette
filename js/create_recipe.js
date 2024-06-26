@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('utils/ingredients.txt')
         .then(r => r.text())
         .then(text => {
-            allIngredients = text.split("\r\n")
+            allIngredients = text.split("\n")
         })
         .catch(error => {
             console.error('Error fetching ingredients:', error);
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('utils/tools.txt')
         .then(r => r.text())
         .then(text => {
-            allTools = text.split("\r\n")
+            allTools = text.split("\n")
             addTool();
         })
         .catch(error => {
@@ -191,7 +191,7 @@ function generateAndDownloadJSON() {
 function parseVideoId(url) {
     const vIndex = url.indexOf('v=');
     if (vIndex === -1) {
-        return null;
+        return url;
     }
     let videoId = url.substring(vIndex + 2);
     const ampersandIndex = videoId.indexOf('&');
