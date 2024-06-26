@@ -4,7 +4,7 @@
     "type": "Primo",
     "time": "45 min",
     "diners": {"quantity": "3", "unit": "persone"},
-    "tools": ["Padella", "Pentola", "Bowl grande", "Termometro", "Tagliere", "Coltello a lama", "Coltello a sega", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Cucchiaio scolapasta", "2 ciotole"],
+    "tools": ["Padella", "Pentola", "Ciotola per bagnomaria", "Termometro", "Tagliere", "Coltello universale", "Coltello da pane", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Mestolo per pasta"],
     "ingredients": [
       {"name": "Spaghettoni", "amount": "280", "unit": "g"},
       {"name": "Guanciale","amount": "200", "unit": "g"},
@@ -114,8 +114,8 @@
     "diners": {"quantity": "1000", "unit": "g"},
     "tools": [
       "Planetaria",
-      "Pellicola",
-      "Spianatoia in legno",
+      "Pellicola per alimenti",
+      "Spianatoia",
       "Tarocco",
       "Cassetta in plastica"
     ],
@@ -225,7 +225,7 @@
     "type": "Primo",
     "time": "preparazione 2 h + cottura 3 h",
     "diners": {"quantity": "6", "unit": "persone"},
-    "tools": ["Tagliere", "Coltello a lama", "Padella", "Frusta", "2 pentolini", "Teglia"],
+    "tools": ["Tagliere", "Coltello universale", "Padella", "Frusta", "Pentolino", "Pentolino", "Teglia"],
     "ingredients": [
       {"name":  "Fogli di lasagna", "amount": "q.b.", "unit": ""},
       {"name": "Macinato di manzo", "amount": "300", "unit": "g"},
@@ -275,7 +275,7 @@
     "type": "Primo",
     "time": "40 min",
     "diners": {"quantity": "3", "unit": "persone"},
-    "tools": ["Pentola", "Padella", "Cucchiaio di legno", "Scolapasta", "Tagliere", "Coltello a lama", "Mixer"],
+    "tools": ["Pentola", "Padella", "Cucchiaio di legno", "Scolapasta", "Tagliere", "Coltello universale", "Mixer"],
     "ingredients": [
       {"name": "Paccheri", "amount": "360", "unit": "g"},
       {"name": "Burrata", "amount": "400", "unit": "g"},
@@ -313,7 +313,7 @@
     "type": "Primo",
     "time": "60 min",
     "diners": {"quantity": "2", "unit": "persone"},
-    "tools": ["Pentola", "Padella", "Pellicola", "Planetaria", "Mixer", "Sac-a-poche", "Macchina per la pasta", "Mattarello", "Tagliere"],
+    "tools": ["Pentola", "Padella", "Pellicola per alimenti", "Planetaria", "Mixer", "Sac à poche", "Macchina per la pasta", "Mattarello", "Tagliere"],
     "ingredients": [
       {"name": "Semola rimacinata", "amount": "180", "unit": "g"},
       {"name": "Uova", "amount": "2", "unit": ""},
@@ -333,7 +333,7 @@
         "image": "1.jpg"},
       {"step": "In un mixer inserire ricotta, noce moscata, scorza di limone, olio, sale e spinaci.\nFrullare, quindi aggiungere il parmigiano",
         "image": "2.jpg"},
-      {"step": "Stendere la pasta molto sottile su un piano infarinato.\nCon la sac-a-poche fare una riga di crema e richiuderla capovolgendo la pasta",
+      {"step": "Stendere la pasta molto sottile su un piano infarinato.\nCon la Sac à poche fare una riga di crema e richiuderla capovolgendo la pasta",
         "image": "3.jpg"},
       {"step": "In una pentola tostare il pepe bianco, quindi aggiungere olio, mestolo d'acqua e salvia",
         "image": "4.jpg"},
@@ -352,7 +352,7 @@
     "type": "Secondo",
     "time": "preparazione 15 min + cottura 25 min",
     "diners": {"quantity": "4", "unit": "persone"},
-    "tools": ["Pentola", "Teglia", "Carta forno", "Coppapasta", "Sac-a-poche"],
+    "tools": ["Pentola", "Carta forno", "Coppapasta", "Sac à poche"],
     "ingredients": [
       {"name": "Patate", "amount": "400", "unit": "g"},
       {"name": "Uova", "amount": "1", "unit": ""},
@@ -367,7 +367,7 @@
     "procedure": [
       {"step": "Bollire le patate, spellarle e schiacciarle a purea.\nAmalgamare uova e burro, poi parmigiano, sale e pepe",
         "image": "1.jpg"},
-      {"step": "Rivestire una teglia con carta forno e formare dei cilindri bucati utilizzando la sac-a-poche e dei coppapasta",
+      {"step": "Rivestire una teglia con carta forno e formare dei cilindri bucati utilizzando la Sac à poche e dei coppapasta",
         "image": "2.jpg"},
       {"step": "Cuocere in forno a 200° per 25 minuti",
         "image": "3.jpg"},
@@ -385,7 +385,7 @@
     "type": "Dolce",
     "time": "preparazione 40 min + cottura 20 min",
     "diners": {"quantity": "12", "unit": "pezzi"},
-    "tools": ["Teglia", "Carta forno", "Pennello"],
+    "tools": ["Carta forno", "Pennello"],
     "ingredients": [
       {"name": "Brioche impasto", "amount": "1", "unit": "", "isRecipe": "true"},
       {"name": "Tuorlo", "amount": "1", "unit": ""},
@@ -416,7 +416,7 @@
     "type": "Dolce",
     "time": "preparazione 90 min + lievitazioni 12 h",
     "diners": {"quantity": "20", "unit": "pezzi"},
-    "tools": ["Bowl grande", "Planetaria", "Pellicola"],
+    "tools": ["Bowl", "Planetaria", "Pellicola per alimenti"],
     "ingredients": [
       {"name": "Farina 00", "amount": "300", "unit": "g"},
       {"name": "Farina manitoba", "amount": "200", "unit": "g"},
@@ -455,7 +455,7 @@
     "type": "Dolce",
     "time": "preparazione 60 min + cottura 15 min",
     "diners": {"quantity": "30", "unit": "pezzi"},
-    "tools": ["Stampi per cannoli", "Planetaria", "Bowl", "Colino", "Setaccio", "Marisa", "Macchina per la pasta", "Pellicola", "Coppapasta", "Pennello", "Pentola", "Schiumarola", "Termometro", "Carta assorbente", "Sac-a-poche"],
+    "tools": ["Stampi per cannoli", "Planetaria", "Bowl", "Colino", "Setaccio", "Marisa", "Macchina per la pasta", "Pellicola per alimenti", "Coppapasta", "Pennello", "Pentola", "Schiumarola", "Termometro", "Carta assorbente", "Sac à poche"],
     "ingredients": [
       {"name": "Farina 00", "amount": "250", "unit": "g"},
       {"name": "Zucchero", "amount": "30", "unit": "g"},
@@ -488,7 +488,7 @@
         "image": "5.jpg"},
       {"step": "Friggere i cannoli a 175° fino a doratura, e scolarli sulla carta assorbente.\nUna volta raffreddati, sfilare i cilindri.",
         "image": "6.jpg"},
-      {"step": "Farcire i cannoli con una sac-a-poche e servire guarniti di pistacchio, scorza d'arancia e zucchero a velo",
+      {"step": "Farcire i cannoli con una Sac à poche e servire guarniti di pistacchio, scorza d'arancia e zucchero a velo",
         "image": "7.jpg"}
     ],
     "source": "web",
@@ -500,7 +500,7 @@
     "type": "Dolce",
     "time": "",
     "diners": {"quantity": "320", "unit": "g"},
-    "tools": ["Spremiagrumi", "Pentolino", "Grattugia", "Colino", "Frullatore a immersione", "Pellicola"],
+    "tools": ["Spremiagrumi", "Pentolino", "Grattugia", "Colino", "Frullatore a immersione", "Pellicola per alimenti"],
     "ingredients": [
       {"name": "Tuorlo", "amount": "80", "unit": "g"},
       {"name": "Zucchero", "amount": "80", "unit": "g"},
@@ -531,7 +531,7 @@
     "type": "Dolce",
     "time": "",
     "diners": {"quantity": "400", "unit": "g"},
-    "tools": ["Bowl grande", "Pentola", "Grattugia", "Pentolino", "Ciotola", "Frusta"],
+    "tools": ["Bowl di acciaio", "Pentola", "Grattugia", "Pentolino", "Frusta"],
     "ingredients": [
       {"name": "Tuorlo", "amount": "100", "unit": "g"},
       {"name": "Zucchero", "amount": "100", "unit": "g"},
@@ -561,7 +561,7 @@
     "type": "Dolce",
     "time": "10 min",
     "diners": {"quantity": "5", "unit": "persone"},
-    "tools": ["Frusta", "Bowl", "Padella antiaderente", "Mestolo", "Stendi pastella"],
+    "tools": ["Frusta", "Bowl", "Padella", "Mestolo", "Stendi pastella"],
     "ingredients": [
       {"name": "Uova", "amount": "1", "unit": ""},
       {"name": "Farina 00", "amount": "160", "unit": "g"},
@@ -591,7 +591,7 @@
     "type": "Dolce",
     "time": "preparazione 60 min + cottura 50 min",
     "diners": {"quantity": "6", "unit": "persone"},
-    "tools": ["Bowl grande", "Planetaria", "Marisa", "Pentolino", "Stampo rotondo 20cm", "Piatto tondo", "Coltello a sega", "Coltello a lama", "Griglia rialzata"],
+    "tools": ["Bowl", "Planetaria", "Marisa", "Pentolino", "Stampo rotondo 20cm", "Piatto", "Coltello da pane", "Coltello universale", "Griglia rialzata"],
     "ingredients": [
       {"name": "Cioccolato fondente 60% per stampo", "amount": "75", "unit": "g"},
       {"name": "Cioccolato fondente 60% per copertura", "amount": "185", "unit": "g"},
@@ -631,7 +631,7 @@
     "type": "Dolce",
     "time": "",
     "diners": {"quantity": "50", "unit": "pezzi"},
-    "tools": ["Planetaria", "Bowl grande", "Ciotola", "Carta forno", "Sac-a-poche"],
+    "tools": ["Planetaria", "Bowl", "Carta forno", "Sac à poche"],
     "ingredients": [
       {"name": "Tuorlo", "amount": "170", "unit": "g"},
       {"name": "Vaniglia", "amount": "2", "unit": ""},
@@ -648,7 +648,7 @@
         "image": "2.jpg"},
       {"step": "Mescolare in una ciotola farina e fecola setacciate.\nRipetere: mescolare dall'alto al basso delicatamente 1/3 degli albumi ai tuorli, aggiungere 1/3 delle polveri",
         "image": "3.jpg"},
-      {"step": "Stendere l'impasto usando la sac-a-poche sulla carta forno, lunghi 10 - 12 cm, ben distanziati",
+      {"step": "Stendere l'impasto usando la Sac à poche sulla carta forno, lunghi 10 - 12 cm, ben distanziati",
         "image": "4.jpg"},
       {"step": "Spolverare i savoiardi con dello zucchero e vaniglia, e poi con zucchero a velo",
         "image": "5.jpg"},
@@ -665,7 +665,7 @@
     "type": "Dolce",
     "time": "preparazione 30 min + cottura 60 min",
     "diners": {"quantity": "500", "unit": "barattolo"},
-    "tools": ["Tagliere", "Coltello", "Pentola", "Bowl"],
+    "tools": ["Tagliere", "Coltello universale", "Pentola", "Bowl"],
     "ingredients": [
       {"name": "Buccia di arancia", "amount": "300", "unit": "g"},
       {"name": "Zucchero", "amount": "800", "unit": "g"},
@@ -693,7 +693,7 @@
     "type": "Dolce",
     "time": "preparazione 10 min + gelatiera 40 min",
     "diners": {"quantity": "1", "unit": "litro"},
-    "tools": ["Bowl grande", "Planetaria", "Marisa", "Spremiagrumi", "Frusta", "Gelatiera"],
+    "tools": ["Bowl", "Planetaria", "Marisa", "Spremiagrumi", "Frusta", "Gelatiera"],
     "ingredients": [
       {"name": "Succo di limone", "amount": "260", "unit": "g"},
       {"name": "Acqua","amount": "500", "unit": "g"},
@@ -723,7 +723,7 @@
     "type": "Dolce",
     "time": "40 min",
     "diners": {"quantity": "6", "unit": "persone"},
-    "tools": ["Bowl grande", "Planetaria", "Marisa", "Teglia rettangolare"],
+    "tools": ["Bowl", "Planetaria", "Marisa", "Teglia"],
     "ingredients": [
       {"name": "Mascarpone", "amount": "750", "unit": "g"},
       {"name": "Uova", "amount": "5", "unit": ""},
@@ -755,7 +755,7 @@
     "type": "Dolce",
     "time": "preparazione 2 h",
     "diners": {"quantity": "10", "unit": "porzioni"},
-    "tools": ["Pentola", "Bowl", "Frusta", "Termometro", "Planetaria", "Colino", "Marisa", "Sac-a-poche"],
+    "tools": ["Pentola", "Bowl", "Frusta", "Termometro", "Planetaria", "Colino", "Marisa", "Sac à poche"],
     "ingredients": [
       {"name":  "Savoiardi by Iginio Massari", "amount": "100", "unit": "", "isRecipe": "true"},
       {"name":  "Crema al limone by Sal De Riso", "amount": "320", "unit": "g", "isRecipe": "true"},
@@ -802,7 +802,7 @@
     "type": "Dolce",
     "time": "preparazione 2 h + cottura 70 min",
     "diners": {"quantity": "5", "unit": "persone"},
-    "tools": ["Planetaria", "Bowl grande", "Ciotola", "Pentolino", "Teglia piccola", "Frusta", "Sac-a-poche", "Anello", "Piatto", "Pellicola", "Tarocco"],
+    "tools": ["Planetaria", "Bowl", "Pentolino", "Teglia", "Frusta", "Sac à poche", "Anello", "Piatto", "Pellicola per alimenti", "Tarocco"],
     "ingredients": [
       {"name":  "Savoiardi by Iginio Massari", "amount": "50", "unit": "", "isRecipe": "true"},
       {"name":  "Crema pasticcera by Iginio Massari", "amount": "400", "unit": "g", "isRecipe": "true"},
@@ -824,7 +824,7 @@
         "image": "2.jpg"},
       {"step": "Imburrare e zuccherare l'anello e porre su un piatto di portata.\nCoprire l'esterno del piatto con la pellicola.",
         "image": "3.jpg"},
-      {"step": "Usando la sac-a-poche stratificare con crema e savoiardi ben inzuppati.\nPer l'ultimo strato fare una cupola e coprire di crema.\nCon la bocchetta a stella decorare.\nRiporre in frigorifero",
+      {"step": "Usando la Sac à poche stratificare con crema e savoiardi ben inzuppati.\nPer l'ultimo strato fare una cupola e coprire di crema.\nCon la bocchetta a stella decorare.\nRiporre in frigorifero",
         "image": "4.jpg"},
       {"step": "Spolverata di cacao, estrarre l'anello, e coprire i bordi con il cioccolato fondente",
         "image": "last.jpg"}

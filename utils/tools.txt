@@ -1,4 +1,11 @@
-Bowl acciaio
+Anello
+Bowl
+Bowl di acciaio
+Bowl di vetro
+Carta assorbente
+Carta forno
+Cassetta in plastica
+Ciotola per bagnomaria
 Colino
 Coltello da chef
 Coltello da pane
@@ -6,22 +13,29 @@ Coltello Santoku
 Coltello sfilettatore
 Coltello trinciante
 Coltello universale
+Coppapasta
 Cucchiaio di legno
 Forbici
 Frullatore a immersione
 Frusta
+Gelatiera
 Grattugia
+Griglia rialzata
 Imbuto
 Macchina per la pasta
 Marisa
 Mattarello
 Mestolo
+Mestolo per pasta
 Mixer
 Mortaio
 Padella
 Pela verdure
+Pellicola per alimenti
 Pennello
 Pentola
+Pentolino
+Piatto
 Pinze
 Planetaria
 Sac à poche
@@ -30,8 +44,14 @@ Schiacciapatate
 Schiumarola
 Scolapasta
 Setaccio
+Spianatoia
 Spremiagrumi
+Stampi per cannoli
 Stampi per il ghiaccio
+Stampo per torta
+Stendi pastella
 Tagliere
+Tarocco
+Teglia
 Termometro
 Tostapane
