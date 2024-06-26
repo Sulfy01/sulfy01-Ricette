@@ -3,7 +3,7 @@
     "title": "Carbonara by Luciano Monosilio",
     "type": "Primo",
     "time": "45 min",
-    "diners": ["3", "persone"],
+    "diners": {"quantity": "3", "unit": "persone"},
     "tools": ["Padella", "Pentola", "Bowl grande", "Termometro", "Tagliere", "Coltello a lama", "Coltello a sega", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Cucchiaio scolapasta", "2 ciotole"],
     "ingredients": [
       {"name": "Spaghettoni", "amount": "280", "unit": "g"},
@@ -40,10 +40,7 @@
     "title": "Pasta al pomodoro e arancia by Cracco",
     "type": "Primo",
     "time": "30 m",
-    "diners": [
-      "4",
-      "persone"
-    ],
+    "diners": {"quantity": "4", "unit": "persone"},
     "tools": [
       "Padella",
       "Grattugia",
@@ -108,15 +105,13 @@
     ],
     "source": "web",
     "link": "https://www.lacucinaitaliana.it/storie/piatti-tipici/spaghetti-al-pomodoro-cracco/",
-    "video": null
+    "video": ""
   },
   {
     "title": "Pizza pala romana by Ian Spampatti",
     "type": "Primo",
     "time": "preparazione 30 min + lievitazioni 18 h",
-    "diners": [
-      "1000", "g"
-    ],
+    "diners": {"quantity": "1000", "unit": "g"},
     "tools": [
       "Planetaria",
       "Pellicola",
@@ -229,7 +224,7 @@
     "title": "Lasagna",
     "type": "Primo",
     "time": "preparazione 2 h + cottura 3 h",
-    "diners": ["6", "persone"],
+    "diners": {"quantity": "6", "unit": "persone"},
     "tools": ["Tagliere", "Coltello a lama", "Padella", "Frusta", "2 pentolini", "Teglia"],
     "ingredients": [
       {"name":  "Fogli di lasagna", "amount": "q.b.", "unit": ""},
@@ -279,7 +274,7 @@
     "title": "Paccheri con gamberi e burrata",
     "type": "Primo",
     "time": "40 min",
-    "diners": ["3", "persone"],
+    "diners": {"quantity": "3", "unit": "persone"},
     "tools": ["Pentola", "Padella", "Cucchiaio di legno", "Scolapasta", "Tagliere", "Coltello a lama", "Mixer"],
     "ingredients": [
       {"name": "Paccheri", "amount": "360", "unit": "g"},
@@ -317,7 +312,7 @@
     "title": "Ravioli ricotta e spinaci",
     "type": "Primo",
     "time": "60 min",
-    "diners": ["2", "persone"],
+    "diners": {"quantity": "2", "unit": "persone"},
     "tools": ["Pentola", "Padella", "Pellicola", "Planetaria", "Mixer", "Sac-a-poche", "Macchina per la pasta", "Mattarello", "Tagliere"],
     "ingredients": [
       {"name": "Semola rimacinata", "amount": "180", "unit": "g"},
@@ -356,7 +351,7 @@
     "title": "Cestini di Patate burrata e prosciutto",
     "type": "Secondo",
     "time": "preparazione 15 min + cottura 25 min",
-    "diners": ["4", "persone"],
+    "diners": {"quantity": "4", "unit": "persone"},
     "tools": ["Pentola", "Teglia", "Carta forno", "Coppapasta", "Sac-a-poche"],
     "ingredients": [
       {"name": "Patate", "amount": "400", "unit": "g"},
@@ -389,7 +384,7 @@
     "title": "Brioche col tuppo",
     "type": "Dolce",
     "time": "preparazione 40 min + cottura 20 min",
-    "diners": ["12", "pezzi"],
+    "diners": {"quantity": "12", "unit": "pezzi"},
     "tools": ["Teglia", "Carta forno", "Pennello"],
     "ingredients": [
       {"name": "Brioche impasto", "amount": "1", "unit": "", "isRecipe": "true"},
@@ -420,7 +415,7 @@
     "title": "Brioche impasto",
     "type": "Dolce",
     "time": "preparazione 90 min + lievitazioni 12 h",
-    "diners": ["20", "pezzi"],
+    "diners": {"quantity": "20", "unit": "pezzi"},
     "tools": ["Bowl grande", "Planetaria", "Pellicola"],
     "ingredients": [
       {"name": "Farina 00", "amount": "300", "unit": "g"},
@@ -459,7 +454,7 @@
     "title": "Cannoli by Edoardo Dolcimascolo",
     "type": "Dolce",
     "time": "preparazione 60 min + cottura 15 min",
-    "diners": ["30", "pezzi"],
+    "diners": {"quantity": "30", "unit": "pezzi"},
     "tools": ["Stampi per cannoli", "Planetaria", "Bowl", "Colino", "Setaccio", "Marisa", "Macchina per la pasta", "Pellicola", "Coppapasta", "Pennello", "Pentola", "Schiumarola", "Termometro", "Carta assorbente", "Sac-a-poche"],
     "ingredients": [
       {"name": "Farina 00", "amount": "250", "unit": "g"},
@@ -504,7 +499,7 @@
     "title": "Crema al limone by Sal De Riso",
     "type": "Dolce",
     "time": "",
-    "diners": ["320", "g"],
+    "diners": {"quantity": "320", "unit": "g"},
     "tools": ["Spremiagrumi", "Pentolino", "Grattugia", "Colino", "Frullatore a immersione", "Pellicola"],
     "ingredients": [
       {"name": "Tuorlo", "amount": "80", "unit": "g"},
@@ -535,7 +530,7 @@
     "title": "Crema pasticcera by Iginio Massari",
     "type": "Dolce",
     "time": "",
-    "diners": ["400", "g"],
+    "diners": {"quantity": "400", "unit": "g"},
     "tools": ["Bowl grande", "Pentola", "Grattugia", "Pentolino", "Ciotola", "Frusta"],
     "ingredients": [
       {"name": "Tuorlo", "amount": "100", "unit": "g"},
@@ -565,7 +560,7 @@
     "title": "Crepes",
     "type": "Dolce",
     "time": "10 min",
-    "diners": ["5", "persone"],
+    "diners": {"quantity": "5", "unit": "persone"},
     "tools": ["Frusta", "Bowl", "Padella antiaderente", "Mestolo", "Stendi pastella"],
     "ingredients": [
       {"name": "Uova", "amount": "1", "unit": ""},
@@ -595,7 +590,7 @@
     "title": "Sachertorte by Ernst Knam",
     "type": "Dolce",
     "time": "preparazione 60 min + cottura 50 min",
-    "diners": ["6", "persone"],
+    "diners": {"quantity": "6", "unit": "persone"},
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Pentolino", "Stampo rotondo 20cm", "Piatto tondo", "Coltello a sega", "Coltello a lama", "Griglia rialzata"],
     "ingredients": [
       {"name": "Cioccolato fondente 60% per stampo", "amount": "75", "unit": "g"},
@@ -635,7 +630,7 @@
     "title": "Savoiardi by Iginio Massari",
     "type": "Dolce",
     "time": "",
-    "diners": ["50", "pezzi"],
+    "diners": {"quantity": "50", "unit": "pezzi"},
     "tools": ["Planetaria", "Bowl grande", "Ciotola", "Carta forno", "Sac-a-poche"],
     "ingredients": [
       {"name": "Tuorlo", "amount": "170", "unit": "g"},
@@ -669,7 +664,7 @@
     "title": "Scorze d'arancia candite",
     "type": "Dolce",
     "time": "preparazione 30 min + cottura 60 min",
-    "diners": ["500", "barattolo"],
+    "diners": {"quantity": "500", "unit": "barattolo"},
     "tools": ["Tagliere", "Coltello", "Pentola", "Bowl"],
     "ingredients": [
       {"name": "Buccia di arancia", "amount": "300", "unit": "g"},
@@ -697,7 +692,7 @@
     "title": "Sorbetto al limone",
     "type": "Dolce",
     "time": "preparazione 10 min + gelatiera 40 min",
-    "diners": ["1", "litro"],
+    "diners": {"quantity": "1", "unit": "litro"},
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Spremiagrumi", "Frusta", "Gelatiera"],
     "ingredients": [
       {"name": "Succo di limone", "amount": "260", "unit": "g"},
@@ -727,7 +722,7 @@
     "title": "Tiramisù",
     "type": "Dolce",
     "time": "40 min",
-    "diners": ["6", "persone"],
+    "diners": {"quantity": "6", "unit": "persone"},
     "tools": ["Bowl grande", "Planetaria", "Marisa", "Teglia rettangolare"],
     "ingredients": [
       {"name": "Mascarpone", "amount": "750", "unit": "g"},
@@ -759,7 +754,7 @@
     "title": "Tiramisù al limone by Sal De Riso",
     "type": "Dolce",
     "time": "preparazione 2 h",
-    "diners": ["10", "porzioni"],
+    "diners": {"quantity": "10", "unit": "porzioni"},
     "tools": ["Pentola", "Bowl", "Frusta", "Termometro", "Planetaria", "Colino", "Marisa", "Sac-a-poche"],
     "ingredients": [
       {"name":  "Savoiardi by Iginio Massari", "amount": "100", "unit": "", "isRecipe": "true"},
@@ -806,7 +801,7 @@
     "title": "Tiramisù by Iginio Massari",
     "type": "Dolce",
     "time": "preparazione 2 h + cottura 70 min",
-    "diners": ["5", "persone"],
+    "diners": {"quantity": "5", "unit": "persone"},
     "tools": ["Planetaria", "Bowl grande", "Ciotola", "Pentolino", "Teglia piccola", "Frusta", "Sac-a-poche", "Anello", "Piatto", "Pellicola", "Tarocco"],
     "ingredients": [
       {"name":  "Savoiardi by Iginio Massari", "amount": "50", "unit": "", "isRecipe": "true"},

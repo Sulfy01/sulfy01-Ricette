@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     infoList.innerHTML = `
       <li>Categoria: ${recipe.type}</li>
       <li id="recipe-time">Tempo: ${recipe.time}</li>
-      <li id ="recipe-diners" data-diners="${recipe.diners[0]}">Dosi: ${recipe.diners[0]} ${recipe.diners[1]}</li>
+      <li id ="recipe-diners" data-diners="${recipe.diners.quantity}">Dosi: ${recipe.diners.quantity} ${recipe.diners.unit}</li>
     `;
 
     if (recipe.source === "web") {

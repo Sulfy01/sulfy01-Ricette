@@ -119,9 +119,9 @@ function generateAndDownloadJSON() {
         title: formData.get('title'),
         type: formData.get('type'),
         time: formData.get('time'),
-        diners: [
-            formData.get('diners-quantity'), formData.get('diners-unit')
-        ],
+        diners: {
+            "quantity": formData.get('diners-quantity'), "unit": formData.get('diners-unit')
+        },
         tools: [],
         ingredients: [],
         procedure: [],
