@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
           case "Secondo":
             secondiList.appendChild(li);
             break;
-          case "Contorni":
+          case "Contorno":
             contorniList.appendChild(li);
             break;
           case "Dolce":

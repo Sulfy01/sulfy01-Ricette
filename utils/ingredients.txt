@@ -5,6 +5,7 @@ Coloranti alimentari
 Cremor tartaro
 Dado
 Fiocchi di patate
+Gelatina
 Glucosio
 Lecitina di soia
 Lievito istantaneo
@@ -31,6 +32,7 @@ Martini
 Rum
 Sake
 Spumante
+Vin santo
 Vino bianco
 Vino rosso
 Vodka
@@ -79,6 +81,7 @@ Riso
 Riso soffiato
 Riso venere
 Seitan
+Biscotti
 Cioccolato
 Cioccolato al latte
 Cioccolato bianco
@@ -139,6 +142,8 @@ Salvia
 Timo
 Farina 0
 Farina 00
+Farina 1
+Farina 2
 Farina di canapa
 Farina di ceci
 Farina di cocco
@@ -148,11 +153,13 @@ Farina di mais
 Farina di mandorle
 Farina di riso
 Farina di segale
+Farina di semola
 Farina integrale
+Farina manitoba
+Farina spolvero
 Fecola di patate
 Frumina
 Maizena
-Semola
 Semolino
 Asiago DOP
 Brie
@@ -160,6 +167,7 @@ Caciocavallo
 Caciotta
 Caprino
 Cheddar
+Comtè
 Crescenza
 Emmental
 Feta
@@ -264,11 +272,11 @@ Latticello
 Panna acida
 Panna da cucina
 Panna fresca
-Panna per dolci
 Yogurt
 Yogurt greco
 Burrata
-Mozzarella
+Mozzarella di bufala
+Mozzarella fiordilatte
 Provola
 Ricotta
 Ceci
@@ -284,6 +292,8 @@ Taccole
 Tempeh
 Tofu
 Aceto balsamico
+Aceto di vino bianco
+Aceto di vino rosso
 Brodo
 Burro di arachidi
 Colatura di alici
@@ -295,6 +305,7 @@ Nero di seppia
 Olio di cocco
 Olio di oliva
 Olio di semi
+Olio per friggere
 Pasta wasabi
 Sale
 Salsa di pesce
@@ -344,6 +355,8 @@ Pasta
 Penne
 Scialatielli
 Spaghetti
+Spaghettini
+Spaghettoni
 Tagliatelle
 Tagliolini
 Trofie
@@ -398,6 +411,7 @@ Sottaceti
 Torrone
 Pancarrè
 Pane
+Pane bianco
 Pane carasau
 Pane per tramezzini
 Pangrattato

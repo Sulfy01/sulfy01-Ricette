@@ -1,11 +1,14 @@
 Anello
+Batticarne
 Bowl
 Bowl di acciaio
 Bowl di vetro
+Canovaccio
 Carta assorbente
 Carta forno
 Cassetta in plastica
 Ciotola per bagnomaria
+Ciotolina
 Colino
 Coltello da chef
 Coltello da pane
@@ -48,6 +51,7 @@ Spianatoia
 Spremiagrumi
 Stampi per cannoli
 Stampi per il ghiaccio
+Stampi per plump-cake
 Stampo per torta
 Stendi pastella
 Tagliere
