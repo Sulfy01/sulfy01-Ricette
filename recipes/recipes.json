@@ -1,5 +1,143 @@
 [
   {
+    "title": "Croque madame by Denny Imbroisi",
+    "type": "Antipasto",
+    "time": "25 min",
+    "diners": {
+      "quantity": "6",
+      "unit": "pezzi"
+    },
+    "tools": [
+      "Padella",
+      "Ciotolina",
+      "Marisa",
+      "Coltello"
+    ],
+    "ingredients": [
+      {
+        "name": "Croque monsieur by Denny Imbroisi",
+        "amount": "6",
+        "unit": "pezzi",
+        "isRecipe": "true"
+      },
+      {
+        "name": "Uova",
+        "amount": "6",
+        "unit": ""
+      },
+      {
+        "name": "Burro",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Sciogliere del burro in padella per friggere le uova.\nRompere le uova in una ciotolina e versarle nella padella.\nAggiungere sale e pepe e friggere fino a croccantezza",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Mettere l'uovo sul toast e rompere l'albume tagliando in diagonale",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Croque-madame.html",
+    "video": "UlFkQyl_7rE"
+  },
+  {
+    "title": "Croque monsieur by Denny Imbroisi",
+    "type": "Antipasto",
+    "time": "preparazione 10 min + cottura 12 min",
+    "diners": {
+      "quantity": "6",
+      "unit": "pezzi"
+    },
+    "tools": [
+      "Pentola",
+      "Frusta",
+      "Coltello universale",
+      "Bowl",
+      "Pellicola per alimenti"
+    ],
+    "ingredients": [
+      {
+        "name": "Pane bianco in cassetta spesse",
+        "amount": "12",
+        "unit": "fette"
+      },
+      {
+        "name": "Prosciutto cotto (o salmone, zucchine grigliate)",
+        "amount": "300",
+        "unit": "g"
+      },
+      {
+        "name": "Comtè (o gruviera, grana)",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Pepe",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Latte",
+        "amount": "450",
+        "unit": "g"
+      },
+      {
+        "name": "Farina 00",
+        "amount": "45",
+        "unit": "g"
+      },
+      {
+        "name": "Burro",
+        "amount": "45",
+        "unit": "g"
+      },
+      {
+        "name": "Noce moscata",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Per la besciamella: sciogliere il burro in padella, aggiungere la farina e cuocere delicatamente per 2 - 3 min.\nAggiungere poco alla volta latte freddo.\nSe fa grumi mixare",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Aromatizzare con noce moscata, sale e pepe.\nQuando sarà densa mettere in frigorifero con pellicola a contatto",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Tagliare fette non troppo spesse, spalmare entrambe le fette con besciamella e grattugiare abbondante formaggio, poi sale, pepe e prosciutto",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Chiudere, fare leggera pressione, e in superficie spalmare besciamella e grattugiare il formaggio",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Infornare su carta forno a 190° 8 - 12 min, fino a doratura",
+        "image": "5.jpg"
+      },
+      {
+        "step": "Tagliare in diagonale e servire su un tagliere",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Croque-monsieur.html",
+    "video": "q6hglDCS6Gc"
+  },
+  {
     "title": "Mozzarella in carrozza napoletana by Andrea Aprea",
     "type": "Antipasto",
     "time": "preparazione 30 min + riposo 1 h",
@@ -94,7 +232,7 @@
         "image": "5.jpg"
       },
       {
-        "step": "Scaldare l'olio a 170°, friggere e scolare su carta arrorbente",
+        "step": "Scaldare l'olio a 170°, friggere e scolare su carta assorbente",
         "image": "last.jpg"
       }
     ],
@@ -456,7 +594,7 @@
         "image": "1.jpg"
       },
       {
-        "step": "Scaldare dell'olio in padella, grattuggiare l'aglio e aggiungere un peperoncino diviso a metà e i gambi di prezzemolo, per soffriggere lentamente",
+        "step": "Scaldare dell'olio in padella, grattugiare l'aglio e aggiungere un peperoncino diviso a metà e i gambi di prezzemolo, per soffriggere lentamente",
         "image": "2.jpg"
       },
       {
@@ -690,11 +828,11 @@
         "image": "2.jpg"
       },
       {
-        "step": "Frullare nel mixer e setacciare.\nFrullare l'origano per ottenere altre polveri e setacciare",
+        "step": "Per le polveri: frullare nel mixer e setacciare sia le bucce che l'origano",
         "image": "3.jpg"
       },
       {
-        "step": "Cuocere lo spaghettone, scolarlo in padella con la salsa.\nAggiungere acqua di cottura",
+        "step": "Cuocere lo spaghettone, scolarlo in padella con la salsa e amalgamare  per 2 - 3 min\nAggiungere acqua di cottura",
         "image": "4.jpg"
       },
       {
@@ -738,144 +876,6 @@
     "source": "web",
     "link": "https://www.sandanielemagazine.com/ricette-prosciutto-di-san-daniele/cestini-di-patate-con-burrata-e-prosciutto-di-san-daniele/",
     "video": ""
-  },
-  {
-    "title": "Croque madame by Denny Imbroisi",
-    "type": "Secondo",
-    "time": "25 min",
-    "diners": {
-      "quantity": "6",
-      "unit": "pezzi"
-    },
-    "tools": [
-      "Padella",
-      "Ciotolina",
-      "Marisa",
-      "Coltello"
-    ],
-    "ingredients": [
-      {
-        "name": "Croque monsieur by Denny Imbroisi",
-        "amount": "6",
-        "unit": "pezzi",
-        "isRecipe": "true"
-      },
-      {
-        "name": "Uova",
-        "amount": "6",
-        "unit": ""
-      },
-      {
-        "name": "Burro",
-        "amount": "q.b.",
-        "unit": ""
-      }
-    ],
-    "procedure": [
-      {
-        "step": "Sciogliere del burro in padella per friggere le uova.\nRompere le uova in una ciotolina e versarle nella padella.\nAggiungere sale e pepe e friggere fino a croccantezza",
-        "image": "1.jpg"
-      },
-      {
-        "step": "Mettere l'uovo sul toast e rompere l'albume tagliando in diagonale",
-        "image": "last.jpg"
-      }
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Croque-madame.html",
-    "video": "UlFkQyl_7rE"
-  },
-  {
-    "title": "Croque monsieur by Denny Imbroisi",
-    "type": "Secondo",
-    "time": "preparazione 10 min + cottura 12 min",
-    "diners": {
-      "quantity": "6",
-      "unit": "pezzi"
-    },
-    "tools": [
-      "Pentola",
-      "Frusta",
-      "Coltello universale",
-      "Bowl",
-      "Pellicola per alimenti"
-    ],
-    "ingredients": [
-      {
-        "name": "Pane bianco in cassetta spesse",
-        "amount": "12",
-        "unit": "fette"
-      },
-      {
-        "name": "Prosciutto cotto (o salmone, zucchine grigliate)",
-        "amount": "300",
-        "unit": "g"
-      },
-      {
-        "name": "Comtè (o gruviera, grana)",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Sale",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Pepe",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Latte",
-        "amount": "450",
-        "unit": "g"
-      },
-      {
-        "name": "Farina 00",
-        "amount": "45",
-        "unit": "g"
-      },
-      {
-        "name": "Burro",
-        "amount": "45",
-        "unit": "g"
-      },
-      {
-        "name": "Noce moscata",
-        "amount": "q.b.",
-        "unit": ""
-      }
-    ],
-    "procedure": [
-      {
-        "step": "Per la besciamella: sciogliere il burro in padella, aggiungere la farina e ciocere delicatamente per 2 - 3 min.\nAggiungere poco alla volta latte freddo.\nSe fa grumi mixare",
-        "image": "1.jpg"
-      },
-      {
-        "step": "Aromzatizzare con noce moscata, sale e pepe.\nQuando sarà densa mettere in frigorifero con pellicola a contatto",
-        "image": "2.jpg"
-      },
-      {
-        "step": "Tagliare fette non troppo spesse, spalmare entrambe le fette con besciamella e grattuggiare abbondante formaggio, poi sale, pepe e prosciutto",
-        "image": "3.jpg"
-      },
-      {
-        "step": "Chiudere, fare leggera pressione, e in superficie spalmare bescaimella e grattuggiare il formaggio",
-        "image": "4.jpg"
-      },
-      {
-        "step": "Infornare su carta forno a 190° 8 - 12 min, fino a doratura",
-        "image": "5.jpg"
-      },
-      {
-        "step": "Tagliare in diagonale e servire su un tagliere",
-        "image": "last.jpg"
-      }
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Croque-monsieur.html",
-    "video": "q6hglDCS6Gc"
   },
 
   {
@@ -988,11 +988,6 @@
         "name": "Farina spolvero",
         "amount": "q.b.",
         "unit": ""
-      },
-      {
-        "name": "",
-        "amount": "q.b.",
-        "unit": ""
       }
     ],
     "procedure": [
@@ -1017,7 +1012,7 @@
         "image": "5.jpg"
       },
       {
-        "step": "Far lievitare per 3 h a temperatura ambiente in una bowl coperta da un canovaccio, e ogni 45 min fare pieghe di rinforzo (folding)",
+        "step": "Far lievitare per 3 h a temperatura ambiente in una bowl coperta da un canovaccio, e ogni 45 min fare pieghe di rinforzo (folding) a 1/4, su entrambi gli assi",
         "image": "6.jpg"
       },
       {
@@ -1783,11 +1778,11 @@
         "image": "1.jpg"
       },
       {
-        "step": "Semper mescolando energicamente, quando lo zucchero comincia a sciogliere, aggiungere una piccola parte di vino e a bagnomaria versare il restante",
+        "step": "Semper mescolando energicamente, quando lo zucchero comincia a sciogliere nel vino, aggiungere una piccola parte di vino, andare a bagnomaria e versare il restante vino\nArriviamo a 82°, quindi fino a quando sarà una crema",
         "image": "2.jpg"
       },
       {
-        "step": "Arriviamo a 82°, quindi fino a quando sarà una crema.\nVersare subito in una bowl fredda, a bagnomaria col ghiaccio, e mescolare con una marisa per un minuto",
+        "step": "Versare subito in una bowl fredda, a bagnomaria col ghiaccio, e mescolare con una marisa per un minuto",
         "image": "3.jpg"
       },
       {
