@@ -149,7 +149,7 @@ function generateAndDownloadJSON() {
     };
 
     document.querySelectorAll('#tools-list input').forEach(input => {
-        recipe.tools.push(capitalizeFirstLetter(input.value));
+        if (input.value) recipe.tools.push(capitalizeFirstLetter(input.value));
     });
     document.querySelectorAll('#ingredients-list .ingredient').forEach((ingredient) => {
         let amount = ingredient.querySelector('input[name="ingredient-amount"]').value;
@@ -160,7 +160,7 @@ function generateAndDownloadJSON() {
         if (allRecipes.includes(name)) {
             let isRecipe = "true";
             recipe.ingredients.push({ name, amount, unit, isRecipe });
-        }else {
+        }else if (name){
             recipe.ingredients.push({name, amount, unit});
         }
     });
