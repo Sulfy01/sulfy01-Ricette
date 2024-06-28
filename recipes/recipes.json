@@ -764,6 +764,93 @@
     "video": "LmnQI5S4-gs"
   },
   {
+    "title": "Spaghetti alle vongole by Carmela Abbate",
+    "type": "Primo",
+    "time": "preparazione 20 m",
+    "diners": {
+      "quantity": "4",
+      "unit": "persone"
+    },
+    "tools": [
+      "Padella",
+      "Pentola",
+      "Mestolo per pasta",
+      "Pinze",
+      "Colino",
+      "Bowl di vetro"
+    ],
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "name": "Vongole",
+        "amount": "1",
+        "unit": "kg"
+      },
+      {
+        "name": "Aglio",
+        "amount": "2",
+        "unit": "spicchi"
+      },
+      {
+        "name": "Olio",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Prezzemolo",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Vino bianco",
+        "amount": "0.25",
+        "unit": "bicchieri"
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Per la pulizia delle vongole:\nTestarne la bontà facendole cadere su una superficie, devono rimanere chiuse.\nSciacquarle in una bowl e lasciare a mollo con del sale grosso per 2 - 3 h.\nRisciacquare",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Salare l'acqua, e appena prima di buttare gli spaghetti inserire del prezzemolo",
+        "image": "2.jpg"
+      },
+      {
+        "step": "In padella soffriggere i gambi di prezzemolo e l'aglio schiacciato, e quando sarà dorato, aggiungere le vongole a fuoco alto",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Aggiungere il vino e poca acqua di cottura.\nChiudere con il coperchio e, appena aperte, toglierle dal fuoco",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Passare in un colino il sugo e rimettere in padella.\nAggiungere gli spaghetti al dente e del prezzemolo tritato",
+        "image": "5.jpg"
+      },
+      {
+        "step": "Saltare in padella fino ad avere una buona crema.\nSe non si vogliono avere troppi gusci nel piatto sgusciare le vongole e inserirle appena prima di impiattare",
+        "image": "6.jpg"
+      },
+      {
+        "step": "Impiattare a nido con i gusci delle vongole ancora piene e del prezzemolo",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Spaghetti-alle-vongole.html",
+    "video": "7G71jCslhNg"
+  },
+  {
     "title": "Spaghettone al datterino giallo by Solaika Marrocco",
     "type": "Primo",
     "time": "preparazione 55 min + forno 2 h",
@@ -996,7 +1083,7 @@
         "image": "1.jpg"
       },
       {
-        "step": "L'impasto deve stare a 27 - 28°, e deve essere non liscio.\nFar riposare un'ora",
+        "step": "L'impasto deve stare a 27 - 28°, e deve essere non liscio.\nFar riposare 1 h",
         "image": "2.jpg"
       },
       {
