@@ -41,6 +41,20 @@
                 <input type="text" id="diners-unit" name="diners-unit" placeholder="ex. persone, g, pezzi ..." required>
             </label>
         </div>
+        <div>
+            <label for="source">Tipo fonte*:</label>
+            <input type="text" id="source" name="source" placeholder="web o altro a piacere" oninput="showLinks(this)" required>
+        </div>
+        <div id="links" style="display: none">
+            <div class="link-container">
+                <label for="link">Link sito:</label>
+                <input type="url" id="link" name="link">
+            </div>
+            <div class="link-container">
+                <label for="video">Video youtube:</label>
+                <input type="url" id="video" name="video">
+            </div>
+        </div>
         <div id="tools-list">
             <h2>Strumenti*</h2>
         </div>
@@ -58,20 +72,6 @@
             </div>
         </div>
         <button type="button" onclick="addStep()">Aggiungi procedimento</button>
-        <div>
-            <label for="source">Tipo fonte*:</label>
-            <input type="text" id="source" name="source" placeholder="web o altro a piacere" oninput="showLinks(this)" required>
-        </div>
-        <div id="links" style="display: none">
-            <div class="link-container">
-                <label for="link">Link sito:</label>
-                <input type="url" id="link" name="link">
-            </div>
-            <div class="link-container">
-                <label for="video">Video youtube:</label>
-                <input type="url" id="video" name="video">
-            </div>
-        </div>
         <button type="button" onclick="generateAndDownloadJSON()">Download</button>
     </form>
 </div>
