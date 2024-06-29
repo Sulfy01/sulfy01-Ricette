@@ -1099,7 +1099,7 @@
         "image": "5.jpg"
       },
       {
-        "step": "Far lievitare per 3 h a temperatura ambiente in una bowl coperta da un canovaccio, e ogni 45 min fare pieghe di rinforzo (folding) a 1/4, su entrambi gli assi",
+        "step": "Far lievitare per 3 h a temperatura ambiente in una bowl coperta da un canovaccio, e ogni 30 min, per 4 volte, fare pieghe di rinforzo (folding) a 1/4, su entrambi gli assi",
         "image": "6.jpg"
       },
       {
@@ -1223,6 +1223,72 @@
     "source": "web",
     "link": "https://ricette.giallozafferano.it/Pasta-per-choux.html",
     "video": "VFzXZB7cSsk"
+  },
+  {
+    "title": "Biscotti lingue di gatto by Iginio Massari",
+    "type": "Dolce",
+    "time": "preparazione 15 min + cottura 8 min",
+    "diners": {
+      "quantity": "34",
+      "unit": "pezzi"
+    },
+    "tools": [
+      "Bowl di vetro",
+      "Marisa",
+      "Sac à poche",
+      "Carta forno"
+    ],
+    "ingredients": [
+      {
+        "name": "Burro morbido",
+        "amount": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Zucchero a velo",
+        "amount": "60",
+        "unit": "g"
+      },
+      {
+        "name": "Albumi",
+        "amount": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Farina 0",
+        "amount": "50",
+        "unit": "g"
+      }
+    ],
+    "procedure": [
+      {
+        "step": "In una bowl mescolare burro morbido e zucchero a velo",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Aggiungere gli albumi fino ad ottenere una crema",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Aggiungere la farina, fino ad avere una massa morbida",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Con una sac à poche formare sulla carta forno bastoncini lunghi 10 cm",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Cuocere a 190° per 8 minuti",
+        "image": "5.jpg"
+      },
+      {
+        "step": "Se si vuole arrotondare, appena sfornati piegare leggermente su un mestolo",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Lingue-di-gatto.html",
+    "video": "podeCdCn7oc"
   },
   {
     "title": "Brioche col tuppo",
@@ -1547,9 +1613,10 @@
         "unit": ""
       },
       {
-        "name": "Biscotti lingua di gatto",
+        "name": "Biscotti lingue di gatto by Iginio Massari",
         "amount": "q.b.",
-        "unit": ""
+        "unit": "",
+        "isRecipe": "true"
       }
     ],
     "procedure": [
