@@ -56,10 +56,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const toolsList = document.getElementById('tools-list');
     toolsList.innerHTML = '';
 
+    let tooCont = 0;
     recipe.tools.forEach(tool => {
       const li = document.createElement('li');
-      li.innerHTML = `<input type="checkbox" id="${tool}" onchange="checkLi(this)"> <label for="${tool}">${tool}</label>`;
+      li.innerHTML = `<input type="checkbox" id="${tool}-${tooCont}" onchange="checkLi(this)"> <label for="${tool}-${tooCont}">${tool}</label>`;
       toolsList.appendChild(li);
+      tooCont++;
     });
   }
   function displayIngredients(recipe) {
@@ -68,6 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ingredientsList.innerHTML = '';
     baseIngredientSelect.innerHTML = '';
 
+    let ingCont = 0;
     recipe.ingredients.forEach(ingredient => {
       const li = document.createElement('li');
       li.className = 'ingredient-list-item';
@@ -77,8 +80,8 @@ document.addEventListener('DOMContentLoaded', function() {
           ingredient.name;
 
       li.innerHTML = `
-        <input type="checkbox" id="${ingredient.name}" onchange="checkLi(this)">
-        <label for="${ingredient.name}">${isRecipeLink}</label>
+        <input type="checkbox" id="${ingredient.name}-${ingCont}" onchange="checkLi(this)">
+        <label for="${ingredient.name}-${ingCont}">${isRecipeLink}</label>
         <div class="ingredient-amount-unit">
           <span class="ingredient-amount" data-quantity="${ingredient.amount}">${ingredient.amount}</span> 
           <span class="ingredient-unit">${ingredient.unit}</span>
@@ -92,6 +95,8 @@ document.addEventListener('DOMContentLoaded', function() {
       option.value = ingredient.amount;
       option.textContent = ingredient.name;
       baseIngredientSelect.appendChild(option);
+
+      ingCont++;
     });
 
     //option based on diners
