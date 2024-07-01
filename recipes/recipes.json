@@ -350,6 +350,90 @@
     "video": ""
   },
   {
+    "title": "Pasta al pomodoro e menta by Davide Oldani",
+    "type": "Primo",
+    "time": "60 min",
+    "diners": {
+      "quantity": "4",
+      "unit": "persone"
+    },
+    "tools": [
+      "Carta forno",
+      "Pentola",
+      "Pentola",
+      "Mestolo",
+      "Tagliere",
+      "Coltello universale",
+      "Forbici"
+    ],
+    "ingredients": [
+      {
+        "name": "Pasta mezze maniche",
+        "amount": "320",
+        "unit": "g"
+      },
+      {
+        "name": "Pomodori",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Passata di pomodoro",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Spaghetti fritti",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Menta",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Olio",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Per sbiancare i pomodori: metterli in acqua bollente salata, togliere la buccia, tagliare in 4 e privare dei semi.\nPer essiccare, mettere al forno con un pizzico di sale e zucchero a 120° per 40 min",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Scaldare una pentola di acqua.\nScaldare una pentola in rame vuota, e riempire di pasta coprendo il fondo.\nA secco, continuando a muovere, dorare leggermente la pasta",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Bagnare leggermente con acqua bollente e cuocere per 5 minuti circa, fino ad avere acqua con molto amido",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Aggiungere la passata un po' alla volta, poca acqua calda, e cucinare per altri 3 minuti",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Aggiungere un pizzico di sale e di zucchero, spegnere il fuoco e mantecare.\nAggiustare il sale, e aggiungere un leggero tocco d'olio",
+        "image": "5.jpg"
+      },
+      {
+        "step": "Per impiattare: stendere la pasta su un piatto, aggiungere i pomodori essiccati, la menta, e lo spaghetto fritto.\nPer la menta, piegare le foglie in 3, e, con la forbice, tagliarle molto finemente",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "",
+    "video": "GpJue1tGGYM"
+  },
+  {
     "title": "Pizza pala romana by Ian Spampatti",
     "type": "Primo",
     "time": "preparazione 30 min + lievitazioni 18 h",
