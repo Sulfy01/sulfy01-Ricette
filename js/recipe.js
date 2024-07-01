@@ -38,8 +38,12 @@ document.addEventListener('DOMContentLoaded', function() {
   function displayWeb(recipe) {
     if (recipe.source === "web") {
       const externalLink = document.getElementById('external-link');
-      externalLink.href = recipe.link;
-      externalLink.textContent = externalLink.href.substring(externalLink.href.indexOf('//') + 2, externalLink.href.indexOf('/', 10))
+      if (!recipe.link) {
+        externalLink.style.display = "none"
+      } else {
+        externalLink.href = recipe.link;
+        externalLink.textContent = externalLink.href.substring(externalLink.href.indexOf('//') + 2, externalLink.href.indexOf('/', 10))
+      }
 
       if (!recipe.video)
         document.getElementById("yt-container").style.display = "none";
