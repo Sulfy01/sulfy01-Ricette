@@ -136,9 +136,14 @@ function generateAndDownloadJSON() {
     const recipe = {
         title: capitalizeFirstLetter(formData.get('title')),
         type: formData.get('type'),
-        time: formData.get('time'),
+        time: {
+            "preparazione": formData.get('time-preparazione'),
+            "cottura": formData.get('time-cottura'),
+            "riposo": formData.get('time-riposo')
+        },
         diners: {
-            "quantity": formData.get('diners-quantity'), "unit": formData.get('diners-unit')
+            "quantity": formData.get('diners-quantity'),
+            "unit": formData.get('diners-unit')
         },
         tools: [],
         ingredients: [],

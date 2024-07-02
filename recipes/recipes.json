@@ -2,7 +2,11 @@
   {
     "title": "Croque madame by Denny Imbroisi",
     "type": "Antipasto",
-    "time": "25 min",
+    "time": {
+      "preparazione": "3",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "6",
       "unit": "pezzi"
@@ -48,7 +52,11 @@
   {
     "title": "Croque monsieur by Denny Imbroisi",
     "type": "Antipasto",
-    "time": "preparazione 10 min + cottura 12 min",
+    "time": {
+      "preparazione": "10",
+      "cottura": "12",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "6",
       "unit": "pezzi"
@@ -140,7 +148,11 @@
   {
     "title": "Mozzarella in carrozza napoletana by Andrea Aprea",
     "type": "Antipasto",
-    "time": "preparazione 30 min + riposo 1 h",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "24",
       "unit": "pezzi"
@@ -244,7 +256,11 @@
   {
     "title": "Lasagna",
     "type": "Primo",
-    "time": "preparazione 2 h + cottura 3 h",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "6", "unit": "persone"},
     "tools": ["Tagliere", "Coltello universale", "Padella", "Frusta", "Pentolino", "Pentolino", "Teglia"],
     "ingredients": [
@@ -294,7 +310,11 @@
   {
     "title": "Pasta aglio, olio e peperoncino by Luciano Monosilio",
     "type": "Primo",
-    "time": "15 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "4",
       "unit": "persone"
@@ -363,7 +383,11 @@
   {
     "title": "Pasta aglio, olio e peperoncino di mare by Giuseppe Mancino",
     "type": "Primo",
-    "time": "60 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "4",
       "unit": "persone"
@@ -469,7 +493,11 @@
   {
     "title": "Pasta al datterino giallo by Solaika Marrocco",
     "type": "Primo",
-    "time": "preparazione 55 min + forno 2 h",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "4",
       "unit": "persone"
@@ -550,7 +578,11 @@
   {
     "title": "Pasta al pomodoro e arancia by Cracco",
     "type": "Primo",
-    "time": "30 m",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "4", "unit": "persone"},
     "tools": [
       "Padella",
@@ -621,7 +653,11 @@
   {
     "title": "Pasta al pomodoro e menta by Davide Oldani",
     "type": "Primo",
-    "time": "60 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "4",
       "unit": "persone"
@@ -705,7 +741,11 @@
   {
     "title": "Pasta alle vongole by Carmela Abbate",
     "type": "Primo",
-    "time": "preparazione 20 m",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "4",
       "unit": "persone"
@@ -792,7 +832,11 @@
   {
     "title": "Pasta Carbonara by Luciano Monosilio",
     "type": "Primo",
-    "time": "45 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "3", "unit": "persone"},
     "tools": ["Padella", "Pentola", "Ciotola per bagnomaria", "Termometro", "Tagliere", "Coltello universale", "Coltello da pane", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Mestolo per pasta"],
     "ingredients": [
@@ -829,7 +873,11 @@
   {
     "title": "Pasta con gamberi e burrata",
     "type": "Primo",
-    "time": "40 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "3", "unit": "persone"},
     "tools": ["Pentola", "Padella", "Cucchiaio di legno", "Scolapasta", "Tagliere", "Coltello universale", "Mixer"],
     "ingredients": [
@@ -867,7 +915,11 @@
   {
     "title": "Pizza pala romana by Ian Spampatti",
     "type": "Primo",
-    "time": "preparazione 30 min + lievitazioni 18 h",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "1000", "unit": "g"},
     "tools": [
       "Planetaria",
@@ -980,7 +1032,11 @@
   {
     "title": "Ravioli ricotta e spinaci",
     "type": "Primo",
-    "time": "60 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "2", "unit": "persone"},
     "tools": ["Pentola", "Padella", "Pellicola per alimenti", "Planetaria", "Mixer", "Sac à poche", "Macchina per la pasta", "Mattarello", "Tagliere"],
     "ingredients": [
@@ -1019,7 +1075,11 @@
   {
     "title": "Cestini di Patate burrata e prosciutto",
     "type": "Secondo",
-    "time": "preparazione 15 min + cottura 25 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "4", "unit": "persone"},
     "tools": ["Pentola", "Carta forno", "Coppapasta", "Sac à poche"],
     "ingredients": [
@@ -1052,7 +1112,11 @@
   {
     "title": "Pane di campagna by Davide Longoni",
     "type": "Contorno",
-    "time": "preparazione 2 h + lievitazioni 24 h",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "500",
       "unit": "g"
@@ -1166,7 +1230,11 @@
   {
     "title": "Biscotti lingue di gatto by Iginio Massari",
     "type": "Dolce",
-    "time": "preparazione 15 min + cottura 8 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "34",
       "unit": "pezzi"
@@ -1232,7 +1300,11 @@
   {
     "title": "Biscotti Savoiardi by Iginio Massari",
     "type": "Dolce",
-    "time": "",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "50", "unit": "pezzi"},
     "tools": ["Planetaria", "Bowl", "Carta forno", "Sac à poche"],
     "ingredients": [
@@ -1266,7 +1338,11 @@
   {
     "title": "Brioche col tuppo",
     "type": "Dolce",
-    "time": "preparazione 40 min + cottura 20 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "12", "unit": "pezzi"},
     "tools": ["Carta forno", "Pennello"],
     "ingredients": [
@@ -1297,7 +1373,11 @@
   {
     "title": "Cannoli by Edoardo Dolcimascolo",
     "type": "Dolce",
-    "time": "preparazione 60 min + cottura 15 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "30", "unit": "pezzi"},
     "tools": ["Stampi per cannoli", "Planetaria", "Bowl", "Colino", "Setaccio", "Marisa", "Macchina per la pasta", "Pellicola per alimenti", "Coppapasta", "Pennello", "Pentola", "Schiumarola", "Termometro", "Carta assorbente", "Sac à poche"],
     "ingredients": [
@@ -1342,7 +1422,11 @@
   {
     "title": "Dessert al limone by Enrico Derflingher",
     "type": "Dolce",
-    "time": "preparazione 20 min + riposo 24 h",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "12",
       "unit": "pezzi"
@@ -1418,7 +1502,11 @@
   {
     "title": "Sachertorte by Ernst Knam",
     "type": "Dolce",
-    "time": "preparazione 60 min + cottura 50 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "6", "unit": "persone"},
     "tools": ["Bowl", "Planetaria", "Marisa", "Pentolino", "Stampo rotondo 20cm", "Piatto", "Coltello da pane", "Coltello universale", "Griglia rialzata"],
     "ingredients": [
@@ -1458,7 +1546,11 @@
   {
     "title": "Sorbetto al limone",
     "type": "Dolce",
-    "time": "preparazione 10 min + gelatiera 40 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "1", "unit": "litro"},
     "tools": ["Bowl", "Planetaria", "Marisa", "Spremiagrumi", "Frusta", "Gelatiera"],
     "ingredients": [
@@ -1488,7 +1580,11 @@
   {
     "title": "Tiramisù",
     "type": "Dolce",
-    "time": "40 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "6", "unit": "persone"},
     "tools": ["Bowl", "Planetaria", "Marisa", "Teglia"],
     "ingredients": [
@@ -1520,7 +1616,11 @@
   {
     "title": "Tiramisù al limone by Sal De Riso",
     "type": "Dolce",
-    "time": "preparazione 2 h",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "10", "unit": "porzioni"},
     "tools": ["Pentola", "Bowl", "Frusta", "Termometro", "Planetaria", "Colino", "Marisa", "Sac à poche"],
     "ingredients": [
@@ -1567,7 +1667,11 @@
   {
     "title": "Tiramisù by Iginio Massari",
     "type": "Dolce",
-    "time": "preparazione 2 h + cottura 70 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "5", "unit": "persone"},
     "tools": ["Planetaria", "Bowl", "Pentolino", "Teglia", "Frusta", "Sac à poche", "Anello", "Piatto", "Pellicola per alimenti", "Tarocco"],
     "ingredients": [
@@ -1604,7 +1708,11 @@
   {
     "title": "Bignè (pasta choux) by Denny Imbroisi",
     "type": "Preparazione",
-    "time": "preparazione 30 min + cottura 35 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "20",
       "unit": "pezzi"
@@ -1688,7 +1796,11 @@
   {
     "title": "Brioche impasto",
     "type": "Preparazione",
-    "time": "preparazione 90 min + lievitazioni 12 h",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "20", "unit": "pezzi"},
     "tools": ["Bowl", "Planetaria", "Pellicola per alimenti"],
     "ingredients": [
@@ -1727,7 +1839,11 @@
   {
     "title": "Crema al limone by Sal De Riso",
     "type": "Preparazione",
-    "time": "",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "320", "unit": "g"},
     "tools": ["Spremiagrumi", "Pentolino", "Grattugia", "Colino", "Frullatore a immersione", "Pellicola per alimenti"],
     "ingredients": [
@@ -1758,7 +1874,11 @@
   {
     "title": "Crema al pistacchio by Andrea Tortora",
     "type": "Preparazione",
-    "time": "preparazione 30 min + riposo 12 h",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "200",
       "unit": "g"
@@ -1827,7 +1947,11 @@
   {
     "title": "Crema pasticcera by Iginio Massari",
     "type": "Preparazione",
-    "time": "",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "400", "unit": "g"},
     "tools": ["Bowl di acciaio", "Pentola", "Grattugia", "Pentolino", "Frusta"],
     "ingredients": [
@@ -1857,7 +1981,11 @@
   {
     "title": "Crepes",
     "type": "Preparazione",
-    "time": "10 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "5", "unit": "persone"},
     "tools": ["Frusta", "Bowl", "Padella", "Mestolo", "Stendi pastella"],
     "ingredients": [
@@ -1887,7 +2015,11 @@
   {
     "title": "Maionese by Davide Scabin",
     "type": "Preparazione",
-    "time": "30 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "300",
       "unit": "g"
@@ -1948,7 +2080,11 @@
   {
     "title": "Scorze d'arancia candite",
     "type": "Preparazione",
-    "time": "preparazione 30 min + cottura 60 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {"quantity": "500", "unit": "barattolo"},
     "tools": ["Tagliere", "Coltello universale", "Pentola", "Bowl"],
     "ingredients": [
@@ -1976,7 +2112,11 @@
   {
     "title": "Zabaione by Paolo Sacchetti",
     "type": "Preparazione",
-    "time": "25 min",
+    "time": {
+      "preparazione": "",
+      "cottura": "",
+      "riposo": ""
+    },
     "diners": {
       "quantity": "150",
       "unit": "g"

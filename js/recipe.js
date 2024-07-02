@@ -21,19 +21,57 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('recipe-title').textContent = title
     document.title = title
 
-    displayHead(recipe);
     displayWeb(recipe);
     displayTools(recipe);
-    displayIngredients(recipe);
     displayProcedure(recipe);
+    displayIngredients(recipe)
   }
-  function displayHead(recipe) {
+  function displayHead(recipe, totIntermediate) {
     document.getElementById('recipe-image').src = "../images/" + recipe.title + "/last.jpg"
 
     document.getElementById('recipe-type-value').textContent = recipe.type;
-    document.getElementById('recipe-time-value').textContent = recipe.time;
     document.getElementById('recipe-diners-quantity').textContent = recipe.diners.quantity;
     document.getElementById('recipe-diners-unit').textContent = recipe.diners.unit;
+
+    const infoList = document.getElementById('recipe-info-list');
+    let tot = 0;
+    if (recipe.time.preparazione) {
+      const li = document.createElement('li');
+      li.innerHTML = `
+          Preparazione: <span>${recipe.time.preparazione} min</span>
+      `;
+      infoList.appendChild(li);
+      tot += Number(recipe.time.preparazione)
+    }
+    if (recipe.time.cottura) {
+      const li = document.createElement('li');
+      li.innerHTML = `
+          Cottura: <span>${recipe.time.cottura} min</span>
+      `;
+      infoList.appendChild(li);
+      tot += Number(recipe.time.cottura)
+    }
+    if (recipe.time.riposo) {
+      const li = document.createElement('li');
+      li.innerHTML = `
+          Riposo: <span>${recipe.time.riposo} min</span>
+      `;
+      infoList.appendChild(li);
+      tot += Number(recipe.time.riposo)
+    }
+    if (totIntermediate !== 0) {
+      const li = document.createElement('li');
+      li.innerHTML = `
+          Intermedi: <span>${totIntermediate} min</span>
+      `;
+      infoList.appendChild(li);
+      tot += totIntermediate
+    }
+    const li = document.createElement('li');
+    li.innerHTML = `
+          Tempo totale: <span>${tot} min</span>
+    `;
+    infoList.appendChild(li);
   }
   function displayWeb(recipe) {
     if (recipe.source === "web") {
@@ -74,14 +112,16 @@ document.addEventListener('DOMContentLoaded', function() {
     ingredientsList.innerHTML = '';
     baseIngredientSelect.innerHTML = '';
 
+    let titles = [];
     let ingCont = 0;
     recipe.ingredients.forEach(ingredient => {
       const li = document.createElement('li');
       li.className = 'ingredient-list-item';
 
       const isRecipeLink = ingredient.isRecipe ?
-          `<a href="recipe.html?title=${encodeURIComponent(ingredient.name)}">${ingredient.name}</a>` :
+          `<a href="recipe.html?title=${encodeURIComponent(ingredient.name)}" target="_blank">${ingredient.name}</a>` :
           ingredient.name;
+      if (ingredient.isRecipe) titles.push(ingredient.name)
 
       li.innerHTML = `
         <input type="checkbox" id="${ingredient.name}-${ingCont}" onchange="checkLi(this)">
@@ -108,6 +148,24 @@ document.addEventListener('DOMContentLoaded', function() {
     option.value = recipe.diners;
     option.textContent = "Dosi"
     baseIngredientSelect.appendChild(option);
+
+    fetchIntermediate(recipe, titles);
+  }
+  function fetchIntermediate (recipe, titles) {
+    let totIntermediate = 0;
+    fetch('recipes.json')
+        .then(response => response.json())
+        .then(recipes => {
+          const myRecipes = recipes.filter(recipe => titles.includes(recipe.title));
+          myRecipes.forEach( r => {
+                totIntermediate += castNumber(r.time.preparazione) + castNumber(r.time.riposo) + castNumber(r.time.cottura)
+              }
+          );
+          displayHead(recipe, totIntermediate);
+        })
+        .catch(error => {
+          console.error('Error fetching recipe:', error);
+        });
   }
   function displayProcedure(recipe) {
     const procedureList = document.getElementById('procedure-list');
@@ -166,4 +224,9 @@ function updateQuantities () {
     const newDiners = (originalDiners * multiplier).toFixed(1);
     dinersQuantity.textContent = newDiners.toString();
   }
+}
+
+function castNumber (a) {
+  if (a) return Number(a)
+  else return 0
 }

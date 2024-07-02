@@ -32,8 +32,16 @@
             </select>
         </div>
         <div>
-            <label for="time">Tempo*:</label>
-            <input type="text" id="time" name="time" placeholder="ex. lavorazione 40m + riposo 4h" required>
+            <label for="time-preparazione">Tempo preparazione*:</label>
+            <input type="text" id="time-preparazione" name="time-preparazione" placeholder="minuti" required>
+        </div>
+        <div>
+            <label for="time-cottura">Tempo cottura:</label>
+            <input type="text" id="time-cottura" name="time-cottura" placeholder="minuti">
+        </div>
+        <div>
+            <label for="time-riposo">Tempo riposo:</label>
+            <input type="text" id="time-riposo" name="time-riposo" placeholder="minuti">
         </div>
         <div class="diners-container">
             <label for="diners-quantity">Dosi per*:</label>
@@ -73,6 +81,7 @@
             </div>
         </div>
         <button type="button" onclick="addStep()">Aggiungi procedimento</button>
+        <br>
         <button type="button" onclick="generateAndDownloadJSON()">Download</button>
     </form>
 </div>
