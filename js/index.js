@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const secondiList = document.getElementById('secondi-list');
   const contorniList = document.getElementById('contorni-list');
   const dolciList = document.getElementById('dolci-list');
+  const preparazioniList = document.getElementById('preparazioni-list');
 
   fetch('recipes/recipes.json')
     .then(response => response.json())
@@ -33,6 +34,9 @@ document.addEventListener('DOMContentLoaded', function() {
           case "Dolce":
             dolciList.appendChild(li);
             break;
+          case "Preparazione":
+            preparazioniList.appendChild(li);
+            break;
         }
       });
     })
@@ -40,3 +44,5 @@ document.addEventListener('DOMContentLoaded', function() {
       console.error('Error fetching recipes:', error);
     });
 });
+
+//search recipe: display only the good ones

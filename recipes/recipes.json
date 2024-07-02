@@ -242,41 +242,310 @@
   },
 
   {
-    "title": "Carbonara by Luciano Monosilio",
+    "title": "Lasagna",
     "type": "Primo",
-    "time": "45 min",
-    "diners": {"quantity": "3", "unit": "persone"},
-    "tools": ["Padella", "Pentola", "Ciotola per bagnomaria", "Termometro", "Tagliere", "Coltello universale", "Coltello da pane", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Mestolo per pasta"],
+    "time": "preparazione 2 h + cottura 3 h",
+    "diners": {"quantity": "6", "unit": "persone"},
+    "tools": ["Tagliere", "Coltello universale", "Padella", "Frusta", "Pentolino", "Pentolino", "Teglia"],
     "ingredients": [
-      {"name": "Spaghetti", "amount": "280", "unit": "g"},
-      {"name": "Guanciale","amount": "200", "unit": "g"},
-      {"name": "Sale","amount": "22", "unit": "g"},
-      {"name": "Tuorli","amount": "4", "unit": ""},
-      {"name": "Grana","amount": "30", "unit": "g"},
-      {"name": "Pecorino Romano","amount": "20", "unit": "g"},
-      {"name": "Pepe nero macinato","amount": "20", "unit": "g"}
+      {"name":  "Lasagne", "amount": "q.b.", "unit": ""},
+      {"name": "Carne macinata di manzo", "amount": "300", "unit": "g"},
+      {"name": "Pancetta", "amount": "150", "unit": "g"},
+      {"name": "Carote", "amount": "50", "unit": "g"},
+      {"name": "Sedano", "amount": "50", "unit": "g"},
+      {"name": "Cipolle dorate", "amount": "50", "unit": "g"},
+      {"name": "Vino rosso", "amount": "100", "unit": "g"},
+      {"name": "Passata di pomodoro", "amount": "300", "unit": "g"},
+      {"name": "Brodo vegetale", "amount": "q.b.", "unit": ""},
+      {"name": "Olio di oliva", "amount": "1", "unit": "cucchiai"},
+      {"name": "Sale", "amount": "q.b.", "unit": ""},
+      {"name": "Pepe", "amount": "q.b.", "unit": ""},
+      {"name": "Burro", "amount": "70", "unit": "g"},
+      {"name": "Farina 00", "amount": "70", "unit": "g"},
+      {"name": "Latte intero", "amount": "1000", "unit": "g"},
+      {"name": "Noce moscata", "amount": "q.b.", "unit": "g"},
+      {"name": "Parmigiano", "amount": "q.b.", "unit": ""},
+      {"name": "Pecorino", "amount": "q.b.", "unit": ""},
+      {"name": "Mozzarella", "amount": "q.b.", "unit": ""},
+      {"name": "Prosciutto cotto", "amount": "q.b.", "unit": ""},
+      {"name": "Uova", "amount": "q.b.", "unit": ""}
+
     ],
     "procedure": [
-      {"step": "Pulire bene il guanciale dalla cotenna e dalla parte pepata utilizzando un coltello a sega,\ntagliare quindi a fette di circa mezzo cm e ricavare dei cubetti o listelli",
+      {"step": "Per il ragù: tagliare pancetta, carote, cipolle, sedano",
         "image": "1.jpg"},
-      {"step": "Scaldare leggermente una padella antiaderente, quindi aggiungere il guanciale e farlo sudare dolcemente. \nMano a mano che il guanciale rilascia il grasso, scolarlo dalla padella in una ciotola",
+      {"step": "In una padella versare l'olio e la pancetta e far rosolare per alcuni minuti.\nAggiungere il trito di verdure e far insaporire per 5 - 6 minuti.\nAggiungere la carne macinata e alzare la fiamma.\nAttendere che sia ben rosolata e abbia rilasciato i succhi",
         "image": "2.jpg"},
-      {"step": "Versare i formaggi in una ciotola capiente, quindi aggiungere i tuorli d’uovo, il pepe macinato, un mestolino d’acqua di cottura ed amalgamare gli ingredienti con una frusta, fino ad avere un composto omogeneo. \nAggiungere circa metà del grasso del guanciale",
+      {"step": "Sfumare con il vino, poi aspettare che sia evaporato e aggiungere la passata di pomodoro.\nMescolare, quando ha ripreso il bollore aggiungere poco brodo caldo.\nDeve cuocere almeno un paio d'ore con il coperchio semi chiuso",
         "image": "3.jpg"},
-      {"step": "Calare la pasta e scolare il guanciale su un foglio di carta assorbente",
+      {"step": "Per la besciamella: scaldare il latte senza farlo bollire, e a parte fondere il burro.\nMescolando, aggiungere la farina in una volta e cuocere fino ad ottenere un roux dorato.\nVersare quindi il latte caldo in 3 volte",
         "image": "4.jpg"},
-      {"step": "Cuocere il composto a bagnomaria, come se fosse uno zabaglione, frustando e sbattendo di continuo e con un’andatura lenta. \nIl composto sarà pronto, quando avrà raggiunto i 65°",
+      {"step": "Aggiungere sale e noce moscata e continuare a mescolare",
         "image": "5.jpg"},
-      {"step": "Scolare la pasta senza buttare l'acqua di cottura all'interno del mix. \nAggiungere un po’ d’acqua di cottura all’interno della ciotola e mescolare bene a bagnomaria",
+      {"step": "Comporre la lasagna con una base di ragù nel seguente ordine:\nLasagna - Besciamella - Ragù - Formaggi - Salumi\nFare 5 strati",
         "image": "6.jpg"},
-      {"step": "Aggiungere il guanciale, acqua di cottura e mantecare ancora per 1 minuto",
-        "image": "7.jpg"},
-      {"step": "Servite a nido, e completate con una spolverata di pecorino, guanciale e pepe",
+      {"step": "Cuocere in forno statico a 170° per 40 minuti",
         "image": "last.jpg"}
     ],
     "source": "web",
-    "link": "https://blog.academia.tv/2024/02/14/come-fare-la-carbonara/",
-    "video": "JUxf9g9fq0I"
+    "link": "https://ricette.giallozafferano.it/Lasagne-alla-Bolognese.html",
+    "video": ""
+  },
+  {
+    "title": "Pasta aglio, olio e peperoncino by Luciano Monosilio",
+    "type": "Primo",
+    "time": "15 min",
+    "diners": {
+      "quantity": "4",
+      "unit": "persone"
+    },
+    "tools": [
+      "Tagliere",
+      "Coltello universale",
+      "Padella",
+      "Pentola",
+      "Mestolo",
+      "Mestolo per pasta"
+    ],
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "amount": "320",
+        "unit": "g"
+      },
+      {
+        "name": "Aglio",
+        "amount": "2",
+        "unit": "spicchi"
+      },
+      {
+        "name": "Olio di oliva",
+        "amount": "60",
+        "unit": "g"
+      },
+      {
+        "name": "Peperoncino",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Prezzemolo",
+        "amount": "1",
+        "unit": "mazzetto"
+      }
+    ],
+    "procedure": [
+      {
+        "step": "In padella mettere olio, aglio senza anima e tritato finemente e gambi di prezzemolo.",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Quando l'olio sarà caldo aggiungere un mestolo di acqua di cottura e il peperoncino tritato molto finemente",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Rimuovere i gambi di prezzemolo e scolare la pasta in padella con acqua di cottura.\nCorreggere il sale",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Mantecare fuori dal fuoco con olio, e aggiungere il prezzemolo tritato",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Servire a nido con una spolverata di prezzemolo",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Spaghetti-aglio-olio-e-peperoncino-facili.html",
+    "video": "LmnQI5S4-gs"
+  },
+  {
+    "title": "Pasta aglio, olio e peperoncino di mare by Giuseppe Mancino",
+    "type": "Primo",
+    "time": "60 min",
+    "diners": {
+      "quantity": "4",
+      "unit": "persone"
+    },
+    "tools": [
+      "Pentola",
+      "Padella",
+      "Colino",
+      "Grattugia",
+      "Cucchiaio di legno",
+      "Batticarne",
+      "Mestolo",
+      "Bowl",
+      "Mestolo per pasta"
+    ],
+    "ingredients": [
+      {
+        "name": "Linguine",
+        "amount": "320",
+        "unit": "g"
+      },
+      {
+        "name": "Gamberi",
+        "amount": "600",
+        "unit": "g"
+      },
+      {
+        "name": "Aglio",
+        "amount": "1",
+        "unit": "spicchio"
+      },
+      {
+        "name": "Peperoncino",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Limoni scorza",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Burro",
+        "amount": "60",
+        "unit": "g"
+      },
+      {
+        "name": "Parmigiano",
+        "amount": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Prezzemolo",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Basilico",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Olio di oliva",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Pulire i gamberi e tenere le testa da parte.\nTritare i gamberi, aggiungere olio, scorza di limone e sale",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Scaldare dell'olio in padella, grattugiare l'aglio e aggiungere un peperoncino diviso a metà e i gambi di prezzemolo, per soffriggere lentamente",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Aggiungere le teste di gamberi, sale fino e burro.\nQuando i gamberi saranno leggermente dorati, aggiungere acqua calda non salata.\nPer dare più gusto schiacciare le teste con il batticarne",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Filtrare in un colino, e mettere in padella.\nCalare la pasta e aggiungere i gamberi in padella",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Aggiungere in padella la pasta, prezzemolo e basilico.\nAbbassare la fiamma, aggiungere parmigiano, burro, scorza di limone",
+        "image": "5.jpg"
+      },
+      {
+        "step": "Impiattare a nido sdraiato con qualche gambero in superficie",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Linguine-aglio-olio-e-peperoncino-con-gamberi.html",
+    "video": "EeAnDDxr5VA"
+  },
+  {
+    "title": "Pasta al datterino giallo by Solaika Marrocco",
+    "type": "Primo",
+    "time": "preparazione 55 min + forno 2 h",
+    "diners": {
+      "quantity": "4",
+      "unit": "persone"
+    },
+    "tools": [
+      "Padella",
+      "Pentola",
+      "Coltello universale",
+      "Frullatore a immersione",
+      "Marisa",
+      "Setaccio",
+      "Carta forno",
+      "Mixer",
+      "Mestolo",
+      "Mestolo per pasta",
+      "Colino",
+      "Tagliere",
+      "Cucchiaio di legno"
+    ],
+    "ingredients": [
+      {
+        "name": "Spaghettoni tempo alto",
+        "amount": "320",
+        "unit": "g"
+      },
+      {
+        "name": "Pomodorini datterini gialli",
+        "amount": "500",
+        "unit": "g"
+      },
+      {
+        "name": "Basilico",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Origano secco",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Olio di oliva",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Tagliare i datterini in quattro e cuocerli in padella a temperatura medio alta con olio.\nAggiungere sale e basilico, coprire con acqua e continuare per circa 20 min",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Frullare la salsa e setacciarla.\nStendere le bucce su carta forno e infornare a 70 - 80° per 2 h",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Per le polveri: frullare nel mixer e setacciare sia le bucce che l'origano",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Cuocere lo spaghettone, scolarlo in padella con la salsa e amalgamare  per 2 - 3 min\nAggiungere acqua di cottura",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Impiattare a nido, e aggiungere la salsa e le polveri",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Spaghettone-al-datterino-giallo.html",
+    "video": "kk_Xu_tSUiU"
   },
   {
     "title": "Pasta al pomodoro e arancia by Cracco",
@@ -434,6 +703,168 @@
     "video": "GpJue1tGGYM"
   },
   {
+    "title": "Pasta alle vongole by Carmela Abbate",
+    "type": "Primo",
+    "time": "preparazione 20 m",
+    "diners": {
+      "quantity": "4",
+      "unit": "persone"
+    },
+    "tools": [
+      "Padella",
+      "Pentola",
+      "Mestolo per pasta",
+      "Pinze",
+      "Colino",
+      "Bowl di vetro"
+    ],
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "name": "Vongole",
+        "amount": "1",
+        "unit": "kg"
+      },
+      {
+        "name": "Aglio",
+        "amount": "2",
+        "unit": "spicchi"
+      },
+      {
+        "name": "Olio",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Prezzemolo",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Vino bianco",
+        "amount": "0.25",
+        "unit": "bicchieri"
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Per la pulizia delle vongole:\nTestarne la bontà facendole cadere su una superficie, devono rimanere chiuse.\nSciacquarle in una bowl e lasciare a mollo con del sale grosso per 2 - 3 h.\nRisciacquare",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Salare l'acqua, e appena prima di buttare gli spaghetti inserire del prezzemolo",
+        "image": "2.jpg"
+      },
+      {
+        "step": "In padella soffriggere i gambi di prezzemolo e l'aglio schiacciato, e quando sarà dorato, aggiungere le vongole a fuoco alto",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Aggiungere il vino e poca acqua di cottura.\nChiudere con il coperchio e, appena aperte, toglierle dal fuoco",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Passare in un colino il sugo e rimettere in padella.\nAggiungere gli spaghetti al dente e del prezzemolo tritato",
+        "image": "5.jpg"
+      },
+      {
+        "step": "Saltare in padella fino ad avere una buona crema.\nSe non si vogliono avere troppi gusci nel piatto sgusciare le vongole e inserirle appena prima di impiattare",
+        "image": "6.jpg"
+      },
+      {
+        "step": "Impiattare a nido con i gusci delle vongole ancora piene e del prezzemolo",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Spaghetti-alle-vongole.html",
+    "video": "7G71jCslhNg"
+  },
+  {
+    "title": "Pasta Carbonara by Luciano Monosilio",
+    "type": "Primo",
+    "time": "45 min",
+    "diners": {"quantity": "3", "unit": "persone"},
+    "tools": ["Padella", "Pentola", "Ciotola per bagnomaria", "Termometro", "Tagliere", "Coltello universale", "Coltello da pane", "Frusta", "Grattugia", "Pinze", "Marisa", "Mestolo", "Mestolo per pasta"],
+    "ingredients": [
+      {"name": "Spaghetti", "amount": "280", "unit": "g"},
+      {"name": "Guanciale","amount": "200", "unit": "g"},
+      {"name": "Sale","amount": "22", "unit": "g"},
+      {"name": "Tuorli","amount": "4", "unit": ""},
+      {"name": "Grana","amount": "30", "unit": "g"},
+      {"name": "Pecorino Romano","amount": "20", "unit": "g"},
+      {"name": "Pepe nero macinato","amount": "20", "unit": "g"}
+    ],
+    "procedure": [
+      {"step": "Pulire bene il guanciale dalla cotenna e dalla parte pepata utilizzando un coltello a sega,\ntagliare quindi a fette di circa mezzo cm e ricavare dei cubetti o listelli",
+        "image": "1.jpg"},
+      {"step": "Scaldare leggermente una padella antiaderente, quindi aggiungere il guanciale e farlo sudare dolcemente. \nMano a mano che il guanciale rilascia il grasso, scolarlo dalla padella in una ciotola",
+        "image": "2.jpg"},
+      {"step": "Versare i formaggi in una ciotola capiente, quindi aggiungere i tuorli d’uovo, il pepe macinato, un mestolino d’acqua di cottura ed amalgamare gli ingredienti con una frusta, fino ad avere un composto omogeneo. \nAggiungere circa metà del grasso del guanciale",
+        "image": "3.jpg"},
+      {"step": "Calare la pasta e scolare il guanciale su un foglio di carta assorbente",
+        "image": "4.jpg"},
+      {"step": "Cuocere il composto a bagnomaria, come se fosse uno zabaglione, frustando e sbattendo di continuo e con un’andatura lenta. \nIl composto sarà pronto, quando avrà raggiunto i 65°",
+        "image": "5.jpg"},
+      {"step": "Scolare la pasta senza buttare l'acqua di cottura all'interno del mix. \nAggiungere un po’ d’acqua di cottura all’interno della ciotola e mescolare bene a bagnomaria",
+        "image": "6.jpg"},
+      {"step": "Aggiungere il guanciale, acqua di cottura e mantecare ancora per 1 minuto",
+        "image": "7.jpg"},
+      {"step": "Servite a nido, e completate con una spolverata di pecorino, guanciale e pepe",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://blog.academia.tv/2024/02/14/come-fare-la-carbonara/",
+    "video": "JUxf9g9fq0I"
+  },
+  {
+    "title": "Pasta con gamberi e burrata",
+    "type": "Primo",
+    "time": "40 min",
+    "diners": {"quantity": "3", "unit": "persone"},
+    "tools": ["Pentola", "Padella", "Cucchiaio di legno", "Scolapasta", "Tagliere", "Coltello universale", "Mixer"],
+    "ingredients": [
+      {"name": "Paccheri", "amount": "360", "unit": "g"},
+      {"name": "Burrata", "amount": "400", "unit": "g"},
+      {"name": "Pomodorini datterini", "amount": "300", "unit": "g"},
+      {"name": "Gamberoni", "amount": "12", "unit": ""},
+      {"name": "Aglio", "amount": "1", "unit": "spicchi"},
+      {"name": "Prezzemolo", "amount": "q.b.", "unit": ""},
+      {"name": "Limoni scorza", "amount": "q.b.", "unit": ""},
+      {"name": "Olio", "amount": "q.b.", "unit": ""},
+      {"name": "Sale", "amount": "q.b.", "unit": ""},
+      {"name": "Pepe", "amount": "q.b.", "unit": ""}
+    ],
+    "procedure": [
+      {"step": "Pulire i gamberoni e tenerne da parte 3 per decorare",
+        "image": "1.jpg"},
+      {"step": "Tritare finemente l'aglio assieme al prezzemolo e soffriggere con dell'olio",
+        "image": "2.jpg"},
+      {"step": "Aggiungere i datterini tagliati a metà e il sale, poi i gamberoni per cuocerli appena",
+        "image": "3.jpg"},
+      {"step": "Frullare metà burrata con pepe e olio.\nCuocere i paccheri",
+        "image": "4.jpg"},
+      {"step": "Scolare la pasta nella pentola del sugo e mantecare",
+        "image": "5.jpg"},
+      {"step": "Aggiungere la crema di burrata e mescolare fuori dal fuoco",
+        "image": "6.jpg"},
+      {"step": "Impiattare con la restante burrata, i gamberoni interi, scorza di limone, olio e prezzemolo",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://www.cookist.it/paccheri-con-gamberi-e-burrata/",
+    "video": ""
+  },
+  {
     "title": "Pizza pala romana by Ian Spampatti",
     "type": "Primo",
     "time": "preparazione 30 min + lievitazioni 18 h",
@@ -547,200 +978,6 @@
     "video": "_vt0gnC9YvQ"
   },
   {
-    "title": "Lasagna",
-    "type": "Primo",
-    "time": "preparazione 2 h + cottura 3 h",
-    "diners": {"quantity": "6", "unit": "persone"},
-    "tools": ["Tagliere", "Coltello universale", "Padella", "Frusta", "Pentolino", "Pentolino", "Teglia"],
-    "ingredients": [
-      {"name":  "Lasagne", "amount": "q.b.", "unit": ""},
-      {"name": "Carne macinata di manzo", "amount": "300", "unit": "g"},
-      {"name": "Pancetta", "amount": "150", "unit": "g"},
-      {"name": "Carote", "amount": "50", "unit": "g"},
-      {"name": "Sedano", "amount": "50", "unit": "g"},
-      {"name": "Cipolle dorate", "amount": "50", "unit": "g"},
-      {"name": "Vino rosso", "amount": "100", "unit": "g"},
-      {"name": "Passata di pomodoro", "amount": "300", "unit": "g"},
-      {"name": "Brodo vegetale", "amount": "q.b.", "unit": ""},
-      {"name": "Olio di oliva", "amount": "1", "unit": "cucchiai"},
-      {"name": "Sale", "amount": "q.b.", "unit": ""},
-      {"name": "Pepe", "amount": "q.b.", "unit": ""},
-      {"name": "Burro", "amount": "70", "unit": "g"},
-      {"name": "Farina 00", "amount": "70", "unit": "g"},
-      {"name": "Latte intero", "amount": "1000", "unit": "g"},
-      {"name": "Noce moscata", "amount": "q.b.", "unit": "g"},
-      {"name": "Parmigiano", "amount": "q.b.", "unit": ""},
-      {"name": "Pecorino", "amount": "q.b.", "unit": ""},
-      {"name": "Mozzarella", "amount": "q.b.", "unit": ""},
-      {"name": "Prosciutto cotto", "amount": "q.b.", "unit": ""},
-      {"name": "Uova", "amount": "q.b.", "unit": ""}
-
-    ],
-    "procedure": [
-      {"step": "Per il ragù: tagliare pancetta, carote, cipolle, sedano",
-        "image": "1.jpg"},
-      {"step": "In una padella versare l'olio e la pancetta e far rosolare per alcuni minuti.\nAggiungere il trito di verdure e far insaporire per 5 - 6 minuti.\nAggiungere la carne macinata e alzare la fiamma.\nAttendere che sia ben rosolata e abbia rilasciato i succhi",
-        "image": "2.jpg"},
-      {"step": "Sfumare con il vino, poi aspettare che sia evaporato e aggiungere la passata di pomodoro.\nMescolare, quando ha ripreso il bollore aggiungere poco brodo caldo.\nDeve cuocere almeno un paio d'ore con il coperchio semi chiuso",
-        "image": "3.jpg"},
-      {"step": "Per la besciamella: scaldare il latte senza farlo bollire, e a parte fondere il burro.\nMescolando, aggiungere la farina in una volta e cuocere fino ad ottenere un roux dorato.\nVersare quindi il latte caldo in 3 volte",
-        "image": "4.jpg"},
-      {"step": "Aggiungere sale e noce moscata e continuare a mescolare",
-        "image": "5.jpg"},
-      {"step": "Comporre la lasagna con una base di ragù nel seguente ordine:\nLasagna - Besciamella - Ragù - Formaggi - Salumi\nFare 5 strati",
-        "image": "6.jpg"},
-      {"step": "Cuocere in forno statico a 170° per 40 minuti",
-        "image": "last.jpg"}
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Lasagne-alla-Bolognese.html",
-    "video": ""
-  },
-  {
-    "title": "Linguine aglio, olio e peperoncino di mare by Giuseppe Mancino",
-    "type": "Primo",
-    "time": "60 min",
-    "diners": {
-      "quantity": "4",
-      "unit": "persone"
-    },
-    "tools": [
-      "Pentola",
-      "Padella",
-      "Colino",
-      "Grattugia",
-      "Cucchiaio di legno",
-      "Batticarne",
-      "Mestolo",
-      "Bowl",
-      "Mestolo per pasta"
-    ],
-    "ingredients": [
-      {
-        "name": "Linguine",
-        "amount": "320",
-        "unit": "g"
-      },
-      {
-        "name": "Gamberi",
-        "amount": "600",
-        "unit": "g"
-      },
-      {
-        "name": "Aglio",
-        "amount": "1",
-        "unit": "spicchio"
-      },
-      {
-        "name": "Peperoncino",
-        "amount": "1",
-        "unit": ""
-      },
-      {
-        "name": "Limoni scorza",
-        "amount": "1",
-        "unit": ""
-      },
-      {
-        "name": "Burro",
-        "amount": "60",
-        "unit": "g"
-      },
-      {
-        "name": "Parmigiano",
-        "amount": "20",
-        "unit": "g"
-      },
-      {
-        "name": "Prezzemolo",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Basilico",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Olio di oliva",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Sale",
-        "amount": "q.b.",
-        "unit": ""
-      }
-    ],
-    "procedure": [
-      {
-        "step": "Pulire i gamberi e tenere le testa da parte.\nTritare i gamberi, aggiungere olio, scorza di limone e sale",
-        "image": "1.jpg"
-      },
-      {
-        "step": "Scaldare dell'olio in padella, grattugiare l'aglio e aggiungere un peperoncino diviso a metà e i gambi di prezzemolo, per soffriggere lentamente",
-        "image": "2.jpg"
-      },
-      {
-        "step": "Aggiungere le teste di gamberi, sale fino e burro.\nQuando i gamberi saranno leggermente dorati, aggiungere acqua calda non salata.\nPer dare più gusto schiacciare le teste con il batticarne",
-        "image": "3.jpg"
-      },
-      {
-        "step": "Filtrare in un colino, e mettere in padella.\nCalare la pasta e aggiungere i gamberi in padella",
-        "image": "4.jpg"
-      },
-      {
-        "step": "Aggiungere in padella la pasta, prezzemolo e basilico.\nAbbassare la fiamma, aggiungere parmigiano, burro, scorza di limone",
-        "image": "5.jpg"
-      },
-      {
-        "step": "Impiattare a nido sdraiato con qualche gambero in superficie",
-        "image": "last.jpg"
-      }
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Linguine-aglio-olio-e-peperoncino-con-gamberi.html",
-    "video": "EeAnDDxr5VA"
-  },
-  {
-    "title": "Paccheri con gamberi e burrata",
-    "type": "Primo",
-    "time": "40 min",
-    "diners": {"quantity": "3", "unit": "persone"},
-    "tools": ["Pentola", "Padella", "Cucchiaio di legno", "Scolapasta", "Tagliere", "Coltello universale", "Mixer"],
-    "ingredients": [
-      {"name": "Paccheri", "amount": "360", "unit": "g"},
-      {"name": "Burrata", "amount": "400", "unit": "g"},
-      {"name": "Pomodorini datterini", "amount": "300", "unit": "g"},
-      {"name": "Gamberoni", "amount": "12", "unit": ""},
-      {"name": "Aglio", "amount": "1", "unit": "spicchi"},
-      {"name": "Prezzemolo", "amount": "q.b.", "unit": ""},
-      {"name": "Limoni scorza", "amount": "q.b.", "unit": ""},
-      {"name": "Olio", "amount": "q.b.", "unit": ""},
-      {"name": "Sale", "amount": "q.b.", "unit": ""},
-      {"name": "Pepe", "amount": "q.b.", "unit": ""}
-    ],
-    "procedure": [
-      {"step": "Pulire i gamberoni e tenerne da parte 3 per decorare",
-        "image": "1.jpg"},
-      {"step": "Tritare finemente l'aglio assieme al prezzemolo e soffriggere con dell'olio",
-        "image": "2.jpg"},
-      {"step": "Aggiungere i datterini tagliati a metà e il sale, poi i gamberoni per cuocerli appena",
-        "image": "3.jpg"},
-      {"step": "Frullare metà burrata con pepe e olio.\nCuocere i paccheri",
-        "image": "4.jpg"},
-      {"step": "Scolare la pasta nella pentola del sugo e mantecare",
-        "image": "5.jpg"},
-      {"step": "Aggiungere la crema di burrata e mescolare fuori dal fuoco",
-        "image": "6.jpg"},
-      {"step": "Impiattare con la restante burrata, i gamberoni interi, scorza di limone, olio e prezzemolo",
-        "image": "last.jpg"}
-    ],
-    "source": "web",
-    "link": "https://www.cookist.it/paccheri-con-gamberi-e-burrata/",
-    "video": ""
-  },
-  {
     "title": "Ravioli ricotta e spinaci",
     "type": "Primo",
     "time": "60 min",
@@ -778,243 +1015,6 @@
     "link": "https://ricette.giallozafferano.it/Ravioli-ricotta-e-spinaci.html",
     "video": "QwtbAjssxbU"
   },
-  {
-    "title": "Spaghetti aglio, olio e peperoncino by Luciano Monosilio",
-    "type": "Primo",
-    "time": "15 min",
-    "diners": {
-      "quantity": "4",
-      "unit": "persone"
-    },
-    "tools": [
-      "Tagliere",
-      "Coltello universale",
-      "Padella",
-      "Pentola",
-      "Mestolo",
-      "Mestolo per pasta"
-    ],
-    "ingredients": [
-      {
-        "name": "Spaghetti",
-        "amount": "320",
-        "unit": "g"
-      },
-      {
-        "name": "Aglio",
-        "amount": "2",
-        "unit": "spicchi"
-      },
-      {
-        "name": "Olio di oliva",
-        "amount": "60",
-        "unit": "g"
-      },
-      {
-        "name": "Peperoncino",
-        "amount": "1",
-        "unit": ""
-      },
-      {
-        "name": "Prezzemolo",
-        "amount": "1",
-        "unit": "mazzetto"
-      }
-    ],
-    "procedure": [
-      {
-        "step": "In padella mettere olio, aglio senza anima e tritato finemente e gambi di prezzemolo.",
-        "image": "1.jpg"
-      },
-      {
-        "step": "Quando l'olio sarà caldo aggiungere un mestolo di acqua di cottura e il peperoncino tritato molto finemente",
-        "image": "2.jpg"
-      },
-      {
-        "step": "Rimuovere i gambi di prezzemolo e scolare la pasta in padella con acqua di cottura.\nCorreggere il sale",
-        "image": "3.jpg"
-      },
-      {
-        "step": "Mantecare fuori dal fuoco con olio, e aggiungere il prezzemolo tritato",
-        "image": "4.jpg"
-      },
-      {
-        "step": "Servire a nido con una spolverata di prezzemolo",
-        "image": "last.jpg"
-      }
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Spaghetti-aglio-olio-e-peperoncino-facili.html",
-    "video": "LmnQI5S4-gs"
-  },
-  {
-    "title": "Spaghetti alle vongole by Carmela Abbate",
-    "type": "Primo",
-    "time": "preparazione 20 m",
-    "diners": {
-      "quantity": "4",
-      "unit": "persone"
-    },
-    "tools": [
-      "Padella",
-      "Pentola",
-      "Mestolo per pasta",
-      "Pinze",
-      "Colino",
-      "Bowl di vetro"
-    ],
-    "ingredients": [
-      {
-        "name": "Spaghetti",
-        "amount": "400",
-        "unit": "g"
-      },
-      {
-        "name": "Vongole",
-        "amount": "1",
-        "unit": "kg"
-      },
-      {
-        "name": "Aglio",
-        "amount": "2",
-        "unit": "spicchi"
-      },
-      {
-        "name": "Olio",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Prezzemolo",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Vino bianco",
-        "amount": "0.25",
-        "unit": "bicchieri"
-      },
-      {
-        "name": "Sale",
-        "amount": "q.b.",
-        "unit": ""
-      }
-    ],
-    "procedure": [
-      {
-        "step": "Per la pulizia delle vongole:\nTestarne la bontà facendole cadere su una superficie, devono rimanere chiuse.\nSciacquarle in una bowl e lasciare a mollo con del sale grosso per 2 - 3 h.\nRisciacquare",
-        "image": "1.jpg"
-      },
-      {
-        "step": "Salare l'acqua, e appena prima di buttare gli spaghetti inserire del prezzemolo",
-        "image": "2.jpg"
-      },
-      {
-        "step": "In padella soffriggere i gambi di prezzemolo e l'aglio schiacciato, e quando sarà dorato, aggiungere le vongole a fuoco alto",
-        "image": "3.jpg"
-      },
-      {
-        "step": "Aggiungere il vino e poca acqua di cottura.\nChiudere con il coperchio e, appena aperte, toglierle dal fuoco",
-        "image": "4.jpg"
-      },
-      {
-        "step": "Passare in un colino il sugo e rimettere in padella.\nAggiungere gli spaghetti al dente e del prezzemolo tritato",
-        "image": "5.jpg"
-      },
-      {
-        "step": "Saltare in padella fino ad avere una buona crema.\nSe non si vogliono avere troppi gusci nel piatto sgusciare le vongole e inserirle appena prima di impiattare",
-        "image": "6.jpg"
-      },
-      {
-        "step": "Impiattare a nido con i gusci delle vongole ancora piene e del prezzemolo",
-        "image": "last.jpg"
-      }
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Spaghetti-alle-vongole.html",
-    "video": "7G71jCslhNg"
-  },
-  {
-    "title": "Spaghettone al datterino giallo by Solaika Marrocco",
-    "type": "Primo",
-    "time": "preparazione 55 min + forno 2 h",
-    "diners": {
-      "quantity": "4",
-      "unit": "persone"
-    },
-    "tools": [
-      "Padella",
-      "Pentola",
-      "Coltello universale",
-      "Frullatore a immersione",
-      "Marisa",
-      "Setaccio",
-      "Carta forno",
-      "Mixer",
-      "Mestolo",
-      "Mestolo per pasta",
-      "Colino",
-      "Tagliere",
-      "Cucchiaio di legno"
-    ],
-    "ingredients": [
-      {
-        "name": "Spaghettoni tempo alto",
-        "amount": "320",
-        "unit": "g"
-      },
-      {
-        "name": "Pomodorini datterini gialli",
-        "amount": "500",
-        "unit": "g"
-      },
-      {
-        "name": "Basilico",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Origano secco",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Olio di oliva",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Sale",
-        "amount": "q.b.",
-        "unit": ""
-      }
-    ],
-    "procedure": [
-      {
-        "step": "Tagliare i datterini in quattro e cuocerli in padella a temperatura medio alta con olio.\nAggiungere sale e basilico, coprire con acqua e continuare per circa 20 min",
-        "image": "1.jpg"
-      },
-      {
-        "step": "Frullare la salsa e setacciarla.\nStendere le bucce su carta forno e infornare a 70 - 80° per 2 h",
-        "image": "2.jpg"
-      },
-      {
-        "step": "Per le polveri: frullare nel mixer e setacciare sia le bucce che l'origano",
-        "image": "3.jpg"
-      },
-      {
-        "step": "Cuocere lo spaghettone, scolarlo in padella con la salsa e amalgamare  per 2 - 3 min\nAggiungere acqua di cottura",
-        "image": "4.jpg"
-      },
-      {
-        "step": "Impiattare a nido, e aggiungere la salsa e le polveri",
-        "image": "last.jpg"
-      }
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Spaghettone-al-datterino-giallo.html",
-    "video": "kk_Xu_tSUiU"
-  },
 
   {
     "title": "Cestini di Patate burrata e prosciutto",
@@ -1049,67 +1049,6 @@
     "video": ""
   },
 
-  {
-    "title": "Maionese by Davide Scabin",
-    "type": "Contorno",
-    "time": "30 min",
-    "diners": {
-      "quantity": "300",
-      "unit": "g"
-    },
-    "tools": [
-      "Planetaria"
-    ],
-    "ingredients": [
-      {
-        "name": "Tuorli",
-        "amount": "2",
-        "unit": ""
-      },
-      {
-        "name": "Limoni succo",
-        "amount": "1",
-        "unit": ""
-      },
-      {
-        "name": "Olio di semi",
-        "amount": "250",
-        "unit": "g"
-      },
-      {
-        "name": "Aceto di vino bianco",
-        "amount": "1.5",
-        "unit": "cucchiaini"
-      },
-      {
-        "name": "Pepe",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Sale",
-        "amount": "3",
-        "unit": "g"
-      }
-    ],
-    "procedure": [
-      {
-        "step": "Separare i tuorli con le mani e metterli nella planetaria.\nAggiungere qualche goccia di succo di limone e iniziare a mescolare a velocità media fino a che prendano corpo\n",
-        "image": "1.jpg"
-      },
-      {
-        "step": "Aggiungere 50% dell'olio molto poco alla volta.\nAggiungere il limone molto poco alla volta.\nAggiungere il restante olio molto poco alla volta",
-        "image": "2.jpg"
-      },
-      {
-        "step": "A maionese pronta, chiudere con l'aceto, sale e pepe.\nMescolare.",
-        "image": "last.jpg"
-      }
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Maionese.html",
-    "video": "pMoOaVGBUbY"
-  },
   {
     "title": "Pane di campagna by Davide Longoni",
     "type": "Contorno",
@@ -1225,90 +1164,6 @@
   },
 
   {
-    "title": "Bignè (pasta choux) by Denny Imbroisi",
-    "type": "Dolce",
-    "time": "preparazione 30 min + cottura 35 min",
-    "diners": {
-      "quantity": "20",
-      "unit": "pezzi"
-    },
-    "tools": [
-      "Pentolino",
-      "Marisa",
-      "Bowl",
-      "Sac à poche",
-      "Carta forno",
-      "Pennello"
-    ],
-    "ingredients": [
-      {
-        "name": "Uova",
-        "amount": "120",
-        "unit": "g"
-      },
-      {
-        "name": "Farina 00",
-        "amount": "77",
-        "unit": "g"
-      },
-      {
-        "name": "Acqua",
-        "amount": "62",
-        "unit": "g"
-      },
-      {
-        "name": "Latte",
-        "amount": "62",
-        "unit": "g"
-      },
-      {
-        "name": "Burro",
-        "amount": "55",
-        "unit": "g"
-      },
-      {
-        "name": "Sale",
-        "amount": "2.5",
-        "unit": "g"
-      },
-      {
-        "name": "Zucchero",
-        "amount": "8",
-        "unit": "g"
-      },
-      {
-        "name": "Tuorli",
-        "amount": "1",
-        "unit": ""
-      }
-    ],
-    "procedure": [
-      {
-        "step": "In un pentolino mettere acqua, latte, zucchero, sale e burro.\nPortare a ebollizione, e aggiungere la farina; mescolare con una marisa fino a che si formi una pellicola sul fondo del pentolino",
-        "image": "1.jpg"
-      },
-      {
-        "step": "Passare in una bowl, e aggiungere le uova una alla volta mescolando bene",
-        "image": "2.jpg"
-      },
-      {
-        "step": "Con una sac à poche fare sulla carta forno delle piccole montagnette appuntite.\nCon un cucchiaio bagnato schiacciare le punte",
-        "image": "3.jpg"
-      },
-      {
-        "step": "Mescolare il tuorlo con un goccio d'acqua, e usare per spennellare",
-        "image": "4.jpg"
-      },
-      {
-        "step": "Cuocere a 220° per 15 minuti, poi portare a 180° per 20 minuti con valvola aperta",
-        "image": "last.jpg"
-      }
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Pasta-per-choux.html",
-    "video": "VFzXZB7cSsk"
-  },
-  {
     "title": "Biscotti lingue di gatto by Iginio Massari",
     "type": "Dolce",
     "time": "preparazione 15 min + cottura 8 min",
@@ -1375,6 +1230,40 @@
     "video": "podeCdCn7oc"
   },
   {
+    "title": "Biscotti Savoiardi by Iginio Massari",
+    "type": "Dolce",
+    "time": "",
+    "diners": {"quantity": "50", "unit": "pezzi"},
+    "tools": ["Planetaria", "Bowl", "Carta forno", "Sac à poche"],
+    "ingredients": [
+      {"name": "Tuorli", "amount": "170", "unit": "g"},
+      {"name": "Vaniglia", "amount": "2", "unit": ""},
+      {"name": "Zucchero", "amount": "150", "unit": "g"},
+      {"name": "Albumi", "amount": "150", "unit": "g"},
+      {"name": "Fecola di patate", "amount": "30", "unit": "g"},
+      {"name": "Farina 00", "amount": "50", "unit": "g"},
+      {"name": "Zucchero a velo", "amount": "q.b.", "unit": ""}
+    ],
+    "procedure": [
+      {"step": "Versare 2/3 di zucchero nella planetaria, 1/2 di vaniglia e i tuorli.\nLavorare a massima velocità per 12 minuti",
+        "image": "1.jpg"},
+      {"step": "Montare gli albumi aggiungendo lo zucchero rimasto, lentamente.",
+        "image": "2.jpg"},
+      {"step": "Mescolare in una ciotola farina e fecola setacciate.\nRipetere: mescolare dall'alto al basso delicatamente 1/3 degli albumi ai tuorli, aggiungere 1/3 delle polveri",
+        "image": "3.jpg"},
+      {"step": "Stendere l'impasto usando la Sac à poche sulla carta forno, lunghi 10 - 12 cm, ben distanziati",
+        "image": "4.jpg"},
+      {"step": "Spolverare i savoiardi con dello zucchero e vaniglia, e poi con zucchero a velo",
+        "image": "5.jpg"},
+      {"step": "Infornare in forno statico a 200° per 10 - 11 minuti. Cottura a valvola aperta (stagnola tiene aperto)",
+        "image": "last.jpg"}
+
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Tiramisu-goloso.html",
+    "video": "tpceWoxtbAo"
+  },
+  {
     "title": "Brioche col tuppo",
     "type": "Dolce",
     "time": "preparazione 40 min + cottura 20 min",
@@ -1403,45 +1292,6 @@
     ],
     "source": "web",
     "link": "https://www.tavolartegusto.it/ricetta/brioche-siciliana-brioche-col-tuppo/",
-    "video": ""
-  },
-  {
-    "title": "Brioche impasto",
-    "type": "Dolce",
-    "time": "preparazione 90 min + lievitazioni 12 h",
-    "diners": {"quantity": "20", "unit": "pezzi"},
-    "tools": ["Bowl", "Planetaria", "Pellicola per alimenti"],
-    "ingredients": [
-      {"name": "Farina 00", "amount": "300", "unit": "g"},
-      {"name": "Farina manitoba", "amount": "200", "unit": "g"},
-      {"name": "Lievito di birra", "amount": "15", "unit": "g"},
-      {"name": "Uova grandi", "amount": "3", "unit": ""},
-      {"name": "Burro", "amount": "180", "unit": "g"},
-      {"name": "Latte intero", "amount": "80", "unit": "g"},
-      {"name": "Zucchero", "amount": "80", "unit": "g"},
-      {"name": "Miele d'acacia", "amount": "1.5", "unit": "cucchiai"},
-      {"name": "Rum", "amount": "18", "unit": "g"},
-      {"name": "Essenza di vaniglia", "amount": "1", "unit": "bustine"},
-      {"name": "Arance scorza", "amount": "2", "unit": ""},
-      {"name": "Limoni scorza", "amount": "1", "unit": ""},
-      {"name": "Sale", "amount": "8", "unit": "g"}
-    ],
-    "procedure": [
-      {"step": "2 – 4 h prima di preparare la Pasta Brioche, inserire in una bowl:  la buccia grattugiata delle arance, quella del limone, il rum, la vaniglia e il miele, girare accuratamente il composto e sigillare con una pellicola",
-        "image": "1.jpg"},
-      {"step": "Inserire nella planetaria: farine, lievito, latte e zucchero.\nFar partire per amalgamare, quindi inserire le uova 1 alla volta.\nSempre a velocità basse aggiungere la miscela di aromi",
-        "image": "2.jpg"},
-      {"step": "Lasciar lavorare per almeno 8 minuti; l'impasto risulterà disomogeneo, sgretolato e in parte appiccicoso.\nOra inserire il burro morbido poco a poco. Dopo 5 minuti sarà appiccicato e molto morbido",
-        "image": "3.jpg"},
-      {"step": "Procediamo con ulteriori 10 - 15 min a velocità medio - alta. Sarà pronto quando perfettamente incordato, elastico, liscio, gonfio, lucido, staccato dalle pareti del cestello",
-        "image": "4.jpg"},
-      {"step": "Comporre tra le mani una palla, portando verso il basso la pasta in eccesso e porla in una bowl asciutta.\nCoprirla con pellicola a contatto e far lievitare al caldo (forno spento con luce accesa) per 2h, fino a raddoppiare",
-        "image": "5.jpg"},
-      {"step": "Rompere la lievitazione e impastare velocemente per qualche secondo su un piano di lavoro, senza aggiungere farina.\nRicomporre la palla, adagiarla nuovamente nella ciotola, coperta ancora con la pellicola a contatto.\nPorla in frigo per 8-9 h circa",
-        "image": "last.jpg"}
-    ],
-    "source": "web",
-    "link": "https://www.tavolartegusto.it/ricetta/pasta-brioche-ricetta-brioches-dolci-trecce-brioches/",
     "video": ""
   },
   {
@@ -1488,166 +1338,6 @@
     "source": "web",
     "link": "https://ricette.giallozafferano.it/Cannoli-siciliani.html",
     "video": "_7n7UvqcrP0"
-  },
-  {
-    "title": "Crema al limone by Sal De Riso",
-    "type": "Dolce",
-    "time": "",
-    "diners": {"quantity": "320", "unit": "g"},
-    "tools": ["Spremiagrumi", "Pentolino", "Grattugia", "Colino", "Frullatore a immersione", "Pellicola per alimenti"],
-    "ingredients": [
-      {"name": "Tuorli", "amount": "80", "unit": "g"},
-      {"name": "Zucchero", "amount": "80", "unit": "g"},
-      {"name": "Limoni succo", "amount": "80", "unit": "g"},
-      {"name": "Burro", "amount": "80", "unit": "g"},
-      {"name": "Limoncello", "amount": "30", "unit": "g"},
-      {"name": "Vaniglia", "amount": "0.3", "unit": ""},
-      {"name": "Limoni scorza", "amount": "1", "unit": ""}
-    ],
-    "procedure": [
-      {"step": "Versare il succo di limone in un pentolino e portare ad ebollizione;\nA parte incorporare lo zucchero ai tuorli d’uovo, aiutandosi con una frusta;\nGrattugiare la scorza di limone all’interno del succo, e unire la vaniglia",
-        "image": "1.jpg"},
-      {"step": "Versare il composto di tuorli direttamente all’interno del succo di limone bollente e mescolare di continuo con una frusta, portando ad 82°.\n Rimuovere dal fuoco ed incorporare il limoncello",
-        "image": "2.jpg"},
-      {"step": "Passare al colino a maglie strette per trattenere la buccia di limone;\nLasciare raffreddare la crema fino ad una temperatura di 35°",
-        "image": "3.jpg"},
-      {"step": "Incorporare quindi il burro ammorbidito, ma freddo, utilizzando un frullatore ad immersione",
-        "image": "4.jpg"},
-      {"step": "Coprire con pellicola a contatto e lasciare raffreddare in frigorifero fino ad una temperatura di 4°",
-        "image": "last.jpg"}
-    ],
-    "source": "web",
-    "link": "https://drive.google.com/file/d/1JaQDg355MWpJbKjGp0iXZV0cNesp6-SG/view?usp=sharing",
-    "video": "LjDZkQz0YMg"
-  },
-  {
-    "title": "Crema al pistacchio by Andrea Tortora",
-    "type": "Dolce",
-    "time": "preparazione 30 min + riposo 12 h",
-    "diners": {
-      "quantity": "200",
-      "unit": "g"
-    },
-    "tools": [
-      "Teglia",
-      "Ciotola per bagnomaria",
-      "Pentola",
-      "Bowl di acciaio",
-      "Mixer",
-      "Marisa",
-      "Bowl di vetro"
-    ],
-    "ingredients": [
-      {
-        "name": "Pistacchi",
-        "amount": "80",
-        "unit": "g"
-      },
-      {
-        "name": "Cioccolato bianco",
-        "amount": "130",
-        "unit": "g"
-      },
-      {
-        "name": "Olio di semi di vinacciolo",
-        "amount": "50",
-        "unit": "g"
-      },
-      {
-        "name": "Sale",
-        "amount": "1",
-        "unit": "g"
-      }
-    ],
-    "procedure": [
-      {
-        "step": "Tostare i pistacchi spellati in forno a 185° per 10 minuti.\nFarli raffreddare",
-        "image": "1.jpg"
-      },
-      {
-        "step": "Fondere il cioccolato bianco.\nNel frattempo raffreddare una bowl",
-        "image": "2.jpg"
-      },
-      {
-        "step": "In un mixer tritare i pistacchi freddi, poi inserire il sale e una piccola parte di olio.\nFrullare per 5 - 6 min a più riprese, pulendo le pareti con una marisa e non superando mai i 45°",
-        "image": "3.jpg"
-      },
-      {
-        "step": "In una bowl, aggiungere la pasta e il cioccolato fuso.\nMescolare energicamente",
-        "image": "4.jpg"
-      },
-      {
-        "step": "Aggiungere l'olio e mescolare ancora.\nVersare in una ciotola fredda e mescolare fino ad arrivare tra i 22 - 24°",
-        "image": "5.jpg"
-      },
-      {
-        "step": "Chiudere la crema in un vasetto e far riposare tra i 16 - 18° per 12 h",
-        "image": "last.jpg"
-      }
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Crema-spalmabile-al-pistacchio.html",
-    "video": "dC7nSB-AsgY"
-  },
-  {
-    "title": "Crema pasticcera by Iginio Massari",
-    "type": "Dolce",
-    "time": "",
-    "diners": {"quantity": "400", "unit": "g"},
-    "tools": ["Bowl di acciaio", "Pentola", "Grattugia", "Pentolino", "Frusta"],
-    "ingredients": [
-      {"name": "Tuorli", "amount": "100", "unit": "g"},
-      {"name": "Zucchero", "amount": "100", "unit": "g"},
-      {"name": "Vaniglia", "amount": "1", "unit": ""},
-      {"name": "Limoni scorza", "amount": "0.5", "unit": ""},
-      {"name": "Maizena", "amount": "25", "unit": "g"},
-      {"name": "Latte intero", "amount": "250", "unit": "g"}
-    ],
-    "procedure": [
-      {"step": "Porre in freezer una bowl capiente.\nPrepariamo una pentola per il bagnomaria",
-        "image": "1.jpg"},
-      {"step": "In un pentolino versare latte, scorza di limone e vaniglia. Portare a ebollizione (90°)",
-        "image": "2.jpg"},
-      {"step": "Mescolare con una frusta in una ciotola zucchero e amido, poi i tuorli",
-        "image": "3.jpg"},
-      {"step": "Mettere a poco a poco ma velocemente il latte caldo nei tuorli, mescolando.\nMettere il composto nel bagnomaria e girare; arrivare a 92° e togliere subito,\nMettere velocemente nella bacinella congelata e girare veloce",
-        "image": "4.jpg"},
-      {"step": "Leggero spolvero di zucchero in superficie, pulisco i bordi della bacinella e pongo in frigorifero",
-        "image": "last.jpg"}
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Tiramisu-goloso.html",
-    "video": "tpceWoxtbAo"
-  },
-  {
-    "title": "Crepes",
-    "type": "Dolce",
-    "time": "10 min",
-    "diners": {"quantity": "5", "unit": "persone"},
-    "tools": ["Frusta", "Bowl", "Padella", "Mestolo", "Stendi pastella"],
-    "ingredients": [
-      {"name": "Uova", "amount": "1", "unit": ""},
-      {"name": "Farina 00", "amount": "160", "unit": "g"},
-      {"name": "Sale", "amount": "0.25", "unit": "cucchiaini"},
-      {"name": "Olio di semi", "amount": "2", "unit": "cucchiai"},
-      {"name": "Latte", "amount": "250", "unit": "g"},
-      {"name": "Acqua", "amount": "50", "unit": "g"},
-      {"name": "Rum", "amount": "q.b.", "unit": ""},
-      {"name": "Burro per la padella", "amount": "q.b.", "unit": ""}
-    ],
-    "procedure": [
-      {"step": "Mescolare tutti gli ingredienti e infine la farina setacciata, fino ad ottenere un composto omogeneo e privo di grumi",
-        "image": "1.jpg"},
-      {"step": "Lasciare riposare in frigo 30 minuti.\nUngere la padella a fuoco medio basso con del burro, e versare un mestolo di composto",
-        "image": "2.jpg"},
-      {"step": "Stendere il composto uniformemente e velocemente, e dopo 1 minuto girarla",
-        "image": "3.jpg"},
-      {"step": "Impilare tutte le crepes, poi farcire a piacere",
-        "image": "last.jpg"}
-    ],
-    "source": "zia Anna",
-    "link": "",
-    "video": ""
   },
   {
     "title": "Dessert al limone by Enrico Derflingher",
@@ -1764,68 +1454,6 @@
     "source": "web",
     "link": "https://ricette.giallozafferano.it/Sacher-torte.html",
     "video": "5PTYjzpf01g"
-  },
-  {
-    "title": "Savoiardi by Iginio Massari",
-    "type": "Dolce",
-    "time": "",
-    "diners": {"quantity": "50", "unit": "pezzi"},
-    "tools": ["Planetaria", "Bowl", "Carta forno", "Sac à poche"],
-    "ingredients": [
-      {"name": "Tuorli", "amount": "170", "unit": "g"},
-      {"name": "Vaniglia", "amount": "2", "unit": ""},
-      {"name": "Zucchero", "amount": "150", "unit": "g"},
-      {"name": "Albumi", "amount": "150", "unit": "g"},
-      {"name": "Fecola di patate", "amount": "30", "unit": "g"},
-      {"name": "Farina 00", "amount": "50", "unit": "g"},
-      {"name": "Zucchero a velo", "amount": "q.b.", "unit": ""}
-    ],
-    "procedure": [
-      {"step": "Versare 2/3 di zucchero nella planetaria, 1/2 di vaniglia e i tuorli.\nLavorare a massima velocità per 12 minuti",
-        "image": "1.jpg"},
-      {"step": "Montare gli albumi aggiungendo lo zucchero rimasto, lentamente.",
-        "image": "2.jpg"},
-      {"step": "Mescolare in una ciotola farina e fecola setacciate.\nRipetere: mescolare dall'alto al basso delicatamente 1/3 degli albumi ai tuorli, aggiungere 1/3 delle polveri",
-        "image": "3.jpg"},
-      {"step": "Stendere l'impasto usando la Sac à poche sulla carta forno, lunghi 10 - 12 cm, ben distanziati",
-        "image": "4.jpg"},
-      {"step": "Spolverare i savoiardi con dello zucchero e vaniglia, e poi con zucchero a velo",
-        "image": "5.jpg"},
-      {"step": "Infornare in forno statico a 200° per 10 - 11 minuti. Cottura a valvola aperta (stagnola tiene aperto)",
-        "image": "last.jpg"}
-
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Tiramisu-goloso.html",
-    "video": "tpceWoxtbAo"
-  },
-  {
-    "title": "Scorze d'arancia candite",
-    "type": "Dolce",
-    "time": "preparazione 30 min + cottura 60 min",
-    "diners": {"quantity": "500", "unit": "barattolo"},
-    "tools": ["Tagliere", "Coltello universale", "Pentola", "Bowl"],
-    "ingredients": [
-      {"name": "Arance buccia", "amount": "300", "unit": "g"},
-      {"name": "Zucchero", "amount": "800", "unit": "g"},
-      {"name": "Acqua", "amount": "800", "unit": "g"},
-      {"name": "Ghiaccio", "amount": "q.b.", "unit": ""}
-    ],
-    "procedure": [
-      {"step": "Tagliare le arance a spicchi, togliere la polpa e ricavare striscioline da 0.5cm",
-        "image": "1.jpg"},
-      {"step": "Mettere le scorze in un pentolino con acqua fredda e portare a bollore, poi scolare in acqua fredda con ghiaccio.\nRipete 4 volte",
-        "image": "2.jpg"},
-      {"step": "Togliere l'acqua dalle scorze.\nNel pentolino versare acqua e zucchero e portare a bollore.\nA sciroppo ottenuto, immergere le scorze",
-        "image": "3.jpg"},
-      {"step": "Far sbollire per almeno 30 minuti a fuoco dolce",
-        "image": "4.jpg"},
-      {"step": "Per conservare le scorze di arancia candite, versarle con lo sciroppo stesso in un barattolo",
-        "image": "last.jpg"}
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Scorze-di-arance-candite.html",
-    "video": ""
   },
   {
     "title": "Sorbetto al limone",
@@ -1972,9 +1600,382 @@
     "link": "https://ricette.giallozafferano.it/Tiramisu-goloso.html",
     "video": "tpceWoxtbAo"
   },
+
+  {
+    "title": "Bignè (pasta choux) by Denny Imbroisi",
+    "type": "Preparazione",
+    "time": "preparazione 30 min + cottura 35 min",
+    "diners": {
+      "quantity": "20",
+      "unit": "pezzi"
+    },
+    "tools": [
+      "Pentolino",
+      "Marisa",
+      "Bowl",
+      "Sac à poche",
+      "Carta forno",
+      "Pennello"
+    ],
+    "ingredients": [
+      {
+        "name": "Uova",
+        "amount": "120",
+        "unit": "g"
+      },
+      {
+        "name": "Farina 00",
+        "amount": "77",
+        "unit": "g"
+      },
+      {
+        "name": "Acqua",
+        "amount": "62",
+        "unit": "g"
+      },
+      {
+        "name": "Latte",
+        "amount": "62",
+        "unit": "g"
+      },
+      {
+        "name": "Burro",
+        "amount": "55",
+        "unit": "g"
+      },
+      {
+        "name": "Sale",
+        "amount": "2.5",
+        "unit": "g"
+      },
+      {
+        "name": "Zucchero",
+        "amount": "8",
+        "unit": "g"
+      },
+      {
+        "name": "Tuorli",
+        "amount": "1",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "In un pentolino mettere acqua, latte, zucchero, sale e burro.\nPortare a ebollizione, e aggiungere la farina; mescolare con una marisa fino a che si formi una pellicola sul fondo del pentolino",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Passare in una bowl, e aggiungere le uova una alla volta mescolando bene",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Con una sac à poche fare sulla carta forno delle piccole montagnette appuntite.\nCon un cucchiaio bagnato schiacciare le punte",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Mescolare il tuorlo con un goccio d'acqua, e usare per spennellare",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Cuocere a 220° per 15 minuti, poi portare a 180° per 20 minuti con valvola aperta",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Pasta-per-choux.html",
+    "video": "VFzXZB7cSsk"
+  },
+  {
+    "title": "Brioche impasto",
+    "type": "Preparazione",
+    "time": "preparazione 90 min + lievitazioni 12 h",
+    "diners": {"quantity": "20", "unit": "pezzi"},
+    "tools": ["Bowl", "Planetaria", "Pellicola per alimenti"],
+    "ingredients": [
+      {"name": "Farina 00", "amount": "300", "unit": "g"},
+      {"name": "Farina manitoba", "amount": "200", "unit": "g"},
+      {"name": "Lievito di birra", "amount": "15", "unit": "g"},
+      {"name": "Uova grandi", "amount": "3", "unit": ""},
+      {"name": "Burro", "amount": "180", "unit": "g"},
+      {"name": "Latte intero", "amount": "80", "unit": "g"},
+      {"name": "Zucchero", "amount": "80", "unit": "g"},
+      {"name": "Miele d'acacia", "amount": "1.5", "unit": "cucchiai"},
+      {"name": "Rum", "amount": "18", "unit": "g"},
+      {"name": "Essenza di vaniglia", "amount": "1", "unit": "bustine"},
+      {"name": "Arance scorza", "amount": "2", "unit": ""},
+      {"name": "Limoni scorza", "amount": "1", "unit": ""},
+      {"name": "Sale", "amount": "8", "unit": "g"}
+    ],
+    "procedure": [
+      {"step": "2 – 4 h prima di preparare la Pasta Brioche, inserire in una bowl:  la buccia grattugiata delle arance, quella del limone, il rum, la vaniglia e il miele, girare accuratamente il composto e sigillare con una pellicola",
+        "image": "1.jpg"},
+      {"step": "Inserire nella planetaria: farine, lievito, latte e zucchero.\nFar partire per amalgamare, quindi inserire le uova 1 alla volta.\nSempre a velocità basse aggiungere la miscela di aromi",
+        "image": "2.jpg"},
+      {"step": "Lasciar lavorare per almeno 8 minuti; l'impasto risulterà disomogeneo, sgretolato e in parte appiccicoso.\nOra inserire il burro morbido poco a poco. Dopo 5 minuti sarà appiccicato e molto morbido",
+        "image": "3.jpg"},
+      {"step": "Procediamo con ulteriori 10 - 15 min a velocità medio - alta. Sarà pronto quando perfettamente incordato, elastico, liscio, gonfio, lucido, staccato dalle pareti del cestello",
+        "image": "4.jpg"},
+      {"step": "Comporre tra le mani una palla, portando verso il basso la pasta in eccesso e porla in una bowl asciutta.\nCoprirla con pellicola a contatto e far lievitare al caldo (forno spento con luce accesa) per 2h, fino a raddoppiare",
+        "image": "5.jpg"},
+      {"step": "Rompere la lievitazione e impastare velocemente per qualche secondo su un piano di lavoro, senza aggiungere farina.\nRicomporre la palla, adagiarla nuovamente nella ciotola, coperta ancora con la pellicola a contatto.\nPorla in frigo per 8-9 h circa",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://www.tavolartegusto.it/ricetta/pasta-brioche-ricetta-brioches-dolci-trecce-brioches/",
+    "video": ""
+  },
+  {
+    "title": "Crema al limone by Sal De Riso",
+    "type": "Preparazione",
+    "time": "",
+    "diners": {"quantity": "320", "unit": "g"},
+    "tools": ["Spremiagrumi", "Pentolino", "Grattugia", "Colino", "Frullatore a immersione", "Pellicola per alimenti"],
+    "ingredients": [
+      {"name": "Tuorli", "amount": "80", "unit": "g"},
+      {"name": "Zucchero", "amount": "80", "unit": "g"},
+      {"name": "Limoni succo", "amount": "80", "unit": "g"},
+      {"name": "Burro", "amount": "80", "unit": "g"},
+      {"name": "Limoncello", "amount": "30", "unit": "g"},
+      {"name": "Vaniglia", "amount": "0.3", "unit": ""},
+      {"name": "Limoni scorza", "amount": "1", "unit": ""}
+    ],
+    "procedure": [
+      {"step": "Versare il succo di limone in un pentolino e portare ad ebollizione;\nA parte incorporare lo zucchero ai tuorli d’uovo, aiutandosi con una frusta;\nGrattugiare la scorza di limone all’interno del succo, e unire la vaniglia",
+        "image": "1.jpg"},
+      {"step": "Versare il composto di tuorli direttamente all’interno del succo di limone bollente e mescolare di continuo con una frusta, portando ad 82°.\n Rimuovere dal fuoco ed incorporare il limoncello",
+        "image": "2.jpg"},
+      {"step": "Passare al colino a maglie strette per trattenere la buccia di limone;\nLasciare raffreddare la crema fino ad una temperatura di 35°",
+        "image": "3.jpg"},
+      {"step": "Incorporare quindi il burro ammorbidito, ma freddo, utilizzando un frullatore ad immersione",
+        "image": "4.jpg"},
+      {"step": "Coprire con pellicola a contatto e lasciare raffreddare in frigorifero fino ad una temperatura di 4°",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://drive.google.com/file/d/1JaQDg355MWpJbKjGp0iXZV0cNesp6-SG/view?usp=sharing",
+    "video": "LjDZkQz0YMg"
+  },
+  {
+    "title": "Crema al pistacchio by Andrea Tortora",
+    "type": "Preparazione",
+    "time": "preparazione 30 min + riposo 12 h",
+    "diners": {
+      "quantity": "200",
+      "unit": "g"
+    },
+    "tools": [
+      "Teglia",
+      "Ciotola per bagnomaria",
+      "Pentola",
+      "Bowl di acciaio",
+      "Mixer",
+      "Marisa",
+      "Bowl di vetro"
+    ],
+    "ingredients": [
+      {
+        "name": "Pistacchi",
+        "amount": "80",
+        "unit": "g"
+      },
+      {
+        "name": "Cioccolato bianco",
+        "amount": "130",
+        "unit": "g"
+      },
+      {
+        "name": "Olio di semi di vinacciolo",
+        "amount": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Sale",
+        "amount": "1",
+        "unit": "g"
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Tostare i pistacchi spellati in forno a 185° per 10 minuti.\nFarli raffreddare",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Fondere il cioccolato bianco.\nNel frattempo raffreddare una bowl",
+        "image": "2.jpg"
+      },
+      {
+        "step": "In un mixer tritare i pistacchi freddi, poi inserire il sale e una piccola parte di olio.\nFrullare per 5 - 6 min a più riprese, pulendo le pareti con una marisa e non superando mai i 45°",
+        "image": "3.jpg"
+      },
+      {
+        "step": "In una bowl, aggiungere la pasta e il cioccolato fuso.\nMescolare energicamente",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Aggiungere l'olio e mescolare ancora.\nVersare in una ciotola fredda e mescolare fino ad arrivare tra i 22 - 24°",
+        "image": "5.jpg"
+      },
+      {
+        "step": "Chiudere la crema in un vasetto e far riposare tra i 16 - 18° per 12 h",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Crema-spalmabile-al-pistacchio.html",
+    "video": "dC7nSB-AsgY"
+  },
+  {
+    "title": "Crema pasticcera by Iginio Massari",
+    "type": "Preparazione",
+    "time": "",
+    "diners": {"quantity": "400", "unit": "g"},
+    "tools": ["Bowl di acciaio", "Pentola", "Grattugia", "Pentolino", "Frusta"],
+    "ingredients": [
+      {"name": "Tuorli", "amount": "100", "unit": "g"},
+      {"name": "Zucchero", "amount": "100", "unit": "g"},
+      {"name": "Vaniglia", "amount": "1", "unit": ""},
+      {"name": "Limoni scorza", "amount": "0.5", "unit": ""},
+      {"name": "Maizena", "amount": "25", "unit": "g"},
+      {"name": "Latte intero", "amount": "250", "unit": "g"}
+    ],
+    "procedure": [
+      {"step": "Porre in freezer una bowl capiente.\nPrepariamo una pentola per il bagnomaria",
+        "image": "1.jpg"},
+      {"step": "In un pentolino versare latte, scorza di limone e vaniglia. Portare a ebollizione (90°)",
+        "image": "2.jpg"},
+      {"step": "Mescolare con una frusta in una ciotola zucchero e amido, poi i tuorli",
+        "image": "3.jpg"},
+      {"step": "Mettere a poco a poco ma velocemente il latte caldo nei tuorli, mescolando.\nMettere il composto nel bagnomaria e girare; arrivare a 92° e togliere subito,\nMettere velocemente nella bacinella congelata e girare veloce",
+        "image": "4.jpg"},
+      {"step": "Leggero spolvero di zucchero in superficie, pulisco i bordi della bacinella e pongo in frigorifero",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Tiramisu-goloso.html",
+    "video": "tpceWoxtbAo"
+  },
+  {
+    "title": "Crepes",
+    "type": "Preparazione",
+    "time": "10 min",
+    "diners": {"quantity": "5", "unit": "persone"},
+    "tools": ["Frusta", "Bowl", "Padella", "Mestolo", "Stendi pastella"],
+    "ingredients": [
+      {"name": "Uova", "amount": "1", "unit": ""},
+      {"name": "Farina 00", "amount": "160", "unit": "g"},
+      {"name": "Sale", "amount": "0.25", "unit": "cucchiaini"},
+      {"name": "Olio di semi", "amount": "2", "unit": "cucchiai"},
+      {"name": "Latte", "amount": "250", "unit": "g"},
+      {"name": "Acqua", "amount": "50", "unit": "g"},
+      {"name": "Rum", "amount": "q.b.", "unit": ""},
+      {"name": "Burro per la padella", "amount": "q.b.", "unit": ""}
+    ],
+    "procedure": [
+      {"step": "Mescolare tutti gli ingredienti e infine la farina setacciata, fino ad ottenere un composto omogeneo e privo di grumi",
+        "image": "1.jpg"},
+      {"step": "Lasciare riposare in frigo 30 minuti.\nUngere la padella a fuoco medio basso con del burro, e versare un mestolo di composto",
+        "image": "2.jpg"},
+      {"step": "Stendere il composto uniformemente e velocemente, e dopo 1 minuto girarla",
+        "image": "3.jpg"},
+      {"step": "Impilare tutte le crepes, poi farcire a piacere",
+        "image": "last.jpg"}
+    ],
+    "source": "zia Anna",
+    "link": "",
+    "video": ""
+  },
+  {
+    "title": "Maionese by Davide Scabin",
+    "type": "Preparazione",
+    "time": "30 min",
+    "diners": {
+      "quantity": "300",
+      "unit": "g"
+    },
+    "tools": [
+      "Planetaria"
+    ],
+    "ingredients": [
+      {
+        "name": "Tuorli",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "Limoni succo",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Olio di semi",
+        "amount": "250",
+        "unit": "g"
+      },
+      {
+        "name": "Aceto di vino bianco",
+        "amount": "1.5",
+        "unit": "cucchiaini"
+      },
+      {
+        "name": "Pepe",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "3",
+        "unit": "g"
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Separare i tuorli con le mani e metterli nella planetaria.\nAggiungere qualche goccia di succo di limone e iniziare a mescolare a velocità media fino a che prendano corpo\n",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Aggiungere 50% dell'olio molto poco alla volta.\nAggiungere il limone molto poco alla volta.\nAggiungere il restante olio molto poco alla volta",
+        "image": "2.jpg"
+      },
+      {
+        "step": "A maionese pronta, chiudere con l'aceto, sale e pepe.\nMescolare.",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Maionese.html",
+    "video": "pMoOaVGBUbY"
+  },
+  {
+    "title": "Scorze d'arancia candite",
+    "type": "Preparazione",
+    "time": "preparazione 30 min + cottura 60 min",
+    "diners": {"quantity": "500", "unit": "barattolo"},
+    "tools": ["Tagliere", "Coltello universale", "Pentola", "Bowl"],
+    "ingredients": [
+      {"name": "Arance buccia", "amount": "300", "unit": "g"},
+      {"name": "Zucchero", "amount": "800", "unit": "g"},
+      {"name": "Acqua", "amount": "800", "unit": "g"},
+      {"name": "Ghiaccio", "amount": "q.b.", "unit": ""}
+    ],
+    "procedure": [
+      {"step": "Tagliare le arance a spicchi, togliere la polpa e ricavare striscioline da 0.5cm",
+        "image": "1.jpg"},
+      {"step": "Mettere le scorze in un pentolino con acqua fredda e portare a bollore, poi scolare in acqua fredda con ghiaccio.\nRipete 4 volte",
+        "image": "2.jpg"},
+      {"step": "Togliere l'acqua dalle scorze.\nNel pentolino versare acqua e zucchero e portare a bollore.\nA sciroppo ottenuto, immergere le scorze",
+        "image": "3.jpg"},
+      {"step": "Far sbollire per almeno 30 minuti a fuoco dolce",
+        "image": "4.jpg"},
+      {"step": "Per conservare le scorze di arancia candite, versarle con lo sciroppo stesso in un barattolo",
+        "image": "last.jpg"}
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Scorze-di-arance-candite.html",
+    "video": ""
+  },
   {
     "title": "Zabaione by Paolo Sacchetti",
-    "type": "Dolce",
+    "type": "Preparazione",
     "time": "25 min",
     "diners": {
       "quantity": "150",
