@@ -3,7 +3,7 @@
     "title": "Croque madame by Denny Imbroisi",
     "type": "Antipasto",
     "time": {
-      "preparazione": "3",
+      "preparazione": "5",
       "cottura": "",
       "riposo": ""
     },
@@ -149,9 +149,9 @@
     "title": "Mozzarella in carrozza napoletana by Andrea Aprea",
     "type": "Antipasto",
     "time": {
-      "preparazione": "",
-      "cottura": "",
-      "riposo": ""
+      "preparazione": "20",
+      "cottura": "8",
+      "riposo": "60"
     },
     "diners": {
       "quantity": "24",
@@ -257,8 +257,8 @@
     "title": "Lasagna",
     "type": "Primo",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "120",
+      "cottura": "180",
       "riposo": ""
     },
     "diners": {"quantity": "6", "unit": "persone"},
@@ -311,8 +311,8 @@
     "title": "Pasta aglio, olio e peperoncino by Luciano Monosilio",
     "type": "Primo",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "5",
+      "cottura": "10",
       "riposo": ""
     },
     "diners": {
@@ -384,8 +384,8 @@
     "title": "Pasta aglio, olio e peperoncino di mare by Giuseppe Mancino",
     "type": "Primo",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "30",
+      "cottura": "30",
       "riposo": ""
     },
     "diners": {
@@ -494,9 +494,9 @@
     "title": "Pasta al datterino giallo by Solaika Marrocco",
     "type": "Primo",
     "time": {
-      "preparazione": "",
-      "cottura": "",
-      "riposo": ""
+      "preparazione": "25",
+      "cottura": "30",
+      "riposo": "120"
     },
     "diners": {
       "quantity": "4",
@@ -579,8 +579,8 @@
     "title": "Pasta al pomodoro e arancia by Cracco",
     "type": "Primo",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "10",
+      "cottura": "10",
       "riposo": ""
     },
     "diners": {"quantity": "4", "unit": "persone"},
@@ -654,8 +654,8 @@
     "title": "Pasta al pomodoro e menta by Davide Oldani",
     "type": "Primo",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "10",
+      "cottura": "50",
       "riposo": ""
     },
     "diners": {
@@ -742,8 +742,8 @@
     "title": "Pasta alle vongole by Carmela Abbate",
     "type": "Primo",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "20",
+      "cottura": "20",
       "riposo": ""
     },
     "diners": {
@@ -833,8 +833,8 @@
     "title": "Pasta Carbonara by Luciano Monosilio",
     "type": "Primo",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "30",
+      "cottura": "15",
       "riposo": ""
     },
     "diners": {"quantity": "3", "unit": "persone"},
@@ -874,8 +874,8 @@
     "title": "Pasta con gamberi e burrata",
     "type": "Primo",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "20",
+      "cottura": "10",
       "riposo": ""
     },
     "diners": {"quantity": "3", "unit": "persone"},
@@ -916,9 +916,9 @@
     "title": "Pizza pala romana by Ian Spampatti",
     "type": "Primo",
     "time": {
-      "preparazione": "",
+      "preparazione": "30",
       "cottura": "",
-      "riposo": ""
+      "riposo": "1080"
     },
     "diners": {"quantity": "1000", "unit": "g"},
     "tools": [
@@ -1033,8 +1033,8 @@
     "title": "Ravioli ricotta e spinaci",
     "type": "Primo",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "60",
+      "cottura": "10",
       "riposo": ""
     },
     "diners": {"quantity": "2", "unit": "persone"},
@@ -1076,8 +1076,8 @@
     "title": "Cestini di Patate burrata e prosciutto",
     "type": "Secondo",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "15",
+      "cottura": "25",
       "riposo": ""
     },
     "diners": {"quantity": "4", "unit": "persone"},
@@ -1113,9 +1113,9 @@
     "title": "Pane di campagna by Davide Longoni",
     "type": "Contorno",
     "time": {
-      "preparazione": "",
+      "preparazione": "120",
       "cottura": "",
-      "riposo": ""
+      "riposo": "1440"
     },
     "diners": {
       "quantity": "500",
@@ -1231,8 +1231,8 @@
     "title": "Biscotti lingue di gatto by Iginio Massari",
     "type": "Dolce",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "15",
+      "cottura": "8",
       "riposo": ""
     },
     "diners": {
@@ -1301,8 +1301,8 @@
     "title": "Biscotti Savoiardi by Iginio Massari",
     "type": "Dolce",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "25",
+      "cottura": "11",
       "riposo": ""
     },
     "diners": {"quantity": "50", "unit": "pezzi"},
@@ -1339,9 +1339,9 @@
     "title": "Brioche col tuppo",
     "type": "Dolce",
     "time": {
-      "preparazione": "",
-      "cottura": "",
-      "riposo": ""
+      "preparazione": "30",
+      "cottura": "25",
+      "riposo": "140"
     },
     "diners": {"quantity": "12", "unit": "pezzi"},
     "tools": ["Carta forno", "Pennello"],
@@ -1374,8 +1374,8 @@
     "title": "Cannoli by Edoardo Dolcimascolo",
     "type": "Dolce",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "60",
+      "cottura": "15",
       "riposo": ""
     },
     "diners": {"quantity": "30", "unit": "pezzi"},
@@ -1423,9 +1423,9 @@
     "title": "Dessert al limone by Enrico Derflingher",
     "type": "Dolce",
     "time": {
-      "preparazione": "",
+      "preparazione": "20",
       "cottura": "",
-      "riposo": ""
+      "riposo": "1440"
     },
     "diners": {
       "quantity": "12",
@@ -1503,8 +1503,8 @@
     "title": "Sachertorte by Ernst Knam",
     "type": "Dolce",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "60",
+      "cottura": "50",
       "riposo": ""
     },
     "diners": {"quantity": "6", "unit": "persone"},
@@ -1547,9 +1547,9 @@
     "title": "Sorbetto al limone",
     "type": "Dolce",
     "time": {
-      "preparazione": "",
+      "preparazione": "30",
       "cottura": "",
-      "riposo": ""
+      "riposo": "40"
     },
     "diners": {"quantity": "1", "unit": "litro"},
     "tools": ["Bowl", "Planetaria", "Marisa", "Spremiagrumi", "Frusta", "Gelatiera"],
@@ -1581,8 +1581,8 @@
     "title": "Tiramisù",
     "type": "Dolce",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "40",
+      "cottura": "6",
       "riposo": ""
     },
     "diners": {"quantity": "6", "unit": "persone"},
@@ -1617,9 +1617,9 @@
     "title": "Tiramisù al limone by Sal De Riso",
     "type": "Dolce",
     "time": {
-      "preparazione": "",
+      "preparazione": "60",
       "cottura": "",
-      "riposo": ""
+      "riposo": "720"
     },
     "diners": {"quantity": "10", "unit": "porzioni"},
     "tools": ["Pentola", "Bowl", "Frusta", "Termometro", "Planetaria", "Colino", "Marisa", "Sac à poche"],
@@ -1668,8 +1668,8 @@
     "title": "Tiramisù by Iginio Massari",
     "type": "Dolce",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "50",
+      "cottura": "60",
       "riposo": ""
     },
     "diners": {"quantity": "5", "unit": "persone"},
@@ -1709,8 +1709,8 @@
     "title": "Bignè (pasta choux) by Denny Imbroisi",
     "type": "Preparazione",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "30",
+      "cottura": "35",
       "riposo": ""
     },
     "diners": {
@@ -1797,9 +1797,9 @@
     "title": "Brioche impasto",
     "type": "Preparazione",
     "time": {
-      "preparazione": "",
+      "preparazione": "45",
       "cottura": "",
-      "riposo": ""
+      "riposo": "860"
     },
     "diners": {"quantity": "20", "unit": "pezzi"},
     "tools": ["Bowl", "Planetaria", "Pellicola per alimenti"],
@@ -1840,7 +1840,7 @@
     "title": "Crema al limone by Sal De Riso",
     "type": "Preparazione",
     "time": {
-      "preparazione": "",
+      "preparazione": "30",
       "cottura": "",
       "riposo": ""
     },
@@ -1875,9 +1875,9 @@
     "title": "Crema al pistacchio by Andrea Tortora",
     "type": "Preparazione",
     "time": {
-      "preparazione": "",
+      "preparazione": "30",
       "cottura": "",
-      "riposo": ""
+      "riposo": "720"
     },
     "diners": {
       "quantity": "200",
@@ -1948,7 +1948,7 @@
     "title": "Crema pasticcera by Iginio Massari",
     "type": "Preparazione",
     "time": {
-      "preparazione": "",
+      "preparazione": "20",
       "cottura": "",
       "riposo": ""
     },
@@ -1982,7 +1982,7 @@
     "title": "Crepes",
     "type": "Preparazione",
     "time": {
-      "preparazione": "",
+      "preparazione": "10",
       "cottura": "",
       "riposo": ""
     },
@@ -2016,7 +2016,7 @@
     "title": "Maionese by Davide Scabin",
     "type": "Preparazione",
     "time": {
-      "preparazione": "",
+      "preparazione": "30",
       "cottura": "",
       "riposo": ""
     },
@@ -2081,8 +2081,8 @@
     "title": "Scorze d'arancia candite",
     "type": "Preparazione",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "30",
+      "cottura": "60",
       "riposo": ""
     },
     "diners": {"quantity": "500", "unit": "barattolo"},
@@ -2113,8 +2113,8 @@
     "title": "Zabaione by Paolo Sacchetti",
     "type": "Preparazione",
     "time": {
-      "preparazione": "",
-      "cottura": "",
+      "preparazione": "15",
+      "cottura": "10",
       "riposo": ""
     },
     "diners": {
