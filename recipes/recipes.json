@@ -53,7 +53,7 @@
     "title": "Croque monsieur by Denny Imbroisi",
     "type": "Antipasto",
     "time": {
-      "preparazione": "10",
+      "preparazione": "5",
       "cottura": "12",
       "riposo": ""
     },
@@ -95,46 +95,28 @@
         "unit": ""
       },
       {
-        "name": "Latte",
+        "name": "Salsa Besciamella",
         "amount": "450",
-        "unit": "g"
-      },
-      {
-        "name": "Farina 00",
-        "amount": "45",
-        "unit": "g"
-      },
-      {
-        "name": "Burro",
-        "amount": "45",
-        "unit": "g"
-      },
-      {
-        "name": "Noce moscata",
-        "amount": "q.b.",
-        "unit": ""
+        "unit": "g",
+        "isRecipe": "true"
       }
     ],
     "procedure": [
       {
-        "step": "Per la besciamella: sciogliere il burro in padella, aggiungere la farina e cuocere delicatamente per 2 - 3 min.\nAggiungere poco alla volta latte freddo.\nSe fa grumi mixare",
+        "step": "Lo chef, per la besciamella, aggiunge poco alla volta il latte freddo e non caldo",
         "image": "1.jpg"
       },
       {
-        "step": "Aromatizzare con noce moscata, sale e pepe.\nQuando sarà densa mettere in frigorifero con pellicola a contatto",
+        "step": "Tagliare fette non troppo spesse, spalmare entrambe le fette con besciamella e grattugiare abbondante formaggio, poi sale, pepe e prosciutto",
         "image": "2.jpg"
       },
       {
-        "step": "Tagliare fette non troppo spesse, spalmare entrambe le fette con besciamella e grattugiare abbondante formaggio, poi sale, pepe e prosciutto",
+        "step": "Chiudere, fare leggera pressione, e in superficie spalmare besciamella e grattugiare il formaggio",
         "image": "3.jpg"
       },
       {
-        "step": "Chiudere, fare leggera pressione, e in superficie spalmare besciamella e grattugiare il formaggio",
-        "image": "4.jpg"
-      },
-      {
         "step": "Infornare su carta forno a 190° 8 - 12 min, fino a doratura",
-        "image": "5.jpg"
+        "image": "4.jpg"
       },
       {
         "step": "Tagliare in diagonale e servire su un tagliere",
@@ -276,10 +258,7 @@
       {"name": "Olio di oliva", "amount": "1", "unit": "cucchiai"},
       {"name": "Sale", "amount": "q.b.", "unit": ""},
       {"name": "Pepe", "amount": "q.b.", "unit": ""},
-      {"name": "Burro", "amount": "70", "unit": "g"},
-      {"name": "Farina 00", "amount": "70", "unit": "g"},
-      {"name": "Latte intero", "amount": "1000", "unit": "g"},
-      {"name": "Noce moscata", "amount": "q.b.", "unit": "g"},
+      {"name": "Salsa Besciamella", "amount": "1", "unit": "l", "isRecipe":  "true"},
       {"name": "Parmigiano", "amount": "q.b.", "unit": ""},
       {"name": "Pecorino", "amount": "q.b.", "unit": ""},
       {"name": "Mozzarella", "amount": "q.b.", "unit": ""},
@@ -1108,6 +1087,131 @@
     "link": "https://www.sandanielemagazine.com/ricette-prosciutto-di-san-daniele/cestini-di-patate-con-burrata-e-prosciutto-di-san-daniele/",
     "video": ""
   },
+  {
+    "title": "Uovo in camicia",
+    "type": "Secondo",
+    "time": {
+      "preparazione": "5",
+      "cottura": "2",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "4",
+      "unit": "uova"
+    },
+    "tools": [
+      "Pentola",
+      "Schiumarola"
+    ],
+    "ingredients": [
+      {
+        "name": "Uova",
+        "amount": "4",
+        "unit": ""
+      },
+      {
+        "name": "Aceto di vino bianco",
+        "amount": "10",
+        "unit": "g"
+      },
+      {
+        "name": "Sale grosso",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Riscaldare la pentola con acqua, aceto e sale, a fuoco moderato.\nRompere l'uovo in una ciotola",
+        "image": "1.jpg"
+      },
+      {
+        "step": "A leggera ebollizione abbassare la fiamma e creare un vortice con un cucchiaio",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Versare l'uovo al centro del vortice e cuocere per 2 minuti.\nScolare con una schiumarola",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Uova-in-camicia.html",
+    "video": "XzQc42QbbGc"
+  },
+  {
+    "title": "Uovo pochè by Eugenio Boer",
+    "type": "Secondo",
+    "time": {
+      "preparazione": "5",
+      "cottura": "",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "4",
+      "unit": "pezzi"
+    },
+    "tools": [
+      "Padella",
+      "Tagliere",
+      "Coltello da pane"
+    ],
+    "ingredients": [
+      {
+        "name": "Uovo in camicia",
+        "amount": "q.b.",
+        "unit": "",
+        "isRecipe": "true"
+      },
+      {
+        "name": "Salsa Mornay",
+        "amount": "q.b.",
+        "unit": "",
+        "isRecipe": "true"
+      },
+      {
+        "name": "Burro",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Pane",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Spinaci",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Pepe",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Abbrustolire delle fette di pane in padella con il burro sciolto",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Cuocere gli spinaci in burro, sale e pepe",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Servire il crostone di pane con sopra spinaci, uovo, salsa mornay e pepe",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "",
+    "video": "XzQc42QbbGc"
+  },
 
   {
     "title": "Pane di campagna by Davide Longoni",
@@ -1591,7 +1695,7 @@
       {"name": "Mascarpone", "amount": "750", "unit": "g"},
       {"name": "Uova", "amount": "5", "unit": ""},
       {"name": "Zucchero", "amount": "120", "unit": "g"},
-      {"name": "Savoiardi by Iginio Massari", "amount": "250", "unit": "g", "isRecipe": "true"},
+      {"name": "Savoiardi", "amount": "250", "unit": "g"},
       {"name": "Caffè", "amount": "200", "unit": "g"},
       {"name": "Cacao", "amount": "q.b.", "unit": ""}
     ],
@@ -1624,7 +1728,7 @@
     "diners": {"quantity": "10", "unit": "porzioni"},
     "tools": ["Pentola", "Bowl", "Frusta", "Termometro", "Planetaria", "Colino", "Marisa", "Sac à poche"],
     "ingredients": [
-      {"name":  "Savoiardi by Iginio Massari", "amount": "100", "unit": "", "isRecipe": "true"},
+      {"name":  "Biscotti Savoiardi by Iginio Massari", "amount": "100", "unit": "", "isRecipe": "true"},
       {"name":  "Crema al limone by Sal De Riso", "amount": "320", "unit": "g", "isRecipe": "true"},
       {"name": "Acqua per bagna", "amount": "100", "unit": "g"},
       {"name": "Limoncello", "amount": "200", "unit": "g"},
@@ -1675,7 +1779,7 @@
     "diners": {"quantity": "5", "unit": "persone"},
     "tools": ["Planetaria", "Bowl", "Pentolino", "Teglia", "Frusta", "Sac à poche", "Anello", "Piatto", "Pellicola per alimenti", "Tarocco"],
     "ingredients": [
-      {"name": "Savoiardi by Iginio Massari", "amount": "50", "unit": "", "isRecipe": "true"},
+      {"name": "Biscotti Savoiardi by Iginio Massari", "amount": "50", "unit": "", "isRecipe": "true"},
       {"name": "Crema pasticcera by Iginio Massari", "amount": "400", "unit": "g", "isRecipe": "true"},
       {"name": "Acqua caffè", "amount": "100", "unit": "g"},
       {"name": "Caffè", "amount": "100", "unit": "g"},
@@ -1979,6 +2083,70 @@
     "video": "tpceWoxtbAo"
   },
   {
+    "title": "Crema Zabaione by Paolo Sacchetti",
+    "type": "Preparazione",
+    "time": {
+      "preparazione": "15",
+      "cottura": "10",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "150",
+      "unit": "g"
+    },
+    "tools": [
+      "Pentolino",
+      "Frusta",
+      "Pentola",
+      "Ciotola per bagnomaria",
+      "Bowl di vetro",
+      "Mestolo"
+    ],
+    "ingredients": [
+      {
+        "name": "Tuorli",
+        "amount": "90",
+        "unit": "g"
+      },
+      {
+        "name": "Zucchero",
+        "amount": "25",
+        "unit": "g"
+      },
+      {
+        "name": "Vin santo (o Marsala)",
+        "amount": "75",
+        "unit": "g"
+      },
+      {
+        "name": "Ghiaccio",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Raffreddare una bowl.\nVersare in un pentolino il vino e metà zucchero, e scaldare.\nIn una ciotola per bagnomaria versare i tuorli e il restante zucchero, mescolando subito con una frusta",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Semper mescolando energicamente, quando lo zucchero comincia a sciogliere nel vino, aggiungere una piccola parte di vino, andare a bagnomaria e versare il restante vino\nArriviamo a 82°, quindi fino a quando sarà una crema",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Versare subito in una bowl fredda, a bagnomaria col ghiaccio, e mescolare con una marisa per un minuto",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Conservare aiutandosi con un mestolo",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Zabaione.html",
+    "video": "wT0_kRdrgRw"
+  },
+  {
     "title": "Crepes",
     "type": "Preparazione",
     "time": {
@@ -2013,7 +2181,74 @@
     "video": ""
   },
   {
-    "title": "Maionese by Davide Scabin",
+    "title": "Salsa Besciamella",
+    "type": "Preparazione",
+    "time": {
+      "preparazione": "5",
+      "cottura": "10",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "1",
+      "unit": "l"
+    },
+    "tools": [
+      "Pentolino",
+      "Pentolino",
+      "Frusta",
+      "Frullatore a immersione"
+    ],
+    "ingredients": [
+      {
+        "name": "Latte",
+        "amount": "1",
+        "unit": "l"
+      },
+      {
+        "name": "Burro",
+        "amount": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Farina 00",
+        "amount": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Noce moscata",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Scaldare il latte con un pizzico di sale e noce moscata",
+        "image": "1.jpg"
+      },
+      {
+        "step": "In un pentolino capiente, sciogliere il burro a fuoco lento, poi aggiungere in una volta la farina. Mescolare vigorosamente e continuamente fino ad un composto dorato",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Aggiungere prima poco latte, poi tutto il resto, e continuare per 5 - 6 minuti a fuoco lento.\nSe si formano grumi usare uno sbattitore elettrico.",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Riporre in frigorifero con pellicola a contatto",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Besciamella.html",
+    "video": ""
+  },
+  {
+    "title": "Salsa Maionese by Davide Scabin",
     "type": "Preparazione",
     "time": {
       "preparazione": "30",
@@ -2078,6 +2313,62 @@
     "video": "pMoOaVGBUbY"
   },
   {
+    "title": "Salsa Mornay",
+    "type": "Preparazione",
+    "time": {
+      "preparazione": "3",
+      "cottura": "",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "1",
+      "unit": "l"
+    },
+    "tools": [
+      "Frullatore a immersione",
+      "Pentolino"
+    ],
+    "ingredients": [
+      {
+        "name": "Salsa Besciamella",
+        "amount": "1",
+        "unit": "l",
+        "isRecipe": "true"
+      },
+      {
+        "name": "Tuorli",
+        "amount": "4",
+        "unit": ""
+      },
+      {
+        "name": "Asiago DOP",
+        "amount": "160",
+        "unit": "g"
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Fare la besciamella",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Aggiungere il formaggio e mescolare con il frullatore a immersione",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Aggiungere i tuorli nella salsa ancora calda, mescolare",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Insaporire con sale e pepe se necessario",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Salsa-Mornay.html",
+    "video": ""
+  },
+  {
     "title": "Scorze d'arancia candite",
     "type": "Preparazione",
     "time": {
@@ -2108,69 +2399,5 @@
     "source": "web",
     "link": "https://ricette.giallozafferano.it/Scorze-di-arance-candite.html",
     "video": ""
-  },
-  {
-    "title": "Zabaione by Paolo Sacchetti",
-    "type": "Preparazione",
-    "time": {
-      "preparazione": "15",
-      "cottura": "10",
-      "riposo": ""
-    },
-    "diners": {
-      "quantity": "150",
-      "unit": "g"
-    },
-    "tools": [
-      "Pentolino",
-      "Frusta",
-      "Pentola",
-      "Ciotola per bagnomaria",
-      "Bowl di vetro",
-      "Mestolo"
-    ],
-    "ingredients": [
-      {
-        "name": "Tuorli",
-        "amount": "90",
-        "unit": "g"
-      },
-      {
-        "name": "Zucchero",
-        "amount": "25",
-        "unit": "g"
-      },
-      {
-        "name": "Vin santo (o Marsala)",
-        "amount": "75",
-        "unit": "g"
-      },
-      {
-        "name": "Ghiaccio",
-        "amount": "q.b.",
-        "unit": ""
-      }
-    ],
-    "procedure": [
-      {
-        "step": "Raffreddare una bowl.\nVersare in un pentolino il vino e metà zucchero, e scaldare.\nIn una ciotola per bagnomaria versare i tuorli e il restante zucchero, mescolando subito con una frusta",
-        "image": "1.jpg"
-      },
-      {
-        "step": "Semper mescolando energicamente, quando lo zucchero comincia a sciogliere nel vino, aggiungere una piccola parte di vino, andare a bagnomaria e versare il restante vino\nArriviamo a 82°, quindi fino a quando sarà una crema",
-        "image": "2.jpg"
-      },
-      {
-        "step": "Versare subito in una bowl fredda, a bagnomaria col ghiaccio, e mescolare con una marisa per un minuto",
-        "image": "3.jpg"
-      },
-      {
-        "step": "Conservare aiutandosi con un mestolo",
-        "image": "last.jpg"
-      }
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Zabaione.html",
-    "video": "wT0_kRdrgRw"
   }
 ]
