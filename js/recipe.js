@@ -1,12 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
   const urlParams = new URLSearchParams(window.location.search);
   const recipeId = urlParams.get('title');
+  let intermediateTot = 0;
 
   fetch('recipes.json')
     .then(response => response.json())
     .then(recipes => {
+      allRecipes = recipes;
       const recipe = recipes.find(recipe => recipe.title === recipeId);
       if (recipe) {
+        fetchIntermediate(recipes, recipe)
         displayRecipe(recipe);
       } else {
         console.error('Recipe not found');
@@ -20,15 +23,15 @@ document.addEventListener('DOMContentLoaded', function() {
     const title = (recipe.title.includes(" by ") ? '⭐ ' : '') + recipe.title;
     document.getElementById('recipe-title').textContent = title
     document.title = title
+    document.getElementById('recipe-image').src = "../images/" + recipe.type + "/" + recipe.title + "/last.jpg"
 
     displayWeb(recipe);
     displayTools(recipe);
+    displayHead(recipe);
+    displayIngredients(recipe);
     displayProcedure(recipe);
-    displayIngredients(recipe)
   }
-  function displayHead(recipe, totIntermediate) {
-    document.getElementById('recipe-image').src = "../images/" + recipe.title + "/last.jpg"
-
+  function displayHead(recipe) {
     document.getElementById('recipe-type-value').textContent = recipe.type;
     document.getElementById('recipe-diners-quantity').textContent = recipe.diners.quantity;
     document.getElementById('recipe-diners-unit').textContent = recipe.diners.unit;
@@ -41,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
           Preparazione: <span>${recipe.time.preparazione} min</span>
       `;
       infoList.appendChild(li);
-      tot += Number(recipe.time.preparazione)
+      tot += castNumber(recipe.time.preparazione)
     }
     if (recipe.time.cottura) {
       const li = document.createElement('li');
@@ -49,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
           Cottura: <span>${recipe.time.cottura} min</span>
       `;
       infoList.appendChild(li);
-      tot += Number(recipe.time.cottura)
+      tot += castNumber(recipe.time.cottura)
     }
     if (recipe.time.riposo) {
       const li = document.createElement('li');
@@ -57,15 +60,16 @@ document.addEventListener('DOMContentLoaded', function() {
           Riposo: <span>${recipe.time.riposo} min</span>
       `;
       infoList.appendChild(li);
-      tot += Number(recipe.time.riposo)
+      tot += castNumber(recipe.time.riposo)
     }
-    if (totIntermediate !== 0) {
+
+    if (intermediateTot !== 0) {
       const li = document.createElement('li');
       li.innerHTML = `
-          Intermedi: <span>${totIntermediate} min</span>
+          Intermedi: <span>${intermediateTot} min</span>
       `;
       infoList.appendChild(li);
-      tot += totIntermediate
+      tot += intermediateTot
     }
     const li = document.createElement('li');
     li.innerHTML = `
@@ -112,7 +116,6 @@ document.addEventListener('DOMContentLoaded', function() {
     ingredientsList.innerHTML = '';
     baseIngredientSelect.innerHTML = '';
 
-    let titles = [];
     let ingCont = 0;
     recipe.ingredients.forEach(ingredient => {
       const li = document.createElement('li');
@@ -121,7 +124,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const isRecipeLink = ingredient.isRecipe ?
           `<a href="recipe.html?title=${encodeURIComponent(ingredient.name)}" target="_blank">${ingredient.name}</a>` :
           ingredient.name;
-      if (ingredient.isRecipe) titles.push(ingredient.name)
 
       li.innerHTML = `
         <input type="checkbox" id="${ingredient.name}-${ingCont}" onchange="checkLi(this)">
@@ -148,31 +150,24 @@ document.addEventListener('DOMContentLoaded', function() {
     option.value = recipe.diners;
     option.textContent = "Dosi"
     baseIngredientSelect.appendChild(option);
+  }
 
-    fetchIntermediate(recipe, titles);
+  function fetchIntermediate (recipes, recipe) {
+    recipe.ingredients.forEach(ingredient => {
+      const recipe = recipes.find(recipe => recipe.title === ingredient.name);
+      if (recipe) {
+        intermediateTot += castNumber(recipe.time.preparazione) + castNumber(recipe.time.cottura) + castNumber(recipe.time.riposo)
+        fetchIntermediate(recipes, recipe);
+      }
+    });
   }
-  function fetchIntermediate (recipe, titles) {
-    let totIntermediate = 0;
-    fetch('recipes.json')
-        .then(response => response.json())
-        .then(recipes => {
-          const myRecipes = recipes.filter(recipe => titles.includes(recipe.title));
-          myRecipes.forEach( r => {
-                totIntermediate += castNumber(r.time.preparazione) + castNumber(r.time.riposo) + castNumber(r.time.cottura)
-              }
-          );
-          displayHead(recipe, totIntermediate);
-        })
-        .catch(error => {
-          console.error('Error fetching recipe:', error);
-        });
-  }
+
   function displayProcedure(recipe) {
     const procedureList = document.getElementById('procedure-list');
     procedureList.innerHTML = '';
     recipe.procedure.forEach(step => {
       const li = document.createElement('li');
-      li.innerHTML = `<img src="../images/${recipe.title}/${step.image}" alt=""><div style="white-space: pre-wrap">${step.step}</div><hr>`;
+      li.innerHTML = `<img src="../images/${recipe.type}/${recipe.title}/${step.image}" alt=""><div style="white-space: pre-wrap">${step.step}</div><hr>`;
       procedureList.appendChild(li);
     });
   }
