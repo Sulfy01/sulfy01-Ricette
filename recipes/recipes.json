@@ -850,6 +850,78 @@
     "video": "JUxf9g9fq0I"
   },
   {
+    "title": "Pasta Cacio e pepe",
+    "type": "Primo",
+    "time": {
+      "preparazione": "15",
+      "cottura": "15",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "4",
+      "unit": "persone"
+    },
+    "tools": [
+      "Pentola",
+      "Padella",
+      "Mortaio",
+      "Frusta",
+      "Scolapasta",
+      "Pinze",
+      "Mestolo"
+    ],
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "amount": "320",
+        "unit": "g"
+      },
+      {
+        "name": "Pecorino romano stagionatura media",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Pepe",
+        "amount": "5",
+        "unit": "g"
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Scaldare nella pentola metà dell'acqua usata di solito e salarla leggermente.\nCalare la pasta",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Schiacciare il pepe e tostarne 1/2 in padella. Girare bene e aggiungere un mestolo d'acqua di cottura",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Scolare la pasta bene al dente nella padella e aggiungere altra acqua, quindi muovere la pasta",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Mescolare 1/2 del pecorino con un mestolo di acqua di cottura, quindi aggiungere quasi tutto il resto. Bilanciare bene con l'acqua, fino ad avere la giusta consistenza",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Quando la pasta è giunta a cottura, spegnere il fuoco.\nScaldare leggermente la crema con i fumi dell'acqua di cottura, e aggiungerla nella pasta, al centro, ruotando bene",
+        "image": "5.jpg"
+      },
+      {
+        "step": "Aggiungere anche il pecorino da parte se risulta liquida, sempre muovendola",
+        "image": "6.jpg"
+      },
+      {
+        "step": "Impiattare velocemente con il pepe rimasto",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Spaghetti-Cacio-e-Pepe.html",
+    "video": "j03ElaWMP_E"
+  },
+  {
     "title": "Pasta con gamberi e burrata",
     "type": "Primo",
     "time": {
