@@ -206,6 +206,7 @@ function parseVideoId(url) {
     return videoId;
 }
 function parseTimeDuration(input) {
+    if (input === "") return "";
     // Remove any whitespace from the input string
     input = input.replace(/\s/g, '');
 
@@ -227,7 +228,8 @@ function parseTimeDuration(input) {
             totalDuration += hours * 60;
         } else if (minutePattern.test(segment)) {
             // Extract minutes
-            const minutes = parseInt(segment.match(minutePattern)[1]);
+            const match = segment.match(minutePattern);
+            const minutes = match[1] ? parseInt(match[1], 10) : parseInt(match[2], 10);
             totalDuration += minutes;
         } else {
             // Handle unrecognized format
@@ -235,7 +237,7 @@ function parseTimeDuration(input) {
         }
     });
 
-    return totalDuration;
+    return totalDuration.toString();
 }
 function checkRequiredFields() {
     const requiredFields = document.querySelectorAll('#recipe-form [required]');
