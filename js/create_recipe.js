@@ -137,9 +137,9 @@ function generateAndDownloadJSON() {
         title: capitalizeFirstLetter(formData.get('title')),
         type: formData.get('type'),
         time: {
-            "preparazione": formData.get('time-preparazione'),
-            "cottura": formData.get('time-cottura'),
-            "riposo": formData.get('time-riposo')
+            "preparazione": parseTimeDuration(formData.get('time-preparazione')),
+            "cottura": parseTimeDuration(formData.get('time-cottura')),
+            "riposo": parseTimeDuration(formData.get('time-riposo'))
         },
         diners: {
             "quantity": formData.get('diners-quantity'),
@@ -204,6 +204,38 @@ function parseVideoId(url) {
         videoId = videoId.substring(0, ampersandIndex);
     }
     return videoId;
+}
+function parseTimeDuration(input) {
+    // Remove any whitespace from the input string
+    input = input.replace(/\s/g, '');
+
+    // Regular expressions to match patterns
+    const hourPattern = /^(\d+)h$/;   // Matches 'number+h' pattern
+    const minutePattern = /^(\d+)m$|^(\d+)$/;  // Matches 'number' pattern
+
+    // Split input by '+' to handle multiple time segments
+    const segments = input.split('+');
+
+    // Initialize total duration in minutes
+    let totalDuration = 0;
+
+    // Iterate through each segment and calculate duration
+    segments.forEach(segment => {
+        if (hourPattern.test(segment)) {
+            // Extract hours and convert to minutes
+            const hours = parseInt(segment.match(hourPattern)[1]);
+            totalDuration += hours * 60;
+        } else if (minutePattern.test(segment)) {
+            // Extract minutes
+            const minutes = parseInt(segment.match(minutePattern)[1]);
+            totalDuration += minutes;
+        } else {
+            // Handle unrecognized format
+            console.error(`Invalid time segment: ${segment}`);
+        }
+    });
+
+    return totalDuration;
 }
 function checkRequiredFields() {
     const requiredFields = document.querySelectorAll('#recipe-form [required]');

@@ -31,6 +31,20 @@ document.addEventListener('DOMContentLoaded', function() {
     displayIngredients(recipe);
     displayProcedure(recipe);
   }
+  function createTime(type, time) {
+    const h = Math.floor(time / 60);
+    const m = time % 60;
+    let res = "";
+    if (h !== 0) res = h + "h ";
+    if (m!== 0) res += m + "m";
+
+    const li = document.createElement('li');
+
+    li.innerHTML = `
+          ${type}: <span>${res}</span>
+    `;
+    return li;
+  }
   function displayHead(recipe) {
     document.getElementById('recipe-type-value').textContent = recipe.type;
     document.getElementById('recipe-diners-quantity').textContent = recipe.diners.quantity;
@@ -39,43 +53,26 @@ document.addEventListener('DOMContentLoaded', function() {
     const infoList = document.getElementById('recipe-info-list');
     let tot = 0;
     if (recipe.time.preparazione) {
-      const li = document.createElement('li');
-      li.innerHTML = `
-          Preparazione: <span>${recipe.time.preparazione} min</span>
-      `;
-      infoList.appendChild(li);
-      tot += castNumber(recipe.time.preparazione)
+      const time = castNumber(recipe.time.preparazione);
+      infoList.appendChild(createTime("Preparazione", time));
+      tot += time;
     }
     if (recipe.time.cottura) {
-      const li = document.createElement('li');
-      li.innerHTML = `
-          Cottura: <span>${recipe.time.cottura} min</span>
-      `;
-      infoList.appendChild(li);
-      tot += castNumber(recipe.time.cottura)
+      const time = castNumber(recipe.time.cottura);
+      infoList.appendChild(createTime("Cottura", time));
+      tot += time;
     }
     if (recipe.time.riposo) {
-      const li = document.createElement('li');
-      li.innerHTML = `
-          Riposo: <span>${recipe.time.riposo} min</span>
-      `;
-      infoList.appendChild(li);
-      tot += castNumber(recipe.time.riposo)
+      const time = castNumber(recipe.time.riposo);
+      infoList.appendChild(createTime("Riposo", time));
+      tot += time;
     }
 
     if (intermediateTot !== 0) {
-      const li = document.createElement('li');
-      li.innerHTML = `
-          Intermedi: <span>${intermediateTot} min</span>
-      `;
-      infoList.appendChild(li);
+      infoList.appendChild(createTime("Intermedi", intermediateTot));
       tot += intermediateTot
     }
-    const li = document.createElement('li');
-    li.innerHTML = `
-          Tempo totale: <span>${tot} min</span>
-    `;
-    infoList.appendChild(li);
+    infoList.appendChild(createTime("Tempo totale", tot));
   }
   function displayWeb(recipe) {
     if (recipe.source === "web") {

@@ -1214,7 +1214,7 @@
     "title": "Uovo pochè by Eugenio Boer",
     "type": "Secondo",
     "time": {
-      "preparazione": "5",
+      "preparazione": "10",
       "cottura": "",
       "riposo": ""
     },
@@ -1795,7 +1795,7 @@
     "time": {
       "preparazione": "60",
       "cottura": "",
-      "riposo": "720"
+      "riposo": "360"
     },
     "diners": {"quantity": "10", "unit": "porzioni"},
     "tools": ["Pentola", "Bowl", "Frusta", "Termometro", "Planetaria", "Colino", "Marisa", "Sac à poche"],
