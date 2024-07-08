@@ -1206,7 +1206,7 @@
         "image": "last.jpg"
       },
       {
-        "step": "Altri due modi:\n1) Oliare un mestolo, versarci l'uovo, e con estrema cautela inserire il mestolo nell'acqua\n2) Immergere per 15 minuti l'uovo in una soluzione di acqua e aceto (1/3), poi immergerlo nell'acqua con estrema cautela",
+        "step": "Altri due modi:\n1) Oliare un mestolo, versarci l'uovo, e con estrema cautela inserire il mestolo nell'acqua\n2) Scolare l'uovo, immergerlo per 15 minuti in una soluzione di acqua e aceto (1/3), poi immergerlo nell'acqua con estrema cautela",
         "image": "3.jpg"
       }
     ],
@@ -2255,6 +2255,76 @@
     "source": "zia Anna",
     "link": "",
     "video": ""
+  },
+  {
+    "title": "Omelette by Donato Russo",
+    "type": "Preparazione",
+    "time": {
+      "preparazione": "1",
+      "cottura": "3",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "1",
+      "unit": "pezzi"
+    },
+    "tools": [
+      "Bowl",
+      "Frusta",
+      "Padella",
+      "Marisa"
+    ],
+    "ingredients": [
+      {
+        "name": "Uova",
+        "amount": "3.5",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "1",
+        "unit": "g"
+      },
+      {
+        "name": "Burro",
+        "amount": "5",
+        "unit": "g"
+      },
+      {
+        "name": "Olio di oliva",
+        "amount": "3",
+        "unit": "ml"
+      }
+    ],
+    "procedure": [
+      {
+        "step": "In una bowl mettere le uova e il sale, quindi sbatterle con la frusta per miscelare tutto 30 secondi",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Sciogliere in padella a basse temperature il burro e l'olio",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Aggiungere le uova, quindi usando la marisa continuare a muovere il composto, staccando i bordi e uscendo spesso dal fuoco",
+        "image": "3.jpg"
+      },
+      {
+        "step": "A omelette quasi terminata assicuriamoci che i bordi siano ben distaccati",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Inclinare la padella di 45°, e con colpi decisi sul manico, avvolgere l'omelette",
+        "image": "5.jpg"
+      },
+      {
+        "step": "Il risultato sarà un fagotto chiuso in 3 parti",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Omelette-ricetta-base.html",
+    "video": "4XiWUis2eKc"
   },
   {
     "title": "Salsa Besciamella",
