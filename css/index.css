@@ -21,6 +21,34 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.search-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#search-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid #2c3e50;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#search-input:focus {
+    border-color: #09296c;
+    outline: none;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -60,5 +88,16 @@ footer {
 @media (max-width: 768px) {
     .container {
         padding: 10px;
+    }
+    .search-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-container label {
+        margin-bottom: 5px;
+    }
+    #search-input {
+        max-width: 100%;
+        width: 100%;
     }
 }

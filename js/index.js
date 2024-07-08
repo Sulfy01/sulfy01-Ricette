@@ -45,4 +45,20 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-//search recipe: display only the good ones
+function search(input) {
+  const text = input.value.trim().toLowerCase();
+
+  searchIn("antipasti-list", text)
+  searchIn("primi-list", text)
+  searchIn("secondi-list", text)
+  searchIn("contorni-list", text)
+  searchIn("dolci-list", text)
+  searchIn("preparazioni-list", text)
+}
+
+function searchIn(list, text) {
+  const links = document.querySelectorAll(`#${list} li a`)
+  links.forEach(link => {
+    link.parentElement.style.display = (link.textContent.toLowerCase()).includes(text) ? 'block' : 'none';
+  })
+}
