@@ -48,12 +48,14 @@ document.addEventListener('DOMContentLoaded', function() {
 function search(input) {
   const text = input.value.trim().toLowerCase();
 
-  searchIn("antipasti-list", text)
-  searchIn("primi-list", text)
-  searchIn("secondi-list", text)
-  searchIn("contorni-list", text)
-  searchIn("dolci-list", text)
-  searchIn("preparazioni-list", text)
+  searchIn("antipasti-list", text);
+  searchIn("primi-list", text);
+  searchIn("secondi-list", text);
+  searchIn("contorni-list", text);
+  searchIn("dolci-list", text);
+  searchIn("preparazioni-list", text);
+
+  toggleSectionVisibility();
 }
 
 function searchIn(list, text) {
@@ -61,4 +63,19 @@ function searchIn(list, text) {
   links.forEach(link => {
     link.parentElement.style.display = (link.textContent.toLowerCase()).includes(text) ? 'block' : 'none';
   })
+}
+
+function toggleSectionVisibility() {
+  const sections = document.querySelectorAll('section');
+  sections.forEach(section => {
+    const ul = section.querySelector('ul');
+    const items = ul.querySelectorAll('li');
+    let hasVisibleItems = false;
+    items.forEach(item => {
+      if (item.style.display !== 'none') {
+        hasVisibleItems = true;
+      }
+    });
+    section.style.display = hasVisibleItems ? 'block' : 'none'
+  });
 }
