@@ -367,7 +367,8 @@
       {
         "name": "Omelette",
         "amount": "1",
-        "unit": ""
+        "unit": "",
+        "isRecipe": "true"
       },
       {
         "name": "Salsa Parmigiano Reggiano by Donato Russo",
