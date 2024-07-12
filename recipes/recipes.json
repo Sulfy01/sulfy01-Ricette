@@ -234,6 +234,122 @@
     "link": "https://ricette.giallozafferano.it/Mozzarella-in-carrozza.html",
     "video": "HupY44XNqqs"
   },
+  {
+    "title": "Muffin alle verdure",
+    "type": "Antipasto",
+    "time": {
+      "preparazione": "20",
+      "cottura": "45",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "6",
+      "unit": "pezzi"
+    },
+    "tools": [
+      "Bowl",
+      "Marisa",
+      "Padella",
+      "Cucchiaio di legno",
+      "Tagliere",
+      "Coltello universale",
+      "Grattugia",
+      "Stampi per muffin"
+    ],
+    "ingredients": [
+      {
+        "name": "Farina 00",
+        "amount": "180",
+        "unit": "g"
+      },
+      {
+        "name": "Grana",
+        "amount": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Lievito istantaneo",
+        "amount": "2",
+        "unit": "cucchiaini"
+      },
+      {
+        "name": "Burro",
+        "amount": "25",
+        "unit": "g"
+      },
+      {
+        "name": "Uova",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "Latte",
+        "amount": "150",
+        "unit": "g"
+      },
+      {
+        "name": "Scamorza",
+        "amount": "60",
+        "unit": "g"
+      },
+      {
+        "name": "Carote",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "Patate",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Zucchine",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "Scalogno",
+        "amount": "0.5",
+        "unit": ""
+      },
+      {
+        "name": "Timo",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Pepe",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Soffriggere le verdure grattuggiate in padella a fuoco lento per 10 minuti",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Per l'impasto: mescolare tutti gli ingredienti solidi, poi quelli liquidi",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Aggiungere le verdure ormai raffreddate",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Infornare negli stampi per muffin a 180° per 45 min",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "Silvy",
+    "link": "",
+    "video": ""
+  },
 
   {
     "title": "Lasagna",
