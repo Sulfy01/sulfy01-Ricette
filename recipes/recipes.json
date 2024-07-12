@@ -350,6 +350,42 @@
     "link": "",
     "video": ""
   },
+  {
+    "title": "Omelette by Donato Russo",
+    "type": "Antipasto",
+    "time": {
+      "preparazione": "0",
+      "cottura": "",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "1",
+      "unit": "pezzi"
+    },
+    "tools": [],
+    "ingredients": [
+      {
+        "name": "Omelette",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Salsa Parmigiano Reggiano by Donato Russo",
+        "amount": "q.b.",
+        "unit": "",
+        "isRecipe": "true"
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Versare la salsa a lato dell'omelette",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "",
+    "video": "4XiWUis2eKc"
+  },
 
   {
     "title": "Lasagna",
@@ -2373,7 +2409,7 @@
     "video": ""
   },
   {
-    "title": "Omelette by Donato Russo",
+    "title": "Omelette",
     "type": "Preparazione",
     "time": {
       "preparazione": "1",
@@ -2629,6 +2665,54 @@
     "source": "web",
     "link": "https://ricette.giallozafferano.it/Salsa-Mornay.html",
     "video": ""
+  },
+  {
+    "title": "Salsa Parmigiano Reggiano by Donato Russo",
+    "type": "Preparazione",
+    "time": {
+      "preparazione": "2",
+      "cottura": "10",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "50",
+      "unit": "ml"
+    },
+    "tools": [
+      "Bowl di acciaio",
+      "Frusta",
+      "Pentola"
+    ],
+    "ingredients": [
+      {
+        "name": "Uova",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "Parmigiano",
+        "amount": "40",
+        "unit": "g"
+      },
+      {
+        "name": "Panna",
+        "amount": "2",
+        "unit": "ml"
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Scaldare a bagnomaria, mescolando, le uova e il grana a 80° per 7 minuti",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Togliere dal fuoco e aggiungere la panna per stoppare la cottura",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "",
+    "video": "4XiWUis2eKc"
   },
   {
     "title": "Scorze d'arancia candite",
