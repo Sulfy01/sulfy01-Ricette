@@ -32,11 +32,16 @@ document.addEventListener('DOMContentLoaded', function() {
     displayProcedure(recipe);
   }
   function createTime(type, time) {
-    const h = Math.floor(time / 60);
-    const m = time % 60;
     let res = "";
-    if (h !== 0) res = h + "h ";
-    if (m!== 0) res += m + "m";
+    if (time !== 0) {
+      const h = Math.floor(time / 60);
+      const m = time % 60;
+
+      if (h !== 0) res = h + "h ";
+      if (m !== 0) res += m + "m";
+    } else {
+      res = "0m"
+    }
 
     const li = document.createElement('li');
 
@@ -52,11 +57,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const infoList = document.getElementById('recipe-info-list');
     let tot = 0;
-    if (recipe.time.preparazione) {
-      const time = castNumber(recipe.time.preparazione);
-      infoList.appendChild(createTime("Preparazione", time));
-      tot += time;
-    }
+
+    const time = castNumber(recipe.time.preparazione);
+    infoList.appendChild(createTime("Preparazione", time));
+    tot += time;
+
     if (recipe.time.cottura) {
       const time = castNumber(recipe.time.cottura);
       infoList.appendChild(createTime("Cottura", time));
@@ -76,6 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   function displayWeb(recipe) {
     const externalLink = document.getElementById('external-link');
+    const content = document.getElementById('source-content')
     if (recipe.source === "web") {
       if (!recipe.link) {
         externalLink.style.display = "none"
@@ -88,11 +94,12 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("yt-container").style.display = "none";
       else {
         document.getElementById('youtube-video').src = `https://www.youtube.com/embed/${recipe.video}`;
+        content.style.display = "block";
       }
     } else {
       const div = document.createElement('div');
       div.textContent = recipe.source;
-      document.getElementById('source-content').appendChild(div);
+      content.appendChild(div);
 
       externalLink.style.display = "none"
       document.getElementById("yt-container").style.display = "none";
