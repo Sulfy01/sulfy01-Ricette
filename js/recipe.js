@@ -75,8 +75,8 @@ document.addEventListener('DOMContentLoaded', function() {
     infoList.appendChild(createTime("Tempo totale", tot));
   }
   function displayWeb(recipe) {
+    const externalLink = document.getElementById('external-link');
     if (recipe.source === "web") {
-      const externalLink = document.getElementById('external-link');
       if (!recipe.link) {
         externalLink.style.display = "none"
       } else {
@@ -88,10 +88,13 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("yt-container").style.display = "none";
       else {
         document.getElementById('youtube-video').src = `https://www.youtube.com/embed/${recipe.video}`;
-        document.getElementById('source-content').style.display = 'block';
       }
     } else {
-      document.getElementById('external-link').style.display = "none"
+      const div = document.createElement('div');
+      div.textContent = recipe.source;
+      document.getElementById('source-content').appendChild(div);
+
+      externalLink.style.display = "none"
       document.getElementById("yt-container").style.display = "none";
     }
   }
