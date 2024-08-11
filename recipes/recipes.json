@@ -330,7 +330,7 @@
     ],
     "procedure": [
       {
-        "step": "Soffriggere le verdure grattuggiate in padella a fuoco lento per 10 minuti",
+        "step": "Soffriggere le verdure grattugiate in padella a fuoco lento per 10 minuti",
         "image": "1.jpg"
       },
       {
@@ -426,18 +426,107 @@
         "image": "2.jpg"},
       {"step": "Sfumare con il vino, poi aspettare che sia evaporato e aggiungere la passata di pomodoro.\nMescolare, quando ha ripreso il bollore aggiungere poco brodo caldo.\nDeve cuocere almeno un paio d'ore con il coperchio semi chiuso",
         "image": "3.jpg"},
-      {"step": "Per la besciamella: scaldare il latte senza farlo bollire, e a parte fondere il burro.\nMescolando, aggiungere la farina in una volta e cuocere fino ad ottenere un roux dorato.\nVersare quindi il latte caldo in 3 volte",
+      {"step": "Preparare la besciamella",
         "image": "4.jpg"},
-      {"step": "Aggiungere sale e noce moscata e continuare a mescolare",
-        "image": "5.jpg"},
       {"step": "Comporre la lasagna con una base di ragù nel seguente ordine:\nLasagna - Besciamella - Ragù - Formaggi - Salumi\nFare 5 strati",
-        "image": "6.jpg"},
+        "image": "5.jpg"},
       {"step": "Cuocere in forno statico a 170° per 40 minuti",
         "image": "last.jpg"}
     ],
     "source": "web",
     "link": "https://ricette.giallozafferano.it/Lasagne-alla-Bolognese.html",
     "video": ""
+  },
+  {
+    "title": "Pasta a vongole by Carmela Abbate",
+    "type": "Primo",
+    "time": {
+      "preparazione": "20",
+      "cottura": "20",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "4",
+      "unit": "persone"
+    },
+    "tools": [
+      "Padella",
+      "Pentola",
+      "Mestolo per pasta",
+      "Pinze",
+      "Colino",
+      "Bowl di vetro"
+    ],
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "name": "Vongole",
+        "amount": "1",
+        "unit": "kg"
+      },
+      {
+        "name": "Aglio",
+        "amount": "2",
+        "unit": "spicchi"
+      },
+      {
+        "name": "Olio",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Prezzemolo",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Vino bianco",
+        "amount": "0.25",
+        "unit": "bicchieri"
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Per la pulizia delle vongole:\nTestarne la bontà facendole cadere su una superficie, devono rimanere chiuse.\nSciacquarle in una bowl e lasciare a mollo con del sale grosso per 2 - 3 h.\nRisciacquare",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Salare l'acqua, e appena prima di buttare gli spaghetti inserire del prezzemolo",
+        "image": "2.jpg"
+      },
+      {
+        "step": "In padella soffriggere i gambi di prezzemolo e l'aglio schiacciato, e quando sarà dorato, aggiungere le vongole a fuoco alto",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Aggiungere il vino e poca acqua di cottura.\nChiudere con il coperchio e, appena aperte, toglierle dal fuoco",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Passare in un colino il sugo e rimettere in padella.\nAggiungere gli spaghetti al dente e del prezzemolo tritato",
+        "image": "5.jpg"
+      },
+      {
+        "step": "Saltare in padella fino ad avere una buona crema.\nSe non si vogliono avere troppi gusci nel piatto sgusciare le vongole e inserirle appena prima di impiattare",
+        "image": "6.jpg"
+      },
+      {
+        "step": "Impiattare a nido con i gusci delle vongole ancora piene e del prezzemolo",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Spaghetti-alle-vongole.html",
+    "video": "7G71jCslhNg"
   },
   {
     "title": "Pasta aglio, olio e peperoncino by Luciano Monosilio",
@@ -871,97 +960,6 @@
     "video": "GpJue1tGGYM"
   },
   {
-    "title": "Pasta alle vongole by Carmela Abbate",
-    "type": "Primo",
-    "time": {
-      "preparazione": "20",
-      "cottura": "20",
-      "riposo": ""
-    },
-    "diners": {
-      "quantity": "4",
-      "unit": "persone"
-    },
-    "tools": [
-      "Padella",
-      "Pentola",
-      "Mestolo per pasta",
-      "Pinze",
-      "Colino",
-      "Bowl di vetro"
-    ],
-    "ingredients": [
-      {
-        "name": "Spaghetti",
-        "amount": "400",
-        "unit": "g"
-      },
-      {
-        "name": "Vongole",
-        "amount": "1",
-        "unit": "kg"
-      },
-      {
-        "name": "Aglio",
-        "amount": "2",
-        "unit": "spicchi"
-      },
-      {
-        "name": "Olio",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Prezzemolo",
-        "amount": "q.b.",
-        "unit": ""
-      },
-      {
-        "name": "Vino bianco",
-        "amount": "0.25",
-        "unit": "bicchieri"
-      },
-      {
-        "name": "Sale",
-        "amount": "q.b.",
-        "unit": ""
-      }
-    ],
-    "procedure": [
-      {
-        "step": "Per la pulizia delle vongole:\nTestarne la bontà facendole cadere su una superficie, devono rimanere chiuse.\nSciacquarle in una bowl e lasciare a mollo con del sale grosso per 2 - 3 h.\nRisciacquare",
-        "image": "1.jpg"
-      },
-      {
-        "step": "Salare l'acqua, e appena prima di buttare gli spaghetti inserire del prezzemolo",
-        "image": "2.jpg"
-      },
-      {
-        "step": "In padella soffriggere i gambi di prezzemolo e l'aglio schiacciato, e quando sarà dorato, aggiungere le vongole a fuoco alto",
-        "image": "3.jpg"
-      },
-      {
-        "step": "Aggiungere il vino e poca acqua di cottura.\nChiudere con il coperchio e, appena aperte, toglierle dal fuoco",
-        "image": "4.jpg"
-      },
-      {
-        "step": "Passare in un colino il sugo e rimettere in padella.\nAggiungere gli spaghetti al dente e del prezzemolo tritato",
-        "image": "5.jpg"
-      },
-      {
-        "step": "Saltare in padella fino ad avere una buona crema.\nSe non si vogliono avere troppi gusci nel piatto sgusciare le vongole e inserirle appena prima di impiattare",
-        "image": "6.jpg"
-      },
-      {
-        "step": "Impiattare a nido con i gusci delle vongole ancora piene e del prezzemolo",
-        "image": "last.jpg"
-      }
-    ],
-    "source": "web",
-    "link": "https://ricette.giallozafferano.it/Spaghetti-alle-vongole.html",
-    "video": "7G71jCslhNg"
-  },
-  {
     "title": "Pasta Carbonara by Luciano Monosilio",
     "type": "Primo",
     "time": {
@@ -1115,6 +1113,187 @@
     "source": "web",
     "link": "https://www.cookist.it/paccheri-con-gamberi-e-burrata/",
     "video": ""
+  },
+  {
+    "title": "Pasta e cozze",
+    "type": "Primo",
+    "time": {
+      "preparazione": "60",
+      "cottura": "20",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "4",
+      "unit": "persone"
+    },
+    "tools": [
+      "Pentola",
+      "Ciotola",
+      "Padella",
+      "Mestolo per pasta",
+      "Colino",
+      "Tagliere",
+      "Coltello universale"
+    ],
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "amount": "400",
+        "unit": "g"
+      },
+      {
+        "name": "Cozze",
+        "amount": "2",
+        "unit": "kg"
+      },
+      {
+        "name": "Pomodorini",
+        "amount": "500",
+        "unit": "g"
+      },
+      {
+        "name": "Aglio",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Prezzemolo",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Pepe",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Vino bianco",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "In un tegame soffriggere l'aglio e un ciuffo di prezzemolo, dopo qualche minuto unire le cozze",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Sfumare con il vino bianco e chiudere con un coperchio.\nAttendere che si aprano tutte, mescolando ogni tanto, circa 3 minuti.\nLasciar riposare in una ciotola",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Nello stesso tegame soffriggere l'aglio tritato e aggiungere i pomodorini tagliati piccoli.\nFar andare a fuoco lento, nel frattempo sgusciare le cozze",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Aggiungere l'acqua delle cozze filtrata ai pomodorini e far andare lentamente",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Calare la pasta, scolarla, mantecarla e condirla con prezzemolo, pepe, e qualche cozza intera",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Spaghetti-con-cozze-e-pomodorini.html",
+    "video": ""
+  },
+  {
+    "title": "Pasta pistacchio e gamberi",
+    "type": "Primo",
+    "time": {
+      "preparazione": "60",
+      "cottura": "15",
+      "riposo": "120"
+    },
+    "diners": {
+      "quantity": "2",
+      "unit": "persone"
+    },
+    "tools": [
+      "Mixer",
+      "Marisa",
+      "Padella",
+      "Pentola",
+      "Mestolo per pasta"
+    ],
+    "ingredients": [
+      {
+        "name": "Pistacchi",
+        "amount": "70",
+        "unit": "g"
+      },
+      {
+        "name": "Spaghetti",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Gamberi",
+        "amount": "350",
+        "unit": "g"
+      },
+      {
+        "name": "Limoni",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "Olio di semi",
+        "amount": "7",
+        "unit": "g"
+      },
+      {
+        "name": "Vino bianco",
+        "amount": "0.5",
+        "unit": "bicchieri"
+      },
+      {
+        "name": "Aglio",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Pepe",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Pulire i gamberi.\nTenerne da parte qualcuno per guarnire.\nCon il resto fare una tartare:\nIn una ciotola mettere i gamberi finemente sminuzzati, olio, scorza di limone e succo, sale. Far riposare coperta in frigorifero",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Sgusciare i pistacchi, immergerli in acqua tiepida 2h, pulirli e renderli granella.\nTenerne 1/3 per guarnire, con i restanti fare la pasta di pistacchio: \nInserirli nel mixer assieme all'olio di semi e girare fermandosi ogni tanto; se la consistenza è troppo dura aggiungere acqua a temperatura ambiente",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Calare la pasta in acqua leggermente salata.\nNel frattempo soffriggere l'aglio in padella, per poi toglierlo. Se si vogliono cuocere i gamberi aggiungerli e sfumare con il vino bianco",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Scolare la pasta in padella e mantecare bene, aggiungendo la pasta di pistacchio, succo e scorza di limone",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Servire con granella di pistacchi, tartarre di gamberi, gamberi interi e scorza di limone",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://uvoila.com/ricette/spaghetti-alla-chitarra-con-tartare-di-gambero-pistacchio-e-limone/",
+    "video": "XWZ6e6WJ9Qo"
   },
   {
     "title": "Pizza pala romana by Ian Spampatti",
@@ -1310,6 +1489,109 @@
     ],
     "source": "web",
     "link": "https://www.sandanielemagazine.com/ricette-prosciutto-di-san-daniele/cestini-di-patate-con-burrata-e-prosciutto-di-san-daniele/",
+    "video": ""
+  },
+  {
+    "title": "Parmigiana di melanzane",
+    "type": "Secondo",
+    "time": {
+      "preparazione": "70",
+      "cottura": "90",
+      "riposo": ""
+    },
+    "diners": {
+      "quantity": "5",
+      "unit": "persone"
+    },
+    "tools": [
+      "Scolapasta",
+      "Padella",
+      "Pentola",
+      "Tagliere",
+      "Coltello universale",
+      "Pinze"
+    ],
+    "ingredients": [
+      {
+        "name": "Passata di pomodoro",
+        "amount": "1",
+        "unit": "kg"
+      },
+      {
+        "name": "Melanzane",
+        "amount": "1.7",
+        "unit": "kg"
+      },
+      {
+        "name": "Basilico",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Olio per friggere",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Aglio",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Grana",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Pecorino",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Galbanino",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Mozzarella fiordilatte",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Sale",
+        "amount": "q.b.",
+        "unit": ""
+      },
+      {
+        "name": "Pepe",
+        "amount": "q.b.",
+        "unit": ""
+      }
+    ],
+    "procedure": [
+      {
+        "step": "Sbucciare grossolanamente le melanzane e tagliarle poco più di sottili.\nStenderle nello scolapasta cospargendo ogni starto di sale, e schiacciare con un peso.\nFar riposare almeno 1h",
+        "image": "1.jpg"
+      },
+      {
+        "step": "Soffriggere l'aglio, poi aggiungere la passata di pomodoro e il basilico, e far andare a fuoco lento",
+        "image": "2.jpg"
+      },
+      {
+        "step": "Lavare le melanzane e ascigarle bene schiacciandole tra le mani.\nFriggerle leggermente dorate, poi eliminare tutto l'olio",
+        "image": "3.jpg"
+      },
+      {
+        "step": "Comporre la parmigiana in teglia da forno o in un tegame:\nmelanzane - salsa di pomodoro - formaggio grattugiato - formaggio a pezzi",
+        "image": "4.jpg"
+      },
+      {
+        "step": "Cuocere in forno a 200° per 30 minuti.\nInvece nel tegame cuocere a fuoco basso con il coperchio",
+        "image": "last.jpg"
+      }
+    ],
+    "source": "web",
+    "link": "https://ricette.giallozafferano.it/Parmigiana-di-melanzane.html",
     "video": ""
   },
   {
@@ -2359,7 +2641,7 @@
         "image": "1.jpg"
       },
       {
-        "step": "Semper mescolando energicamente, quando lo zucchero comincia a sciogliere nel vino, aggiungere una piccola parte di vino, andare a bagnomaria e versare il restante vino\nArriviamo a 82°, quindi fino a quando sarà una crema",
+        "step": "Sempre mescolando energicamente, quando lo zucchero comincia a sciogliere nel vino, aggiungere una piccola parte di vino, andare a bagnomaria e versare il restante vino\nArriviamo a 82°, quindi fino a quando sarà una crema",
         "image": "2.jpg"
       },
       {
